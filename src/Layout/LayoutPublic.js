@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { Route, Switch } from "react-router-dom";
 
 //Navbar
@@ -11,13 +11,12 @@ export default function LayoutPublic(props) {
   const { routes } = props; //Sistema de rutas que me llega por props
 
   return (
-    <>
-      <Navbar />
+
         <Container>
+        <Navbar />
           <LoadRoutes routes={routes} />
         </Container>
-      <h1>Footer</h1>
-    </>
+
   );
 }
 
