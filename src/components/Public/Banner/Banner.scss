@@ -1,29 +1,27 @@
-.overlay{
+.overlay-banner{
     position: absolute;
-    top: 56px;
+    top: auto;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,.4);
 }   
-video{
-    width: fit-content;
-}
-.video{
+
+.video-banner{
     object-fit: cover;
+    height: 100%;
     width: 100%;
-    height: 100vh;
     position: absolute;
-    top: 56px;
+    top: auto;
     left: 0;
     z-index: -1;
 }
 
-.content{
-    top: 56px;
+.content-banner{
+    top: auto;
     left: 0;
-    height: 100vh;
     width: 100%;
+    height: 100%;
     position: absolute;
     display: flex;
     justify-content: center;
