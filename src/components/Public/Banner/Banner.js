@@ -7,8 +7,9 @@ export default function Banner(props) {
 
   return (
     <>
-      <div className="overlay-banner"></div>
+      <div className="overlay-banner">
       <video className="video-banner" src={video} autoPlay loop muted />
+      </div>
       <div className="content-banner">{children}</div>
     </>
   );
