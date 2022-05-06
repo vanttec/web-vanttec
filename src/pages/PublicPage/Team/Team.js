@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../../../components/Public/Banner/Banner";
 import AreaBanner from "../../../components/Public/Team/AreaBanner/AreaBanner";
+import MembersList from "../../../components/Public/Team/MembersList/MembersList";
 
 //Videos
 import videoTest from "../../../assets/videos/mp4/VanttecPoolVideo.mp4";
@@ -118,6 +119,40 @@ export default function Team() {
         twitter: "https://twitter.com/davidmtzhi",
       },
     },
+    {
+      matricula: "A01235692",
+      nombre: "David Gerardo",
+      apellido: "Martínez Hidrogo",
+      datosPersonales: {
+        carrera: "ITC",
+        semestre: "4to",
+        birthplace: "Torreón, Coahuila",
+        birthday: "21 Enero 2000",
+        genero: "M",
+      },
+      infoGeneral: {
+        proyectos: {
+          roboboat: false,
+          robosub: false,
+          sdv: true,
+          drone: false,
+        },
+        puesto: "Web Developer",
+        entryYear: "2022",
+        area: "Media",
+      },
+      contacto: {
+        profilePicture: { David },
+        emailInstitucional: "a01235692@tec.mx",
+        emailPersonal: "gerardomartinez.hi@gmail.com",
+        whatsapp: "8712759212",
+        linkedin: "",
+        github: "https://github.com/davidmartinezhi",
+        instagram: "https://www.instagram.com/davidmartinez.hi/",
+        facebook: "https://www.facebook.com/profile.php?id=100008118908014",
+        twitter: "https://twitter.com/davidmtzhi",
+      },
+    }
   ];
 
   return (
@@ -151,6 +186,10 @@ export default function Team() {
         <AreaBanner video={muralVideo}>
           <h1>Board Of Directors</h1>
         </AreaBanner>
+      </Row>
+
+      <Row className="members-list">
+        <MembersList members={testMembers} area={"Media"} />
       </Row>
 
       {/* Perception */}
