@@ -22,7 +22,7 @@ export default function MembersList(props) {
     <>
       {
         membersData.map( member => (
-          <Col sm={12} md={3}>
+          <Col sm={12} md={3} className="mb-5">
             <Member key={member.matricula} member={member}/>
           </Col>
         ))
@@ -42,7 +42,6 @@ function Member(props){
         <Card.Text>
           
         </Card.Text>
-        <Card.Text>Last updated 3 mins ago</Card.Text>
       </Card.ImgOverlay>
     </Card>
   );
