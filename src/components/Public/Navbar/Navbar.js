@@ -1,10 +1,11 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import {Container, Offcanvas, Nav, Form, FormControl, Button, Navbar as NavbarBootstrap } from "react-bootstrap";
 
 import './Navbar.scss'
 
 export default function Navbar() {
   const [navbar, setNavBar] = useState(false);
+  const [location, setLocation] = useState("/home");
 
   const changeBackground = () => {
     if(window.scrollY < 57 && window.innerWidth > 750){
@@ -18,7 +19,7 @@ export default function Navbar() {
 
   return (
     <>
-        <NavbarBootstrap  fixed="top" key={"md"} bg={navbar ? "light" : ""} expand={"lg"} className="mb-0">
+        <NavbarBootstrap  fixed="top" key={"md"} bg={navbar ? "dark" : ""} expand={"lg"} className="mb-0">
           <Container fluid>
             <NavbarBootstrap.Brand href="/">VANTTEC LOGO</NavbarBootstrap.Brand>
             <NavbarBootstrap.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
@@ -33,7 +34,7 @@ export default function Navbar() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav activeKey={location} className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/about">About</Nav.Link>
                   <Nav.Link href="/team">Team</Nav.Link>
                   <Nav.Link href="/vehicules">Vehicules</Nav.Link>
@@ -48,7 +49,7 @@ export default function Navbar() {
                     className="me-2"
                     aria-label="Search"
                   />
-                  <Button variant="outline-success">Search</Button>
+                  <Button variant="primary">Search</Button>
                 </Form>
               </Offcanvas.Body>
             </NavbarBootstrap.Offcanvas>
