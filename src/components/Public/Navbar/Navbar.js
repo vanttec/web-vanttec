@@ -3,9 +3,9 @@ import {Container, Offcanvas, Nav, Form, FormControl, Button, Navbar as NavbarBo
 
 import './Navbar.scss'
 
-export default function Navbar() {
+function Navbar() {
+
   const [navbar, setNavBar] = useState(false);
-  const [location, setLocation] = useState("/home");
 
   const changeBackground = () => {
     if(window.scrollY < 57 && window.innerWidth > 750){
@@ -34,7 +34,7 @@ export default function Navbar() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav activeKey={location} className="justify-content-end flex-grow-1 pe-3">
+                <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/about">About</Nav.Link>
                   <Nav.Link href="/team">Team</Nav.Link>
                   <Nav.Link href="/vehicules">Vehicules</Nav.Link>
@@ -58,3 +58,5 @@ export default function Navbar() {
     </>
   );
 }
+
+export default Navbar;
