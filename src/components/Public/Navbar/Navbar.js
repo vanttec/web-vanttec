@@ -19,7 +19,7 @@ function Navbar() {
 
   return (
     <>
-        <NavbarBootstrap  fixed="top" key={"md"} bg={navbar ? "dark" : ""} expand={"lg"} className="mb-0">
+        <NavbarBootstrap  fixed="top" key={"md"} bg={navbar ? "light" : ""} expand={"lg"} className="mb-0">
           <Container fluid>
             <NavbarBootstrap.Brand href="/">VANTTEC LOGO</NavbarBootstrap.Brand>
             <NavbarBootstrap.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
