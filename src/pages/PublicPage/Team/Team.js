@@ -56,7 +56,7 @@ export default function Team() {
     },
     {
       matricula: "A01235692",
-      nombre: "David Gerardo",
+      nombre: "Rodrigo Alatorre",
       apellido: "Martínez Hidrogo",
       datosPersonales: {
         carrera: "ITC",
@@ -90,7 +90,7 @@ export default function Team() {
     },
     {
       matricula: "A01235692",
-      nombre: "David Gerardo",
+      nombre: "Eduardo Ramos",
       apellido: "Martínez Hidrogo",
       datosPersonales: {
         carrera: "ITC",
@@ -124,7 +124,7 @@ export default function Team() {
     },
     {
       matricula: "A01235692",
-      nombre: "David Gerardo",
+      nombre: "Gerardo",
       apellido: "Martínez Hidrogo",
       datosPersonales: {
         carrera: "ITC",
@@ -158,7 +158,7 @@ export default function Team() {
     },
     {
       matricula: "A01235692",
-      nombre: "David Gerardo",
+      nombre: "David",
       apellido: "Martínez Hidrogo",
       datosPersonales: {
         carrera: "ITC",
