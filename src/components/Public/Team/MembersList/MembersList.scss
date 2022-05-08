@@ -2,14 +2,36 @@
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.23) !important;
     -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.23) !important;
     -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.23) !important;
+    transition: all 0.3s ease-out !important;
 
-    &:hover{
-        cursor: pointer;
-        box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.80) !important;
-        -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.80) !important;
-        -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.80) !important;
-        transition: all 0.3s linear !important;
-        transform: scale(1.03) !important;
+    &__highlight{
+        opacity: 0;
+
+        :hover > & {
+            opacity: 1;
+            transition: all 0.2s linear !important;
+        }
     }
 
+    
+    &:hover{
+        cursor: pointer;
+        box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+        -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+        -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+        transition: all 0.2s linear !important;
+        transform: scale(1.03) !important;
+
+        
+    }
+
+    .card-img-overlay{
+        background-color: rgba(0,0,0,0.10);
+
+        &:hover{
+            background-color: rgba(0,0,0,0.35);
+            transition: all 0.2s linear !important;
+        }
+        
+    }
 }

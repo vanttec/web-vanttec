@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Col, Card } from "react-bootstrap";
+import { Col, Card, Button } from "react-bootstrap";
 
 import "./MembersList.scss";
 
@@ -38,16 +38,17 @@ function Member(props) {
   console.log(member);
   return (
     <Card className="member-card">
-      <div style={{overflow:"hidden"}}>
       <Card.Img
         src={member.contacto.profilePicture.David}
         alt={`${member.nombre} ${member.apellido}`}
       />
-      </div>
-
       <Card.ImgOverlay className="text-center">
+        <div className="member-card__highlight">
+        <span>See Profile</span>      
+        </div>
         <Card.Title className="text-light">{`${member.nombre} ${member.apellido}`}</Card.Title>
         <Card.Text>{member.infoGeneral.puesto}</Card.Text>
+
       </Card.ImgOverlay>
     </Card>
   );
