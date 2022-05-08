@@ -42,7 +42,7 @@ function Navbar() {
                   <Nav.Link href="/sponsors">Sponsors</Nav.Link>
                   <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
-                <Form className="d-flex">
+                {/* <Form className="d-flex">
                   <FormControl
                     type="search"
                     placeholder="Search"
@@ -50,7 +50,7 @@ function Navbar() {
                     aria-label="Search"
                   />
                   <Button variant="primary">Search</Button>
-                </Form>
+                </Form> */}
               </Offcanvas.Body>
             </NavbarBootstrap.Offcanvas>
           </Container>
