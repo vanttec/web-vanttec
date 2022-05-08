@@ -1,0 +1,15 @@
+.member-card{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.23) !important;
+    -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.23) !important;
+    -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.23) !important;
+
+    &:hover{
+        cursor: pointer;
+        box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.80) !important;
+        -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.80) !important;
+        -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.80) !important;
+        transition: all 0.3s linear !important;
+        transform: scale(1.03) !important;
+    }
+
+}

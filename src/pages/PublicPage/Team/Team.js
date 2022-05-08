@@ -173,7 +173,7 @@ export default function Team() {
         },
         puesto: "Web Developer",
         entryYear: "2022",
-        area: "Media",
+        area: "Perception",
       },
       contacto: {
         profilePicture: { David },
@@ -231,6 +231,9 @@ export default function Team() {
         <AreaBanner video={videoTest}>
           <h1>Perception</h1>
         </AreaBanner>
+      </Row>
+      <Row className="members-list mt-5">
+        <MembersList members={testMembers} area={"Perception"} />
       </Row>
 
       {/* Software */}
