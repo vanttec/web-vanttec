@@ -38,7 +38,7 @@ export default function MembersList(props) {
 
 function Member(props) {
   const { member, setShow } = props;
-  console.log(member);
+  
   return (
     <Card className="member-card" onClick={() => setShow(true)}>
       <Card.Img
