@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { Col, Card, Button } from "react-bootstrap";
+import MembersInfoModal from "../MembersInfoModal/MembersInfoModal";
+import { Col, Card } from "react-bootstrap";
 
 import "./MembersList.scss";
 
 export default function MembersList(props) {
   const { members, area } = props; //Agarramos la mambers list y el area que queremos
   const [membersData, setMembersData] = useState([]); //Guardamos los usuarios en el area en membersData
+  const [show, setShow] = useState(false);
 
   //Checa por algún cambio en members o area
   useEffect(() => {
@@ -26,23 +28,24 @@ export default function MembersList(props) {
     <>
       {membersData.map((member) => (
         <Col sm={12} md={4} lg={3} className="mb-5">
-          <Member key={member.matricula} member={member} />
+          <Member setShow={setShow} key={member.matricula} member={member} />
         </Col>
       ))}
+      <MembersInfoModal membersData={membersData} setShow={setShow} show={show}/>
     </>
   );
 }
 
 function Member(props) {
-  const { member } = props;
+  const { member, setShow } = props;
   console.log(member);
   return (
-    <Card className="member-card">
+    <Card className="member-card" onClick={() => setShow(true)}>
       <Card.Img
         src={member.contacto.profilePicture.David}
         alt={`${member.nombre} ${member.apellido}`}
       />
-      <Card.ImgOverlay className="text-center">
+      <Card.ImgOverlay className="text-center" onClick={() => setShow(true)}>
         <div className="member-card__highlight">
         <span className="info">See Profile</span>      
         </div>

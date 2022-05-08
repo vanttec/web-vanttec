@@ -16,6 +16,9 @@ import { Container, Row, Button } from "react-bootstrap";
 import "./Team.scss";
 
 export default function Team() {
+
+  
+
   const testMembers = [
     {
       matricula: "A01235692",
@@ -191,6 +194,7 @@ export default function Team() {
 
   return (
     <Container fluid>
+      
       <Row className="main-banner">
         <Banner video={campusVideo}>
           <h1>Meet The Team</h1>
