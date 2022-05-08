@@ -44,10 +44,13 @@ function Member(props) {
       />
       <Card.ImgOverlay className="text-center">
         <div className="member-card__highlight">
-        <span>See Profile</span>      
+        <span className="info">See Profile</span>      
         </div>
+
         <Card.Title className="text-light">{`${member.nombre} ${member.apellido}`}</Card.Title>
-        <Card.Text>{member.infoGeneral.puesto}</Card.Text>
+        <Card.Text className="description">{member.infoGeneral.puesto}</Card.Text>        
+
+
 
       </Card.ImgOverlay>
     </Card>
