@@ -7,9 +7,8 @@ aside{
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 6rem;
-    margin-top: 10vh;
-    height: 80vh;
+    width: 7vw;
+    height: 100vh;
     background-color: #0039e4;
     position: fixed;
     color: white;
@@ -20,7 +19,7 @@ aside{
 
     .sc-icon{
         position: absolute;
-        top: calc(17vh);
+        top: calc(25vh);
         left: calc(50% - 4rem);
 
         ul{

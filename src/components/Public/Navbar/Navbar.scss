@@ -1,11 +1,16 @@
 nav.bg-light {
-    background-color: white !important;
+  background-color: white !important;
 }
 
-a.nav-link{
-
+a.nav-link {
 }
 
-a.active-link{
-    color: rgb(3, 175, 255) !important;
+a.active-link {
+  color: rgb(3, 175, 255) !important;
+}
+
+@media (min-width: 991px) {
+  .mb-0 {
+    margin-left: 7vw;
+  }
 }
