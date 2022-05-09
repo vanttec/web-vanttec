@@ -23,3 +23,37 @@
     }
 
 }
+
+
+
+.carousel{
+    display: flex;
+    align-items: center;
+    .member-img{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        img{
+            width: 450px;
+            margin: 30px;
+        }
+    }
+
+    .info-modal{
+        display: flex;
+        align-items: center;
+    }
+
+    .member-info-card{
+        max-width: 500px;
+        
+        h1{
+            color: black;
+        }
+
+        h4{
+            color: gray;
+        }
+    }
+}

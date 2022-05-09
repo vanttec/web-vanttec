@@ -9,6 +9,7 @@ import {
 } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import ModalBanner from "../ModalBanner/ModalBanner";
 import {
   faWhatsapp,
   faLinkedin,
@@ -18,6 +19,8 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import "./MembersInfoModal.scss";
+
+import mural from "../../../../assets/videos/mp4/VanttecDroneMural.mp4"
 
 export default function MembersInfoModal(props) {
   const { show, setShow, membersData } = props;
@@ -39,6 +42,10 @@ export default function MembersInfoModal(props) {
           style={{ display: "flex", justifyContent: "flex-end" }}
           closeButton
         ></Offcanvas.Header>
+        <div className="modal-align">
+
+        
+        <ModalBanner video={mural}>
         <Carousel
           variant="dark"
           indicators={false}
@@ -50,15 +57,15 @@ export default function MembersInfoModal(props) {
             <Carousel.Item style={{ height: "100%", width: "100%" }}>
               <Container fluid>
                 <Row>
-                  <Col>
+                  <Col className="member-img">
                     <img
                       src={member.contacto.profilePicture.David}
                       alt={`${member.nombre} ${member.apellido}`}
                     />
                   </Col>
-                  <Col>
+                  <Col className="info-modal">
                     <Row>
-                      <Card>
+                      <Card className="member-info-card">
                         <Card.Header as="h1">{`${member.nombre} ${member.apellido}`}</Card.Header>
                         <Card.Body>
                           <Card.Title as="h4">Bio</Card.Title>
@@ -91,8 +98,10 @@ export default function MembersInfoModal(props) {
             </Carousel.Item>
           ))}
         </Carousel>
+        </ModalBanner>
+        </div>
       </Offcanvas>
-    </>
+      </>
   );
 }
 
