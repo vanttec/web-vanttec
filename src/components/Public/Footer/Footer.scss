@@ -1,0 +1,131 @@
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #999;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  font-size: 14px;
+  color: #777;
+  // position: absolute;
+  // bottom: 0;
+  width: 100%;
+
+  .touch {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+
+  .container {
+    text-align: center;
+    // display: flex;
+    .row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      .social-networks {
+        a {
+          color: #999;
+          font-size: 25px;
+          margin-right: 10px;
+
+          &:hover {
+            color: #666;
+          }
+        }
+
+        .chooseLang {
+          align-items: center;
+          margin-top: 1rem;
+          .languages {
+            display: flex;
+            text-align: center;
+            margin-left: 1rem;
+            margin: 0;
+            p {
+              margin: 0 0 0 0.3rem;
+              padding: 0;
+              font-size: 14px;
+              color: #777;
+            }
+          }
+        }
+      }
+    }
+
+    .copyright {
+      display: block !important;
+    }
+  }
+}
+
+// media querie
+@media (min-width: 991px) {
+  footer {
+    width: 93vw;
+    margin-left: 7vw;
+  }
+  .social-networks {
+    display: none;
+  }
+  .touch {
+    display: none;
+  }
+}
+
+/* ------------- 2 ----------- */
+/* .footer{
+    background-color: #f5f5f5;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+}
+
+.title-side{
+    font-size: 1rem;
+}
+
+footer .container .left{
+    padding-left: 1rem;
+}
+
+footer .container .left a:hover{
+    text-decoration: underline;
+    color: #777;
+}
+
+footer .container .right{
+    margin-left: 10vw;
+    margin-right: 1rem;
+    padding-left: 2rem;
+    border-left: 1px solid #000;
+}
+
+footer .container .right .social-networks a{
+    color: #999;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+footer .container .right .social-networks a:hover{
+    color: #666;
+} */
