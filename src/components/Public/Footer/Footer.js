@@ -7,7 +7,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faMailBulk, faGlobe } from "@fortawesome/free-solid-svg-icons";
-import "../styles/footer.css";
+import './Footer.scss'
 // import fonts awesome cdn
 const Footer = () => {
   return (
@@ -15,7 +15,8 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
       <p className="touch">Get in touch</p>
-        <div className="row">
+      <p className="motivation">Frase Inspiracional</p>
+        <div className="row mobile">
           <div className="social-networks">
             <a href="https://www.facebook.com/" target={"_blank"} rel="noreferrer">
               <FontAwesomeIcon icon={faFacebookSquare} />
@@ -34,18 +35,13 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="chooseLang">
+          <div className="chooseLang ">
             <div className="icon">
-              <i>
-                <FontAwesomeIcon icon={faGlobe} />
-              </i>
+            
             </div>
             <div className="languages">
-              <p>
-                <a href="mailto:">EN</a>
-              </p>
-              <p>
-                <a href="mailto:">ES</a>
+              <p><i><FontAwesomeIcon icon={faGlobe} /> </i>
+                <a href="#"> EN</a> / <a href="#">ES</a>
               </p>
             </div>
           </div>
@@ -53,7 +49,7 @@ const Footer = () => {
 
         <div className="copyright">
           <p>
-            &copy; 2022 Copyright: <a href="mailto:">VantTec</a>
+            &copy; 2022 Copyright: <span>VantTec</span>
           </p>
         </div>
       </div>
