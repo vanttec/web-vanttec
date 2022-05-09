@@ -56,8 +56,8 @@ export default function Team() {
     },
     {
       matricula: "A01235692",
-      nombre: "Rodrigo Alatorre",
-      apellido: "Martínez Hidrogo",
+      nombre: "Rodrigo",
+      apellido: "Alatorre Cuellar",
       datosPersonales: {
         carrera: "ITC",
         semestre: "4to",
@@ -90,8 +90,8 @@ export default function Team() {
     },
     {
       matricula: "A01235692",
-      nombre: "Eduardo Ramos",
-      apellido: "Martínez Hidrogo",
+      nombre: "Eduardo",
+      apellido: "Ramosclamont",
       datosPersonales: {
         carrera: "ITC",
         semestre: "4to",
