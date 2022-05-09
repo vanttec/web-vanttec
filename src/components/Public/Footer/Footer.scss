@@ -70,14 +70,18 @@ footer {
   }
 }
 
-// media querie 
+// media querie
 @media (min-width: 991px) {
-    .social-networks{
-        display: none;
-    }
-    .touch{
-        display: none;
-    }
+  footer {
+    width: 93vw;
+    margin-left: 7vw;
+  }
+  .social-networks {
+    display: none;
+  }
+  .touch {
+    display: none;
+  }
 }
 
 /* ------------- 2 ----------- */
