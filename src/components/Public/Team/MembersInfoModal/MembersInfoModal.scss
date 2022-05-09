@@ -31,21 +31,25 @@
     align-items: center;
     .member-img{
         display: flex;
-        justify-content: flex-end;
         align-items: center;
+        justify-content: flex-start;
 
         img{
-            width: 450px;
-            margin: 30px;
+            max-height: 100vh;
+            max-width: 450px;
+            margin-right: 30px;
         }
     }
 
     .info-modal{
         display: flex;
         align-items: center;
+        justify-content: flex-end;
+        height: 100%;
     }
 
     .member-info-card{
+        max-height: 100vh;
         max-width: 500px;
         
         h1{
@@ -56,4 +60,23 @@
             color: gray;
         }
     }
+}
+
+@media (max-width: 790px) {
+    .member-img{
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        height: 1px !important;
+        opacity: 0;
+
+        img{
+            width: 100%;
+        }
+    } 
+    .info-modal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
 }

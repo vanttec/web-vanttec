@@ -57,12 +57,6 @@ export default function MembersInfoModal(props) {
             <Carousel.Item style={{ height: "100%", width: "100%" }}>
               <Container fluid>
                 <Row>
-                  <Col className="member-img">
-                    <img
-                      src={member.contacto.profilePicture.David}
-                      alt={`${member.nombre} ${member.apellido}`}
-                    />
-                  </Col>
                   <Col className="info-modal">
                     <Row>
                       <Card className="member-info-card">
@@ -92,6 +86,12 @@ export default function MembersInfoModal(props) {
                         </Card.Body>
                       </Card>
                     </Row>
+                  </Col>
+                  <Col className="member-img">
+                    <img
+                      src={member.contacto.profilePicture.David}
+                      alt={`${member.nombre} ${member.apellido}`}
+                    />
                   </Col>
                 </Row>
               </Container>
