@@ -45,7 +45,7 @@ function Member(props) {
         src={member.contacto.profilePicture.David}
         alt={`${member.nombre} ${member.apellido}`}
       />
-      <Card.ImgOverlay className="text-center" onClick={() => setShow(true)}>
+      <Card.ImgOverlay className="text-center member-card-overlay" onClick={() => setShow(true)}>
         <div className="member-card__highlight">
         <span className="info">See Profile</span>      
         </div>

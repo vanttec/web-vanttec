@@ -26,11 +26,11 @@
         
     }
 
-    .card-img-overlay{
+    .member-card-overlay{
         background-color: rgba(0,0,0,0.2);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-end !important;
         box-shadow: 5px 10px 20px 1px rgba(0,0,0,.35) !important;
         -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.35) !important;
         -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.35) !important;
