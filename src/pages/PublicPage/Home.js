@@ -43,7 +43,7 @@ export default function Home() {
       {/* Vehicules */}
 
       <Row className="section">
-        <Col sm={12} md={3}>
+        <Col  md={3}>
           <Card className="vehicule-card">
             <Card.Img src={roboboat} alt="RoboBoat" />
             <Card.ImgOverlay className="text-center vehicule-card-overlay">
@@ -56,7 +56,7 @@ export default function Home() {
             </Card.ImgOverlay>
           </Card>
         </Col>
-        <Col sm={12} md={3}>
+        <Col  md={3}>
           <Card className="vehicule-card">
             <Card.Img src={roboboat} alt="RoboBoat" />
             <Card.ImgOverlay className="text-center vehicule-card-overlay">
@@ -69,7 +69,7 @@ export default function Home() {
             </Card.ImgOverlay>
           </Card>
         </Col>
-        <Col sm={12} md={3}>
+        <Col  md={3}>
           <Card className="vehicule-card">
             <Card.Img src={roboboat} alt="RoboBoat" />
             <Card.ImgOverlay className="text-center vehicule-card-overlay">
@@ -82,7 +82,7 @@ export default function Home() {
             </Card.ImgOverlay>
           </Card>
         </Col>
-        <Col sm={12} md={3}>
+        <Col md={3}>
           <Card className="vehicule-card">
             <Card.Img src={roboboat} alt="RoboBoat" />
             <Card.ImgOverlay className="text-center vehicule-card-overlay">

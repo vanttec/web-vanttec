@@ -42,10 +42,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    width: 100%;
 }
 
 .vehicule-card{
+    display: flex;
     height: 50vh;
 
     .card-title{
@@ -69,7 +70,6 @@
         -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.1) !important;
         -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.1) !important;
         transition: all 0.3s ease-in !important;
-        transform: scale(1.05) !important;
 
         
     }
@@ -105,4 +105,10 @@ div.col-md-3{
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
+}
+
+.react-parallax-bgimage{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
 }
