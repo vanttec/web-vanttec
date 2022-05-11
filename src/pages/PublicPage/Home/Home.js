@@ -1,16 +1,13 @@
-import React, {useState} from "react";
-import {
-  Container,
-  Col,
-  Row,
-  Card,
-  Carousel,
-  Nav,
-  Button,
-} from "react-bootstrap";
+import React from "react";
+import { Container, Row } from "react-bootstrap";
 import { Parallax } from "react-parallax";
+
+//Components
 import MainVehiculesCard from "../../../components/Public/Home/MainVehiculesCard/MainVehiculesCard";
 import TeamAreasCarousel from "../../../components/Public/Home/TeamAreasCarousel/TeamAreasCarousel";
+import Banner from "../../../components/Public/Banner/Banner";
+// import Footer from "../../../components/Public/Footer/Footer";
+// import Aside from "../../../components/Public/Aside/Aside";
 
 //photos
 import logoVantec from "../../../assets/img/png/LogoBlanco_Blanco.png";
@@ -18,23 +15,18 @@ import pattern from "../../../assets/img/jpg/andrew-kliatskyi-r4HT6aurLQw-unspla
 import roboboat from "../../../assets/img/png/Screen Shot 2022-05-09 at 18.51.28.png";
 import pavor from "../../../assets/img/jpg/david-troeger-M8xxVih_V_U-unsplash.jpg";
 
-import Banner from "../../../components/Public/Banner/Banner";
-// import Footer from "../../../components/Public/Footer/Footer";
-// import Aside from "../../../components/Public/Aside/Aside";
 
 //video
 import demo from "../../../assets/videos/mp4/VanttecDroneMural.mp4";
 
-
 import "./Home.scss";
 
 export default function Home() {
-
   return (
     <Container fluid>
       <Row className="main-banner">
         <Banner video={demo}>
-          <img className="logo" src={logoVantec} alt="logo vanttec"/>
+          <img className="logo" src={logoVantec} alt="logo vanttec" />
           <h3 style={{ color: "white" }}>
             Research and Development of Autonomous Vehicles
           </h3>

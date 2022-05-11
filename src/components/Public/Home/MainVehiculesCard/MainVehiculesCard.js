@@ -28,7 +28,7 @@ export default function MainVehiculesCard(){
           </Nav.Item>
         </Nav>
       </Card.Header>
-      <Card.Body>
+      <Card.Body className='vehicules-card-body'>
         {
           vehiculeToShow === "1" ? (<RoboBoatCard />) :
           vehiculeToShow === "2" ? (<RoboSubCard />) :
@@ -42,7 +42,7 @@ export default function MainVehiculesCard(){
   
   function RoboBoatCard() {
     return (
-      <Row>
+      <Row className='vehicules-card-row'>
         <Col xs={12} md={6}><img className="vehicule-card" src={roboboat} alt="robo boat"/></Col>
         <Col xs={12} md={6}></Col>
       </Row>
@@ -51,7 +51,7 @@ export default function MainVehiculesCard(){
   
   function RoboSubCard() {
     return (
-      <Row>
+      <Row className='vehicules-card-row'>
         <Col xs={12} md={6}><img className="vehicule-card" src={roboboat} alt="robo sub"/></Col>
         <Col xs={12} md={6}></Col>
       </Row>
@@ -60,7 +60,7 @@ export default function MainVehiculesCard(){
   
   function DroneCard() {
     return (
-      <Row>
+      <Row className='vehicules-card-row'>
         <Col xs={12} md={6}><img className="vehicule-card" src={roboboat} alt="drone"/></Col>
         <Col xs={12} md={6}></Col>
       </Row>

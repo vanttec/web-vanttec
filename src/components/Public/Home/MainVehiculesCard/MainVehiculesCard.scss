@@ -1,5 +1,26 @@
 .vehicules-card{
-    display: flex;
     min-height: 80vh;
 
+    &-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    &-row{
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
+.vehicule-card{
+    min-height: 40%;
+    min-width: 50%;
+    margin: 0;
+    padding: 0;
+    border-color: black !important;
+    border-radius: 0;
 }
