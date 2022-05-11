@@ -3,19 +3,19 @@ import { Container, Col, Row, Card, Carousel, Nav } from "react-bootstrap";
 import { Parallax } from "react-parallax";
 
 //photos
-import surface from "../../assets/img/jpg/mathias-p-r-reding-T60yIAqb6qU-unsplash.jpg";
+import surface from "../../assets/img/jpg/Screen Shot 2022-05-11 at 2.37.32.png";
 import pattern from "../../assets/img/jpg/andrew-kliatskyi-r4HT6aurLQw-unsplash.jpg";
 import roboboat from "../../assets/img/png/Screen Shot 2022-05-09 at 18.51.28.png";
 import glitch from "../../assets/img/jpg/glitch-lab-app-2d0Mk82TGI8-unsplash.jpg";
 import eugene from "../../assets/img/jpg/eugene-golovesov-o3ioM8u1DuY-unsplash.jpg";
-import pavor from "../../assets/img/jpg/pavor-T6kZsf30NW0-unsplash.jpg";
+import pavor from "../../assets/img/jpg/david-troeger-M8xxVih_V_U-unsplash.jpg";
 
 import Banner from "../../components/Public/Banner/Banner";
 import Footer from "../../components/Public/Footer/Footer";
 import Aside from "../../components/Public/Aside/Aside";
 
 //video
-import demo from "../../assets/videos/mp4/VanttecPoolVideo.mp4";
+import demo from "../../assets/videos/mp4/VanttecDroneMural.mp4";
 
 import "./Home.scss";
 
@@ -38,7 +38,7 @@ export default function Home() {
 
         {/* Vehicules */}
         <div className="division"></div>
-        <Parallax strength={800} bgImage={pattern}>
+        <Parallax strength={1000} bgImage={pavor}>
           <Container fluid className="overlay">
             <Row className="section-parallaxbg">
               <h1>Vehicules</h1>
@@ -190,9 +190,9 @@ export default function Home() {
 
         {/* Team */}
         <div className="division"></div>
-
-        <Row className="section-solidbg">
-          <h1>Team</h1>
+        <Container fluid className="overlay">
+        <Row className="section-parralaxbg" style={{backgroundColor:"white"}}>
+          <h1>Team Areas</h1>
           <Carousel fade variant="dark">
             <Carousel.Item>
               <video className="d-block w-100" src={demo} autoPlay loop muted />
@@ -244,6 +244,8 @@ export default function Home() {
             </Carousel.Item>
           </Carousel>
         </Row>
+        </Container>
+        <div className="division"></div>
       </div>
     </Container>
     // <>
