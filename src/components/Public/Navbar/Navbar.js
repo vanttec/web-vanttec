@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import {Container, Offcanvas, Nav, Form, FormControl, Button, Navbar as NavbarBootstrap } from "react-bootstrap";
 
+//Logo
+import logoVantec from "../../../assets/img/png/LogoAzul_Negro.png";
+
 import './Navbar.scss'
 
 function Navbar() {
@@ -21,7 +24,7 @@ function Navbar() {
     <>
         <NavbarBootstrap  fixed="top" key={"md"} bg={navbar ? "light" : ""} expand={"lg"} className="mb-0">
           <Container fluid>
-            <NavbarBootstrap.Brand href="/">VANTTEC LOGO</NavbarBootstrap.Brand>
+            <NavbarBootstrap.Brand href="/"><img className="logo-navbar" src={logoVantec} alt="Vanttec logo"/></NavbarBootstrap.Brand>
             <NavbarBootstrap.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
             <NavbarBootstrap.Offcanvas
               id={`offcanvasNavbar-expand-lg`}
