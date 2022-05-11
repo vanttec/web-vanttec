@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Col, Row, Card, Carousel } from "react-bootstrap";
+import { Container, Col, Row, Card, Carousel, Nav } from "react-bootstrap";
 import { Parallax } from "react-parallax";
 
 //photos
@@ -42,8 +42,7 @@ export default function Home() {
           <Container fluid className="overlay">
             <Row className="section-parallaxbg">
               <h1>Vehicules</h1>
-
-              <Col md={3}>
+               <Col md={3}>
                 <Card className="vehicule-card">
                   <Card.Img src={roboboat} alt="RoboBoat" />
                   <Card.ImgOverlay className="text-center vehicule-card-overlay">
@@ -102,59 +101,63 @@ export default function Home() {
                     </div>
                   </Card.ImgOverlay>
                 </Card>
-              </Col>
+              </Col> 
             </Row>
           </Container>
         </Parallax>
 
         {/* Team */}
         <div className="division"></div>
-        <Parallax strength={800} bgImage={surface}>
-          <Container fluid className="overlay">
-            <Row className="section-parallaxbg">
-              <h1>Team</h1>
-              <Carousel>
-                <Carousel.Item>
-                  <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>
-                      Nulla vitae elit libero, a pharetra augue mollis interdum.
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
-                    alt="Second slide"
-                  />
 
-                  <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=Third slide&bg=20232a"
-                    alt="Third slide"
-                  />
-
-                  <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                      Praesent commodo cursus magna, vel scelerisque nisl
-                      consectetur.
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
-            </Row>
-          </Container>
-        </Parallax>
+        <Row className="section-solidbg">
+          <h1>Team</h1>
+          <Carousel fade variant="dark">
+            <Carousel.Item>
+              <video className="d-block w-100"  src={demo} autoPlay loop muted />
+              <Carousel.Caption>
+              <h3>Perception</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </Carousel.Caption>
+              
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+            <video className="d-block w-100" src={demo} autoPlay loop muted />
+            <Carousel.Caption>
+              <h3>Software</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+            <video className="d-block w-100" src={demo} autoPlay loop muted />
+            <Carousel.Caption>
+              <h3>Mechanics</h3>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+            <video className="d-block w-100" src={demo} autoPlay loop muted />
+              <Carousel.Caption>
+              <h3>Electronics</h3>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+            <video className="d-block w-100" src={demo} autoPlay loop muted />
+              <Carousel.Caption>
+              <h3>Media</h3>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </Row>
       </div>
     </Container>
     // <>
