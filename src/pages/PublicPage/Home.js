@@ -3,6 +3,7 @@ import { Container, Col, Row, Card, Carousel, Nav } from "react-bootstrap";
 import { Parallax } from "react-parallax";
 
 //photos
+import logoVantec from "../../assets/img/png/LogoBlanco_Blanco.png";
 import surface from "../../assets/img/jpg/Screen Shot 2022-05-11 at 2.37.32.png";
 import pattern from "../../assets/img/jpg/andrew-kliatskyi-r4HT6aurLQw-unsplash.jpg";
 import roboboat from "../../assets/img/png/Screen Shot 2022-05-09 at 18.51.28.png";
@@ -24,7 +25,7 @@ export default function Home() {
     <Container fluid>
       <Row className="main-banner">
         <Banner video={demo}>
-          <h1 style={{ color: "white" }}>LOGO VANTTEC</h1>
+          <img className="logo" src={logoVantec} />
         </Banner>
       </Row>
 
