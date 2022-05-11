@@ -7,7 +7,7 @@ import LayoutPublic from '../Layout/LayoutPublic';
 
 
 //Public Website Pages
-import Home from '../pages/PublicPage/Home';
+import Home from '../pages/PublicPage/Home/Home';
 import About from '../pages/PublicPage/About/About';
 import Team from '../pages/PublicPage/Team/Team';
 import Vehicules from '../pages/PublicPage/Vehicules/Vehicules';

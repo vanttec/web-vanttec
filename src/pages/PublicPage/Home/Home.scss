@@ -53,7 +53,7 @@
         color: white;
     }
 }
-//Fonde de los efectos parallax
+//Fondo de los efectos parallax
 .overlay{
     width: 100vw !important;
     display: flex;
@@ -61,7 +61,7 @@
 
     padding: 0 !important;
     margin: 0;
-    background-color: rgba(0, 13, 24, 0.2);
+    background-color: rgba(0, 13, 24, 0.4);
 }
 
 
@@ -76,7 +76,7 @@
 
 .section-parallaxbg{
     position: static;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -89,7 +89,7 @@
 .section-solidbg{
     background-color: white;
     position: static;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -99,6 +99,11 @@
 
 }
 
+.vehicules-card{
+    display: flex;
+    min-height: 80vh;
+
+}
 
 //Tarjetas de vehiculos
 .vehicule-card{
@@ -168,27 +173,38 @@
 
 //Team
 div.carousel{
-    height: 100%;
+    height: 75%;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 
-    &-item{
-        height: 80vh;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
+    video{
+        overflow: hidden;
+        height: 70% !important;
+        width: 100%;
+        z-index: -1;
     }
-    
 }
 
 
 div.carousel-caption{
-    align-self: flex-start;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     h3, p{
         color: white !important;
         padding-top: 30px;
     }
+}
+
+.area-info{
+    height: 70%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 h1{
@@ -197,3 +213,4 @@ h1{
     align-items: flex-end;
     justify-content: center;
 }
+
