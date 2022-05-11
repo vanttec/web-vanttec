@@ -42,6 +42,88 @@ export default function Home() {
           <Container fluid className="overlay">
             <Row className="section-parallaxbg">
               <h1>Vehicules</h1>
+              {/* <Carousel fade>
+                <Carousel.Item>
+                  <Carousel.Caption>
+                    <Container>
+                      <Row>
+                        <Col>
+                          <img src={roboboat} className="vehicule-card" />
+                        </Col>
+                        <Col>
+                          <h2>Roboboat</h2>
+                          <ul>
+                            <li>Stat1</li>
+                            <li>Stat2</li>
+                            <li>Stat3</li>
+                            <li>Stat4</li>
+                          </ul>
+                        </Col>
+                      </Row>
+                    </Container>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Carousel.Caption>
+                    <Container className="d-block w-100">
+                      <Row >
+                        <Col>
+                          <img src={roboboat} className="vehicule-card" />
+                        </Col>
+                        <Col>
+                          <h2>Robosub</h2>
+                          <ul>
+                            <li>Stat1</li>
+                            <li>Stat2</li>
+                            <li>Stat3</li>
+                            <li>Stat4</li>
+                          </ul>
+                        </Col>
+                      </Row>
+                    </Container>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Carousel.Caption>
+                    <Container>
+                      <Row>
+                        <Col>
+                          <img src={roboboat} className="vehicule-card" />
+                        </Col>
+                        <Col>
+                          <h2>Drone</h2>
+                          <ul>
+                            <li>Stat1</li>
+                            <li>Stat2</li>
+                            <li>Stat3</li>
+                            <li>Stat4</li>
+                          </ul>
+                        </Col>
+                      </Row>
+                    </Container>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Carousel.Caption>
+                    <Container>
+                      <Row>
+                        <Col>
+                          <img src={roboboat} className="vehicule-card" />
+                        </Col>
+                        <Col>
+                          <h2>Car</h2>
+                          <ul>
+                            <li>Stat1</li>
+                            <li>Stat2</li>
+                            <li>Stat3</li>
+                            <li>Stat4</li>
+                          </ul>
+                        </Col>
+                      </Row>
+                    </Container>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              </Carousel> */}
                <Col md={3}>
                 <Card className="vehicule-card">
                   <Card.Img src={roboboat} alt="RoboBoat" />
@@ -101,7 +183,7 @@ export default function Home() {
                     </div>
                   </Card.ImgOverlay>
                 </Card>
-              </Col> 
+              </Col>  
             </Row>
           </Container>
         </Parallax>
@@ -113,47 +195,51 @@ export default function Home() {
           <h1>Team</h1>
           <Carousel fade variant="dark">
             <Carousel.Item>
-              <video className="d-block w-100"  src={demo} autoPlay loop muted />
+              <video className="d-block w-100" src={demo} autoPlay loop muted />
               <Carousel.Caption>
-              <h3>Perception</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>Perception</h3>
+                <p>
+                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                </p>
               </Carousel.Caption>
-              
+
+              <Carousel.Caption></Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <video className="d-block w-100" src={demo} autoPlay loop muted />
               <Carousel.Caption>
+                <h3>Software</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-            <video className="d-block w-100" src={demo} autoPlay loop muted />
-            <Carousel.Caption>
-              <h3>Software</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-            <video className="d-block w-100" src={demo} autoPlay loop muted />
-            <Carousel.Caption>
-              <h3>Mechanics</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-            <video className="d-block w-100" src={demo} autoPlay loop muted />
+              <video className="d-block w-100" src={demo} autoPlay loop muted />
               <Carousel.Caption>
-              <h3>Electronics</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+                <h3>Mechanics</h3>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-            <video className="d-block w-100" src={demo} autoPlay loop muted />
+              <video className="d-block w-100" src={demo} autoPlay loop muted />
               <Carousel.Caption>
-              <h3>Media</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+                <h3>Electronics</h3>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <video className="d-block w-100" src={demo} autoPlay loop muted />
+              <Carousel.Caption>
+                <h3>Media</h3>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
