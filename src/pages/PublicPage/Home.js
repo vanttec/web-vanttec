@@ -25,7 +25,9 @@ export default function Home() {
     <Container fluid>
       <Row className="main-banner">
         <Banner video={demo}>
+          
           <img className="logo" src={logoVantec} />
+          <h3 style={{color:"white"}}>Research and Development of Autonomous Vehicles</h3>
         </Banner>
       </Row>
 
