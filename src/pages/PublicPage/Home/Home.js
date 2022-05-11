@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Card, Col } from "react-bootstrap";
 import { Parallax } from "react-parallax";
 
 //Components
@@ -47,8 +47,8 @@ export default function Home() {
           <Container fluid className="overlay">
             <Row className="section-parallaxbg">
               <h1>Main Pojects</h1>
-              <MainVehiculesCard />
-              {/* <Col md={3}>
+               <MainVehiculesCard /> 
+               <Col md={3}>
                 <Card className="vehicule-card">
                   <Card.Img src={roboboat} alt="RoboBoat" />
                   <Card.ImgOverlay className="text-center vehicule-card-overlay">
@@ -107,7 +107,7 @@ export default function Home() {
                     </div>
                   </Card.ImgOverlay>
                 </Card>
-              </Col>   */}
+              </Col>   
             </Row>
           </Container>
         </Parallax>

@@ -114,11 +114,11 @@
     }
 
     &__highlight{
-        opacity: 1;
+        opacity: 0;
         transition: all 0.3s ease-in !important;
 
         :hover > & {
-            opacity: 0;
+            opacity: 1;
             transition: all 0.2s ease-out !important;
         }
     }
@@ -126,16 +126,16 @@
     
     &:hover{
         cursor: pointer;
-        box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.2) !important;
-        -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.2) !important;
-        -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.2) !important;
+        box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.8) !important;
+        -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.8) !important;
+        -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.8) !important;
         transition: all 0.3s ease-in !important;
 
         
     }
 
     .vehicule-card-overlay{
-        background-color: rgba(0,0,0,0.8);
+        background-color: rgba(0,0,0,0.2);
         border-color: transparent;
         border-radius: 0 !important;
         display: flex !important;
@@ -157,7 +157,7 @@
         }
 
         &:hover{
-            background-color: rgba(0,0,0,0.2);
+            background-color: rgba(0,0,0,0.8);
             transition: all 0.2s linear !important;
         }
         

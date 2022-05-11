@@ -44,7 +44,7 @@ export default function MainVehiculesCard(){
     return (
       <Row className='vehicules-card-row'>
         <Col xs={12} md={6}><img className="vehicule-card" src={roboboat} alt="robo boat"/></Col>
-        <Col xs={12} md={6}></Col>
+        <Col xs={12} md={6}><h1>Stats1</h1></Col>
       </Row>
     );
   }
@@ -53,7 +53,7 @@ export default function MainVehiculesCard(){
     return (
       <Row className='vehicules-card-row'>
         <Col xs={12} md={6}><img className="vehicule-card" src={roboboat} alt="robo sub"/></Col>
-        <Col xs={12} md={6}></Col>
+        <Col xs={12} md={6}><h1>Stats2</h1></Col>
       </Row>
     );
   }
@@ -62,7 +62,7 @@ export default function MainVehiculesCard(){
     return (
       <Row className='vehicules-card-row'>
         <Col xs={12} md={6}><img className="vehicule-card" src={roboboat} alt="drone"/></Col>
-        <Col xs={12} md={6}></Col>
+        <Col xs={12} md={6}><h1>Stats3</h1></Col>
       </Row>
     );
   }
