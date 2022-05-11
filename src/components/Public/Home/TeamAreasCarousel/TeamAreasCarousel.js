@@ -10,7 +10,7 @@ import './TeamCarousel.scss';
 
 export default function TeamAreasCarousel() {
   return (
-<Carousel fade variant="dark" indicators={false}>
+<Carousel fade indicators={false}>
               <Carousel.Item>
                 <video
                   className="d-block w-100"

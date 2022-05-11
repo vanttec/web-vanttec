@@ -43,7 +43,7 @@ export default function Home() {
 
         {/* Vehicules */}
         <div className="division"></div>
-        <Parallax strength={1000} bgImage={pavor}>
+        <Parallax strength={1000} bgImage={pattern}>
           <Container fluid className="overlay">
             <Row className="section-parallaxbg">
               <h1>Main Pojects</h1>

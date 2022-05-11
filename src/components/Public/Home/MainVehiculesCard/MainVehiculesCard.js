@@ -11,19 +11,19 @@ export default function MainVehiculesCard(){
     return(
       <Card className="vehicules-card" style={{backgroundColor:"transparent"}}>
       <Card.Header>
-        <Nav variant="tabs" justify defaultActiveKey={vehiculeToShow} activeKey={vehiculeToShow} onSelect={(selectedKey) => {
+        <Nav variant="pills" justify defaultActiveKey={vehiculeToShow} activeKey={vehiculeToShow} onSelect={(selectedKey) => {
             setVehiculeToShow(selectedKey);
           }}>
-          <Nav.Item>
-            <Nav.Link eventKey={1}>RoboBoat</Nav.Link>
+          <Nav.Item className='vehicule-item'>
+            <Nav.Link  eventKey={1}>RoboBoat</Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item className='vehicule-item'>
             <Nav.Link eventKey={2}>RoboSub</Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item className='vehicule-item'>
             <Nav.Link eventKey={3}>Drone</Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item className='vehicule-item'>
             <Nav.Link eventKey={4}>Autonomous Car</Nav.Link>
           </Nav.Item>
         </Nav>

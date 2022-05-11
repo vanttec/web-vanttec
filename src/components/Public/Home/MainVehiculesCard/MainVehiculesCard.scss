@@ -15,7 +15,6 @@
 
 }
 
-
 .vehicule-card{
     min-height: 40%;
     min-width: 50%;
@@ -23,4 +22,8 @@
     padding: 0;
     border-color: black !important;
     border-radius: 0;
+}
+
+.vehicule-item{
+    background-color: rgba(255, 255, 255);
 }
