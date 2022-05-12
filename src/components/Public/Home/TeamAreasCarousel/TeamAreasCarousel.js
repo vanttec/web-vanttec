@@ -1,5 +1,7 @@
 import React from "react";
 import {Container, Row, Carousel } from "react-bootstrap";
+
+//videos
 import mediaVideo from "../../../../assets/videos/mp4/mediaVideo.mp4";
 import perceptionVideo from "../../../../assets/videos/mp4/perceptionVideo.mp4";
 import electronicsVideo from "../../../../assets/videos/mp4/electronicsVideo.mp4";
