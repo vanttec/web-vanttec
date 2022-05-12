@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container, Row, Col, Card, Button} from 'react-bootstrap'
 import { Parallax } from "react-parallax";
 import demo from "../../../../assets/img/jpg/whiteandgray.png";
 
@@ -22,24 +22,57 @@ export default function AboutUs() {
               Aiming to inspire young people to get involved in science and
               technology.
             </p>
+            <Button>Learn More</Button>
           </div>
         </Row>
         <Row className="about-stats">
-          <Col>
-            <span>2017</span>
-            <h4>Founded</h4>
+          <Col className="about-stats-col">
+            <Card className="about-stats-card">
+              <Card.Body>
+                <Card.Text>
+                  Founded
+                </Card.Text>
+                <Card.Title className="mb-2">
+                  <h2>2017</h2>
+                </Card.Title>
+              </Card.Body>
+            </Card>
           </Col>
-          <Col>
-            <span>#</span>
-            <h4>Members</h4>
+          <Col className="about-stats-col">
+            <Card className="about-stats-card">
+              <Card.Body>
+                <Card.Text>
+                  Number of Members
+                </Card.Text>
+                <Card.Title className="mb-2">
+                  <h2>80</h2>
+                </Card.Title>
+              </Card.Body>
+            </Card>
           </Col>
-          <Col>
-            <span>#</span>
-            <h4>Published Papers</h4>
+          <Col className="about-stats-col">
+            <Card className="about-stats-card">
+              <Card.Body>
+                <Card.Text>
+                  Founded
+                </Card.Text>
+                <Card.Title className="mb-2">
+                  <h2>2017</h2>
+                </Card.Title>
+              </Card.Body>
+            </Card>
           </Col>
-          <Col>
-            <span>#</span>
-            <h4>Fact/Stat</h4>
+          <Col className="about-stats-col">
+            <Card className="about-stats-card">
+              <Card.Body>
+                <Card.Text>
+                  Founded
+                </Card.Text>
+                <Card.Title className="mb-2">
+                  <h2>2017</h2>
+                </Card.Title>
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
       </Container>
