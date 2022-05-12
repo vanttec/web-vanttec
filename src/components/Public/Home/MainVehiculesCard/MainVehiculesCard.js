@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { Card, Nav, Row, Col, Container, Button } from "react-bootstrap";
-
+import { Parallax } from "react-parallax";
 
 //vehicules photos
 import roboboat from "../../../../assets/img/png/Screen Shot 2022-05-09 at 18.51.28.png";
-
-
+import demo from '../../../../assets/img/jpg/backgroundwhite.png'
 
 import "./MainVehiculesCard.scss";
 
@@ -13,6 +12,7 @@ export default function MainVehiculesCard() {
   const [vehiculeToShow, setVehiculeToShow] = useState("1");
 
   return (
+    <Parallax bgImage={demo} strength={-100}>
     <Container fluid>
       <Row className="home-header"><h1>Main Projects</h1></Row>
       <Row>
@@ -58,6 +58,7 @@ export default function MainVehiculesCard() {
         </Card>
       </Row>
     </Container>
+    </Parallax>
   );
 }
 
@@ -69,7 +70,7 @@ function RoboBoatCard() {
         <h1>Stats ROBOBOAT</h1>
         </Row>
         <Row className="vehicule-data-button">
-          <Button>Visit Projects Profile</Button>
+          <Button>Visit Projects</Button>
         </Row>
       </Col>
       <Col xs={12} md={6}>
@@ -83,7 +84,7 @@ function RoboBoatCard() {
             onClick={() => console.log("a vehiculos")}
           >
             <div className="vehicule-card__highlight">
-              <h2 className="info">Visit Projects Profile</h2>
+              <h3 className="info">Visit Projects</h3>
             </div>
           </Card.ImgOverlay>
         </Card>
@@ -100,7 +101,7 @@ function RoboSubCard() {
         <h1>Stats ROBOSUB</h1>
         </Row>
         <Row className="vehicule-data-button">
-          <Button>Visit Projects Profile</Button>
+          <Button>Visit Projects</Button>
         </Row>
       </Col>
       <Col xs={12} md={6}>
@@ -114,7 +115,7 @@ function RoboSubCard() {
             onClick={() => console.log("a vehiculos")}
           >
             <div className="vehicule-card__highlight">
-              <h2 className="info">Visit Projects Profile</h2>
+              <h3 className="info">Visit Projects</h3>
             </div>
           </Card.ImgOverlay>
         </Card>
@@ -131,7 +132,7 @@ function DroneCard() {
         <h1>Stats DRONE</h1>
         </Row>
         <Row className="vehicule-data-button">
-          <Button>Visit Projects Profile</Button>
+          <Button>Visit Projects</Button>
         </Row>
       </Col>
       <Col xs={12} md={6}>
@@ -145,7 +146,7 @@ function DroneCard() {
             onClick={() => console.log("a vehiculos")}
           >
             <div className="vehicule-card__highlight">
-              <h2 className="info">Visit Projects Profile</h2>
+              <h3 className="info">Visit Projects</h3>
             </div>
           </Card.ImgOverlay>
         </Card>
@@ -161,7 +162,7 @@ function SDV() {
         <h1>Stats SDV</h1>
         </Row>
         <Row className="vehicule-data-button">
-          <Button>Visit Projects Profile</Button>
+          <Button>Visit Projects</Button>
         </Row>
       </Col>
       <Col xs={12} md={6}>
@@ -175,7 +176,7 @@ function SDV() {
             onClick={() => console.log("a vehiculos")}
           >
             <div className="vehicule-card__highlight">
-              <h2 className="info">Visit Projects Profile</h2>
+              <h3 className="info">Visit Projects</h3>
             </div>
           </Card.ImgOverlay>
         </Card>

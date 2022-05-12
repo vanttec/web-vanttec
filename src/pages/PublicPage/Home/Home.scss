@@ -48,10 +48,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    h1{
-        color: white;
-    }
 }
 
 
@@ -72,4 +68,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: black !important;
 }
+
+@media (max-width: 900px) {
+    .home-header{
+        height: 10vh;
+    }
+
+    .division{
+        height: 2vh;
+    }
+  }

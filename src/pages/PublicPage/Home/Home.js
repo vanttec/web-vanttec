@@ -1,11 +1,12 @@
 import React from "react";
-import { Container, Row, Card, Col } from "react-bootstrap";
-import { Parallax } from "react-parallax";
+import { Container, Row } from "react-bootstrap";
 
 //Components
 import Banner from "../../../components/Public/Banner/Banner";
 import AboutUs from "../../../components/Public/Home/AboutUs/AboutUs";
+import Stats from "../../../components/Public/Home/AboutUs/Stats/Stats";
 import MainVehiculesCard from "../../../components/Public/Home/MainVehiculesCard/MainVehiculesCard";
+import Accomplishments from "../../../components/Public/Home/Accomplishments/Accomplishments";
 import TeamAreasCarousel from "../../../components/Public/Home/TeamAreasCarousel/TeamAreasCarousel";
 
 // import Footer from "../../../components/Public/Footer/Footer";
@@ -13,9 +14,6 @@ import TeamAreasCarousel from "../../../components/Public/Home/TeamAreasCarousel
 
 //photos
 import logoVantec from "../../../assets/img/png/LogoBlanco_Blanco.png";
-import pattern from "../../../assets/img/jpg/andrew-kliatskyi-r4HT6aurLQw-unsplash.jpg";
-import roboboat from "../../../assets/img/png/Screen Shot 2022-05-09 at 18.51.28.png";
-import pavor from "../../../assets/img/jpg/david-troeger-M8xxVih_V_U-unsplash.jpg";
 
 
 //video
@@ -25,6 +23,7 @@ import "./Home.scss";
 
 export default function Home() {
   return (
+    
     <Container fluid>
       {/* Banner */}
       <Row className="main-banner">
@@ -39,16 +38,20 @@ export default function Home() {
       {/* Content */}
       <div className="content">
 
-        <div className="division"></div>
+        <div className="division" />
         <AboutUs />
         <div className="division" />
         <MainVehiculesCard />
         <div className="division" />
+        <Accomplishments/>
+        <div className="division" />
         <TeamAreasCarousel/>
         <div className="division" />
+        
 
       </div>
     </Container>
+    
     // <>
     //   <div style={{ height: "85vh" }}>
     //     <Aside />
