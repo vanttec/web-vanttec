@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Row, Col, Carousel } from "react-bootstrap";
+import {Container, Row, Carousel } from "react-bootstrap";
 import mediaVideo from "../../../../assets/videos/mp4/mediaVideo.mp4";
 import perceptionVideo from "../../../../assets/videos/mp4/perceptionVideo.mp4";
 import electronicsVideo from "../../../../assets/videos/mp4/electronicsVideo.mp4";
@@ -15,9 +15,9 @@ export default function TeamAreasCarousel() {
         <h1> Team Areas</h1>
       </Row>
       <Row>
-        <Carousel fade indicators={true}>
+        <Carousel>
           <Carousel.Item>
-            <div className="overlay-area">
+            <div className="overlay-area-home">
               <video
                 className="d-block w-100"
                 src={perceptionVideo}
@@ -32,7 +32,7 @@ export default function TeamAreasCarousel() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <div className="overlay-area">
+            <div className="overlay-area-home">
               <video
                 className="d-block w-100"
                 src={softwareVideo}
@@ -47,7 +47,7 @@ export default function TeamAreasCarousel() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <div className="overlay-area">
+            <div className="overlay-area-home">
               <video
                 className="d-block w-100"
                 src={mechanicsVideo}
@@ -64,7 +64,7 @@ export default function TeamAreasCarousel() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <div className="overlay-area">
+            <div className="overlay-area-home">
               <video
                 className="d-block w-100"
                 src={electronicsVideo}
@@ -81,8 +81,8 @@ export default function TeamAreasCarousel() {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <div className="overlay-area">
-              <video className=" w-100" src={mediaVideo} autoPlay loop muted />
+            <div className="overlay-area-home">
+              <video className="d-block w-100" src={mediaVideo} autoPlay loop muted />
             </div>
             <Carousel.Caption>
               <h3>Media</h3>

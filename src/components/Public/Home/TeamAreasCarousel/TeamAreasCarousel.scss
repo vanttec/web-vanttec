@@ -1,39 +1,39 @@
 
 //Team
 div.carousel{
-    height: 100vh !important;
-    width: 100vw !important;
+    height: 100% !important;
+    width: 100% !important;
+    padding: 0;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     overflow: hidden;
 
     video{
-        height: 100vh !important;
+        max-height: 100% !important;
         width: 100% !important;
         z-index: -1;
     }
 }
 
-.overlay-area{
+.overlay-area-home{
     width: 100% !important;
-    height: 100vh !important;
+    height: 100% !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center;
     padding: 0 !important;
     margin: 0;
-    background-color: rgba(0, 13, 24, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .carousel-inner{
-    width: 100vw !important;
-    height: 100vh !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 div.carousel-caption{
-    height: 60vh !important;
-    width: 100vw;
+    height: 100%;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center;
