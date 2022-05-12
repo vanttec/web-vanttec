@@ -7,6 +7,7 @@ import AboutUs from "../../../components/Public/Home/AboutUs/AboutUs";
 import MainVehiculesCard from "../../../components/Public/Home/MainVehiculesCard/MainVehiculesCard";
 import Accomplishments from "../../../components/Public/Home/Accomplishments/Accomplishments";
 import TeamAreasCarousel from "../../../components/Public/Home/TeamAreasCarousel/TeamAreasCarousel";
+import Sponsors from "../../../components/Public/Home/Sponsors/Sponsors";
 
 // import Footer from "../../../components/Public/Footer/Footer";
 // import Aside from "../../../components/Public/Aside/Aside";
@@ -46,7 +47,7 @@ export default function Home() {
         <div className="division" />
         <TeamAreasCarousel/>
         <div className="division" />
-        
+        <Sponsors />
 
       </div>
     </Container>
