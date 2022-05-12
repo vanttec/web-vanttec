@@ -4,7 +4,6 @@ import { Container, Row } from "react-bootstrap";
 //Components
 import Banner from "../../../components/Public/Banner/Banner";
 import AboutUs from "../../../components/Public/Home/AboutUs/AboutUs";
-import Stats from "../../../components/Public/Home/AboutUs/Stats/Stats";
 import MainVehiculesCard from "../../../components/Public/Home/MainVehiculesCard/MainVehiculesCard";
 import Accomplishments from "../../../components/Public/Home/Accomplishments/Accomplishments";
 import TeamAreasCarousel from "../../../components/Public/Home/TeamAreasCarousel/TeamAreasCarousel";
