@@ -3,9 +3,11 @@ import { Container, Row, Card, Col } from "react-bootstrap";
 import { Parallax } from "react-parallax";
 
 //Components
+import Banner from "../../../components/Public/Banner/Banner";
+import AboutUs from "../../../components/Public/Home/AboutUs/AboutUs";
 import MainVehiculesCard from "../../../components/Public/Home/MainVehiculesCard/MainVehiculesCard";
 import TeamAreasCarousel from "../../../components/Public/Home/TeamAreasCarousel/TeamAreasCarousel";
-import Banner from "../../../components/Public/Banner/Banner";
+
 // import Footer from "../../../components/Public/Footer/Footer";
 // import Aside from "../../../components/Public/Aside/Aside";
 
@@ -37,90 +39,13 @@ export default function Home() {
         {/* About */}
         <div className="division"></div>
 
-        <Row className="section-solidbg">
-          <h1>About Us</h1>
-        </Row>
+        <AboutUs />
+        <div className="division" />
+        <MainVehiculesCard />
+        <div className="division" />
+        <TeamAreasCarousel/>
+        <div className="division" />
 
-        {/* Vehicules */}
-        <div className="division"></div>
-        <Parallax strength={1000} bgImage={pattern}>
-          <Container fluid className="overlay">
-            <Row className="section-parallaxbg">
-              <h1>Main Pojects</h1>
-               <MainVehiculesCard /> 
-               <Col md={3}>
-                <Card className="vehicule-card">
-                  <Card.Img src={roboboat} alt="RoboBoat" />
-                  <Card.ImgOverlay className="text-center vehicule-card-overlay">
-                    <div className="vehicule-card__highlight">
-                      <Card.Title className="text-light">
-                        <span className="info">Vehicule Name</span>
-                      </Card.Title>
-                      <Card.Text className="description">
-                        Vehicule Data
-                      </Card.Text>
-                    </div>
-                  </Card.ImgOverlay>
-                </Card>
-              </Col>
-              <Col md={3}>
-                <Card className="vehicule-card">
-                  <Card.Img src={roboboat} alt="RoboBoat" />
-                  <Card.ImgOverlay className="text-center vehicule-card-overlay">
-                    <div className="vehicule-card__highlight">
-                      <Card.Title className="text-light">
-                        <span className="info">Vehicule Name</span>
-                      </Card.Title>
-                      <Card.Text className="description">
-                        Vehicule Data
-                      </Card.Text>
-                    </div>
-                  </Card.ImgOverlay>
-                </Card>
-              </Col>
-              <Col md={3}>
-                <Card className="vehicule-card">
-                  <Card.Img src={roboboat} alt="RoboBoat" />
-                  <Card.ImgOverlay className="text-center vehicule-card-overlay">
-                    <div className="vehicule-card__highlight">
-                      <Card.Title className="text-light">
-                        <span className="info">Vehicule Name</span>
-                      </Card.Title>
-                      <Card.Text className="description">
-                        Vehicule Data
-                      </Card.Text>
-                    </div>
-                  </Card.ImgOverlay>
-                </Card>
-              </Col>
-              <Col md={3}>
-                <Card className="vehicule-card">
-                  <Card.Img src={roboboat} alt="RoboBoat" />
-                  <Card.ImgOverlay className="text-center vehicule-card-overlay">
-                    <div className="vehicule-card__highlight">
-                      <Card.Title className="text-light">
-                        <span className="info">Vehicule Name</span>
-                      </Card.Title>
-                      <Card.Text className="description">
-                        Vehicule Data
-                      </Card.Text>
-                    </div>
-                  </Card.ImgOverlay>
-                </Card>
-              </Col>   
-            </Row>
-          </Container>
-        </Parallax>
-
-        {/* Team */}
-        <div className="division"></div>
-        <Container fluid className="overlay">
-          <Row className="section-solidbg" style={{ backgroundColor: "white" }}>
-            <h1>Team Areas</h1>
-            <TeamAreasCarousel />
-          </Row>
-        </Container>
-        <div className="division"></div>
       </div>
     </Container>
     // <>

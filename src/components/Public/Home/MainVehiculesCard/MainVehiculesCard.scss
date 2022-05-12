@@ -1,23 +1,28 @@
 .vehicules-card{
     min-height: 80vh;
+    background-color: rgba(255, 255, 255, 0.05) !important;
 
     &-body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100vw;
+        width: 100%;
     }
 
     &-row{
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
+    &-col{
+        width: 90%;
+    }
 }
 
 .vehicule-card{
-    min-height: 40%;
-    min-width: 50%;
+    max-height: 50%;
+    min-width: 35%;
     margin: 0;
     padding: 0;
     border-color: black !important;
@@ -25,5 +30,85 @@
 }
 
 .vehicule-item{
-    background-color: rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.2);
+    .nav-link{
+        color: black;
+        background-color: rgba(255, 255, 255, 0.3);
+
+        &:hover{
+            color: white;
+            background-color: lightgray;
+        }
+    }
+}
+
+a.nav-link.active{
+    background-color: white !important;
+    color: black !important;
+}
+
+
+//Tarjetas de vehiculos para opción 2
+.vehicule-card{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-color: black !important;
+    border-radius: 0;
+
+    .card-title{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    &__highlight{
+        opacity: 0;
+        transition: all 0.3s ease-in !important;
+
+        :hover > & {
+            opacity: 1;
+            transition: all 0.2s ease-out !important;
+        }
+    }
+
+    
+    &:hover{
+        cursor: pointer;
+        box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.8) !important;
+        -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.8) !important;
+        -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.8) !important;
+        transition: all 0.3s ease-in !important;
+
+        
+    }
+
+    .vehicule-card-overlay{
+        background-color: rgba(0,0,0,0.2);
+        border-color: transparent;
+        border-radius: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        box-shadow: 5px 10px 20px 1px rgba(0,0,0,.35) !important;
+        -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.35) !important;
+        -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.35) !important;
+        transition: all 0.3s ease-out !important;
+
+        .info{
+            color: white;
+            font-weight: bolder;
+        }
+
+        .description{
+            color: white;
+            
+        }
+
+        &:hover{
+            background-color: rgba(0,0,0,0.8);
+            transition: all 0.2s linear !important;
+        }
+        
+    }
 }

@@ -1,0 +1,46 @@
+
+//Team
+div.carousel{
+    height: 100vh !important;
+    width: 100vw !important;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+
+    video{
+        height: 100vh !important;
+        width: 100% !important;
+        z-index: -1;
+    }
+}
+
+.overlay-area{
+    width: 100% !important;
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0;
+    background-color: rgba(0, 13, 24, 0.2);
+}
+
+.carousel-inner{
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+div.carousel-caption{
+    height: 60vh !important;
+    width: 100vw;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+
+    h3, p{
+        color: white !important;
+        padding-top: 30px;
+    }
+}
