@@ -26,6 +26,7 @@ import "./Home.scss";
 export default function Home() {
   return (
     <Container fluid>
+      {/* Banner */}
       <Row className="main-banner">
         <Banner video={demo}>
           <img className="logo" src={logoVantec} alt="logo vanttec" />
@@ -35,10 +36,10 @@ export default function Home() {
         </Banner>
       </Row>
 
+      {/* Content */}
       <div className="content">
-        {/* About */}
-        <div className="division"></div>
 
+        <div className="division"></div>
         <AboutUs />
         <div className="division" />
         <MainVehiculesCard />
