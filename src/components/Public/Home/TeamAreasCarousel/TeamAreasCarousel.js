@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Row, Carousel } from "react-bootstrap";
+import { Container, Row, Carousel, Button } from "react-bootstrap";
 
 //videos
 import mediaVideo from "../../../../assets/videos/mp4/mediaVideo.mp4";
@@ -31,6 +31,7 @@ export default function TeamAreasCarousel() {
             <Carousel.Caption>
               <h3>Perception</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <Button className="team-carousel-button">See More</Button>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -46,6 +47,7 @@ export default function TeamAreasCarousel() {
             <Carousel.Caption>
               <h3>Software</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <Button className="team-carousel-button">See More</Button>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -63,6 +65,7 @@ export default function TeamAreasCarousel() {
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
+              <Button className="team-carousel-button">See More</Button>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -80,17 +83,25 @@ export default function TeamAreasCarousel() {
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
+              <Button className="team-carousel-button">See More</Button>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <div className="overlay-area-home">
-              <video className="d-block w-100" src={mediaVideo} autoPlay loop muted />
+              <video
+                className="d-block w-100"
+                src={mediaVideo}
+                autoPlay
+                loop
+                muted
+              />
             </div>
             <Carousel.Caption>
               <h3>Media</h3>
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
+              <Button className="team-carousel-button">See More</Button>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
