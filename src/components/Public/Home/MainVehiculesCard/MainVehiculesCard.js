@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax";
 
 //vehicules photos
 import roboboat from "../../../../assets/img/png/Screen Shot 2022-05-09 at 18.51.28.png";
-import demo from '../../../../assets/img/jpg/backgroundwhite.png'
+import demo from "../../../../assets/img/jpg/backgroundwhite.png";
 
 import "./MainVehiculesCard.scss";
 
@@ -13,51 +13,53 @@ export default function MainVehiculesCard() {
 
   return (
     <Parallax bgImage={demo} strength={-200}>
-    <Container fluid>
-      <Row className="home-header"><h1>Main Projects</h1></Row>
-      <Row>
-        <Card
-          className="vehicules-card"
-          style={{ backgroundColor: "transparent" }}
-        >
-          <Card.Header>
-            <Nav
-              variant="pills"
-              justify
-              defaultActiveKey={vehiculeToShow}
-              activeKey={vehiculeToShow}
-              onSelect={(selectedKey) => {
-                setVehiculeToShow(selectedKey);
-              }}
-            >
-              <Nav.Item className="vehicule-item">
-                <Nav.Link eventKey={1}>RoboBoat</Nav.Link>
-              </Nav.Item>
-              <Nav.Item className="vehicule-item">
-                <Nav.Link eventKey={2}>RoboSub</Nav.Link>
-              </Nav.Item>
-              <Nav.Item className="vehicule-item">
-                <Nav.Link eventKey={3}>Drone</Nav.Link>
-              </Nav.Item>
-              <Nav.Item className="vehicule-item">
-                <Nav.Link eventKey={4}>SDV</Nav.Link>
-              </Nav.Item>
-            </Nav>
-          </Card.Header>
-          <Card.Body className="vehicules-card-body">
-            {vehiculeToShow === "1" ? (
-              <RoboBoatCard />
-            ) : vehiculeToShow === "2" ? (
-              <RoboSubCard />
-            ) : vehiculeToShow === "3" ? (
-              <DroneCard />
-            ) : (
-              <SDV />
-            )}
-          </Card.Body>
-        </Card>
-      </Row>
-    </Container>
+      <Container fluid>
+        <Row className="home-header">
+          <h1>Main Projects</h1>
+        </Row>
+        <Row>
+          <Card
+            className="vehicules-card"
+            style={{ backgroundColor: "transparent" }}
+          >
+            <Card.Header>
+              <Nav
+                variant="pills"
+                justify
+                defaultActiveKey={vehiculeToShow}
+                activeKey={vehiculeToShow}
+                onSelect={(selectedKey) => {
+                  setVehiculeToShow(selectedKey);
+                }}
+              >
+                <Nav.Item className="vehicule-item">
+                  <Nav.Link eventKey={1}>RoboBoat</Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="vehicule-item">
+                  <Nav.Link eventKey={2}>RoboSub</Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="vehicule-item">
+                  <Nav.Link eventKey={3}>Drone</Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="vehicule-item">
+                  <Nav.Link eventKey={4}>SDV</Nav.Link>
+                </Nav.Item>
+              </Nav>
+            </Card.Header>
+            <Card.Body className="vehicules-card-body">
+              {vehiculeToShow === "1" ? (
+                <RoboBoatCard />
+              ) : vehiculeToShow === "2" ? (
+                <RoboSubCard />
+              ) : vehiculeToShow === "3" ? (
+                <DroneCard />
+              ) : (
+                <SDV />
+              )}
+            </Card.Body>
+          </Card>
+        </Row>
+      </Container>
     </Parallax>
   );
 }
@@ -65,14 +67,6 @@ export default function MainVehiculesCard() {
 function RoboBoatCard() {
   return (
     <Row className="vehicules-card-row">
-      <Col xs={12} md={6} className="vehicule-data">
-        <Row className="vehicule-data-stats">
-        <h1>Stats ROBOBOAT</h1>
-        </Row>
-        <Row className="vehicule-data-button">
-        <Button>See More</Button>
-        </Row>
-      </Col>
       <Col xs={12} md={6}>
         <Card
           className="vehicule-card"
@@ -88,6 +82,14 @@ function RoboBoatCard() {
             </div>
           </Card.ImgOverlay>
         </Card>
+      </Col>
+      <Col xs={12} md={6} className="vehicule-data">
+        <Row className="vehicule-data-stats">
+          <h1>Stats ROBOBOAT</h1>
+        </Row>
+        <Row className="vehicule-data-button">
+          <Button>See More</Button>
+        </Row>
       </Col>
     </Row>
   );
@@ -96,14 +98,6 @@ function RoboBoatCard() {
 function RoboSubCard() {
   return (
     <Row className="vehicules-card-row">
-      <Col xs={12} md={6} className="vehicule-data">
-        <Row className="vehicule-data-stats">
-        <h1>Stats ROBOSUB</h1>
-        </Row>
-        <Row className="vehicule-data-button">
-          <Button>See More</Button>
-        </Row>
-      </Col>
       <Col xs={12} md={6}>
         <Card
           className="vehicule-card"
@@ -119,6 +113,14 @@ function RoboSubCard() {
             </div>
           </Card.ImgOverlay>
         </Card>
+      </Col>
+      <Col xs={12} md={6} className="vehicule-data">
+        <Row className="vehicule-data-stats">
+          <h1>Stats ROBOSUB</h1>
+        </Row>
+        <Row className="vehicule-data-button">
+          <Button>See More</Button>
+        </Row>
       </Col>
     </Row>
   );
@@ -127,14 +129,6 @@ function RoboSubCard() {
 function DroneCard() {
   return (
     <Row className="vehicules-card-row">
-      <Col xs={12} md={6} className="vehicule-data">
-        <Row className="vehicule-data-stats">
-        <h1>Stats DRONE</h1>
-        </Row>
-        <Row className="vehicule-data-button">
-        <Button>See More</Button>
-        </Row>
-      </Col>
       <Col xs={12} md={6}>
         <Card
           className="vehicule-card"
@@ -150,6 +144,14 @@ function DroneCard() {
             </div>
           </Card.ImgOverlay>
         </Card>
+      </Col>
+      <Col xs={12} md={6} className="vehicule-data">
+        <Row className="vehicule-data-stats">
+          <h1>Stats DRONE</h1>
+        </Row>
+        <Row className="vehicule-data-button">
+          <Button>See More</Button>
+        </Row>
       </Col>
     </Row>
   );
@@ -157,14 +159,6 @@ function DroneCard() {
 function SDV() {
   return (
     <Row className="vehicules-card-row">
-      <Col xs={12} md={6} className="vehicule-data">
-        <Row className="vehicule-data-stats">
-        <h1>Stats SDV</h1>
-        </Row>
-        <Row className="vehicule-data-button">
-        <Button>See More</Button>
-        </Row>
-      </Col>
       <Col xs={12} md={6}>
         <Card
           className="vehicule-card"
@@ -181,11 +175,19 @@ function SDV() {
           </Card.ImgOverlay>
         </Card>
       </Col>
+      <Col xs={12} md={6} className="vehicule-data">
+        <Row className="vehicule-data-stats">
+          <h1>Stats SDV</h1>
+        </Row>
+        <Row className="vehicule-data-button">
+          <Button>See More</Button>
+        </Row>
+      </Col>
     </Row>
   );
 }
 
-                /* <Col md={3}>
+/* <Col md={3}>
                 <Card className="vehicule-card">
                   <Card.Img src={roboboat} alt="RoboBoat" />
                   <Card.ImgOverlay className="text-center vehicule-card-overlay">
