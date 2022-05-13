@@ -1,0 +1,38 @@
+.sponsor-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 10rem;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border-radius: 10px !important;
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,.2) !important;
+    -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.2) !important;
+    -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.2) !important;
+    &:hover{
+        transform: scale(1.02);
+        transition: all 0.3s ease-in !important;
+        box-shadow: 5px 10px 20px 1px rgba(0,0,0,.5) !important;
+        -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.5) !important;
+        -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.5) !important;
+    }
+
+    &-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-logo{
+        max-width: 10rem;
+        max-height: 10rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .sponsor-card{
+        width: 10rem;
+        height: 10rem;
+    }
+}
