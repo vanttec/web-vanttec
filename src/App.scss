@@ -1,1 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
+
+.col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center !important;
+}
