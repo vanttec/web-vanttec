@@ -8,6 +8,18 @@ export default function Footer() {
   return (
     <Container fluid>
       <Row className="footer">
+        <Col xs={12} md={6} className="footer-social">
+          <h2>Follow Us</h2>
+          <SocialMedia />
+
+          <h2>Get in Touch</h2>
+          <a href="mailto:vanttecmty@gmail.com">
+            <p>vanttecmty@gmail.com</p>
+          </a>
+          <a href="mailto:vanttecmty@gmail.com">
+            <p>vanttec@servicios.tec.mx</p>
+          </a>
+        </Col>
         <Col xs={12} md={6} className="footer-contact">
           <h2>Direction</h2>
           <div className="footer-contact-direction">
@@ -17,19 +29,6 @@ export default function Footer() {
               2501 Sur, Tecnológico 64849. Monterrey, Nuevo León México
             </p>
           </div>
-        </Col>
-        <Col xs={12} md={6} className="footer-social">
- 
-            <h2>Follow Us</h2>
-            <SocialMedia />
-
-            <h2>Get in Touch</h2>
-            <a href="mailto:vanttecmty@gmail.com">
-              <p>vanttecmty@gmail.com</p>
-            </a>
-            <a href="mailto:vanttecmty@gmail.com">
-              <p>vanttec@servicios.tec.mx</p>
-            </a>
         </Col>
       </Row>
       <Row>

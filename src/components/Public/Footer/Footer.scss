@@ -8,6 +8,12 @@
 
   h2,p{
     color: white;
+
+  }
+
+  h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 
   //Footer Contact
@@ -19,6 +25,7 @@
 
     &-direction{
       width: 40%;
+      text-align: center;
     }
   }
 
@@ -28,11 +35,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    h2{
-      margin-top: 20px;
-      margin-bottom: 10px;
-    }
 
     a{
       text-decoration: none;
@@ -54,6 +56,17 @@
     width: auto;
     margin: 0;
     padding: 0; 
+  }
+}
+
+@media (max-width: 850px) {
+  .footer{
+    &-contact{
+      &-direction{
+        width: 80%;
+        text-align: center;
+      }
+    }
   }
 }
 
