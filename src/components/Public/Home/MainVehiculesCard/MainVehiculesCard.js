@@ -12,7 +12,7 @@ export default function MainVehiculesCard() {
   const [vehiculeToShow, setVehiculeToShow] = useState("1");
 
   return (
-    <Parallax bgImage={demo} strength={-100}>
+    <Parallax bgImage={demo} strength={-200}>
     <Container fluid>
       <Row className="home-header"><h1>Main Projects</h1></Row>
       <Row>

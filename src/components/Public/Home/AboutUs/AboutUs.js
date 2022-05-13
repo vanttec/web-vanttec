@@ -7,7 +7,7 @@ import './AboutUs.scss'
 
 export default function AboutUs() {
   return (
-    <Parallax strength={100} bgImage={demo}>
+    <Parallax strength={200} bgImage={demo}>
       <Container fluid>
         <Row className="home-header">
           <h1>About</h1>
