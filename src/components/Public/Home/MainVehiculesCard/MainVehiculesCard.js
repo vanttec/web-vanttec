@@ -70,7 +70,7 @@ function RoboBoatCard() {
         <h1>Stats ROBOBOAT</h1>
         </Row>
         <Row className="vehicule-data-button">
-          <Button>Visit Projects</Button>
+        <Button>See More</Button>
         </Row>
       </Col>
       <Col xs={12} md={6}>
@@ -101,7 +101,7 @@ function RoboSubCard() {
         <h1>Stats ROBOSUB</h1>
         </Row>
         <Row className="vehicule-data-button">
-          <Button>Visit Projects</Button>
+          <Button>See More</Button>
         </Row>
       </Col>
       <Col xs={12} md={6}>
@@ -132,7 +132,7 @@ function DroneCard() {
         <h1>Stats DRONE</h1>
         </Row>
         <Row className="vehicule-data-button">
-          <Button>Visit Projects</Button>
+        <Button>See More</Button>
         </Row>
       </Col>
       <Col xs={12} md={6}>
@@ -162,7 +162,7 @@ function SDV() {
         <h1>Stats SDV</h1>
         </Row>
         <Row className="vehicule-data-button">
-          <Button>Visit Projects</Button>
+        <Button>See More</Button>
         </Row>
       </Col>
       <Col xs={12} md={6}>

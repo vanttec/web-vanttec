@@ -22,7 +22,7 @@ export default function AboutUs() {
               Aiming to inspire young people to get involved in science and
               technology.
             </p>
-            <Button>Learn More</Button>
+            <Button>See More</Button>
           </div>
         </Row>
         <Row className="about-stats">
