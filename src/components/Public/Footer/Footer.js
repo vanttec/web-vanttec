@@ -11,7 +11,7 @@ export default function Footer() {
         <Col xs={12} md={6} className="footer-contact">
           <h2>Direction</h2>
           <div className="footer-contact-direction">
-            <p>CETEC Torre Sur, Piso 4</p>
+            <p>CETEC South Tower, 4th floor</p>
             <p>
               Tecnológico de Monterrey, Campus Monterrey Av. Eugenio Garza Sada
               2501 Sur, Tecnológico 64849. Monterrey, Nuevo León México
