@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     width: 18rem;
-    height: 10rem;
+    height: 15rem;
     margin-bottom: 20px;
     margin-top: 15px;
     border-radius: 10px !important;
@@ -30,9 +30,21 @@
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
     .sponsor-card{
         width: 10rem;
         height: 10rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .sponsor-card{
+        width: 7rem;
+        height: 7rem;
+
+        &-logo{
+            max-width: 5rem;
+            max-height: 5rem;
+        }
     }
 }
