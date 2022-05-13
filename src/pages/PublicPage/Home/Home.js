@@ -8,8 +8,7 @@ import MainVehiculesCard from "../../../components/Public/Home/MainVehiculesCard
 import Accomplishments from "../../../components/Public/Home/Accomplishments/Accomplishments";
 import TeamAreasCarousel from "../../../components/Public/Home/TeamAreasCarousel/TeamAreasCarousel";
 import Sponsors from "../../../components/Public/Home/Sponsors/Sponsors";
-
-// import Footer from "../../../components/Public/Footer/Footer";
+import Footer from "../../../components/Public/Footer/Footer";
 // import Aside from "../../../components/Public/Aside/Aside";
 
 //photos
@@ -48,6 +47,8 @@ export default function Home() {
         <TeamAreasCarousel/>
         <div className="division" />
         <Sponsors />
+        <div className="division" />
+        <Footer />
 
       </div>
     </Container>
