@@ -15,9 +15,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     &-direction{
-      width: 50%;
+      width: 40%;
     }
   }
 
@@ -27,6 +28,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    h2{
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
 
     a{
       text-decoration: none;
