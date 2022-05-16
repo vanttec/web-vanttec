@@ -112,21 +112,21 @@ function ContactInfo(props) {
   return (
     <>
       <div className="member-social-media">
-        <a href={member.contacto.linkedin} target="_blank">
+        <a href={member.contacto.linkedin} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
 
-        <a href={member.contacto.github} target="_blank">
+        <a href={member.contacto.github} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faGithub} />
         </a>
 
-        <a href={member.contacto.instagram} target="_blank">
+        <a href={member.contacto.instagram} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
-        <a href={member.contacto.facebook} target="_blank">
+        <a href={member.contacto.facebook} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faFacebook} />
         </a>
-        <a href={member.contacto.twitter} target="_blank">
+        <a href={member.contacto.twitter} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
       </div>
