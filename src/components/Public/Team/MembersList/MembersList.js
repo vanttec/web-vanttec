@@ -8,15 +8,24 @@ export default function MembersList(props) {
   const { members, area } = props; //Agarramos la mambers list y el area que queremos
   const [membersData, setMembersData] = useState([]); //Guardamos los usuarios en el area en membersData
   const [show, setShow] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
 
   //Checa por algún cambio en members o area
   useEffect(() => {
     const membersList = [];
+    //agregar index al member
+    let indexes = 0;
 
     //Checamos los miembros en el area
     members.forEach((member) => {
       if (member.infoGeneral.area === area) {
+        member.index = indexes;
         membersList.push(member);
+        indexes = indexes + 1;
       }
     });
 
@@ -28,24 +37,29 @@ export default function MembersList(props) {
     <>
       {membersData.map((member) => (
         <Col sm={12} md={4} lg={3} className="mb-5">
-          <Member setShow={setShow} key={member.matricula} member={member} />
+          <Member handleSelect={handleSelect} setShow={setShow} key={member.matricula} member={member} />
         </Col>
       ))}
-      <MembersInfoModal membersData={membersData} setShow={setShow} show={show}/>
+      <MembersInfoModal index={index} handleSelect={handleSelect} membersData={membersData} setShow={setShow} show={show}/>
     </>
   );
 }
 
 function Member(props) {
-  const { member, setShow } = props;
+  const { member, setShow, handleSelect } = props;
+
+  const onClickMember = () =>{
+    handleSelect(member.index);
+    setShow(true);
+  }
   
   return (
-    <Card className="member-card" onClick={() => setShow(true)}>
+    <Card className="member-card" onClick={() => onClickMember()}>
       <Card.Img
         src={member.contacto.profilePicture.David}
         alt={`${member.nombre} ${member.apellido}`}
       />
-      <Card.ImgOverlay className="text-center member-card-overlay" onClick={() => setShow(true)}>
+      <Card.ImgOverlay className="text-center member-card-overlay">
         <div className="member-card__highlight">
         <span className="info">See Profile</span>      
         </div>

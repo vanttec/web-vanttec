@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Container,
   Row,
@@ -23,12 +23,13 @@ import "./MembersInfoModal.scss";
 import mural from "../../../../assets/videos/mp4/VanttecDroneMural.mp4"
 
 export default function MembersInfoModal(props) {
-  const { show, setShow, membersData } = props;
-  const [index, setIndex] = useState(0);
+  const { show, setShow, membersData, index, handleSelect } = props;
+  const [activeIndex, setActiveIndex] = useState(index);
 
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
+  useEffect(()=>{
+    setActiveIndex(index);
+  }, [index])
+
 
   return (
     <>
@@ -47,10 +48,10 @@ export default function MembersInfoModal(props) {
         
         <ModalBanner video={mural}>
         <Carousel
-          variant="dark"
+        fade
           indicators={false}
           style={{ height: "100%", width: "100%" }}
-          activeIndex={index}
+          activeIndex={activeIndex}
           onSelect={handleSelect}
         >
           {membersData.map((member) => (
