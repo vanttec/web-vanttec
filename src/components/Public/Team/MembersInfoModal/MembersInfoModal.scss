@@ -4,19 +4,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+
+    &-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: scroll;
+        height: 100%;
+        width: 100%;
+    
 
     .info-modal{
         display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: center;
         height: 100%;
+        width: 50%;
 
         .member-info-card{
-            height: 100vh;
-            width: 60vh;
-            h1{
-                color: black;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            height: 100%;
+            width: 90%;
+            background-color: rgba(0,0,0,0.50);
+            h1, h4{
+                color: white;
             }
+            p{
+                color:rgb(255, 255, 255) !important;
+            }
+        
             box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
             -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
             -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
@@ -27,10 +45,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        max-height: 100%;
+        max-width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
 
-        img{
-            max-height: 50vh;
-            max-width: 50vh;
+        img {
+            max-height: 80% !important;
+            max-width: 80% !important;
             margin-right: 30px;
             border-radius: 10px;
             box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
@@ -39,11 +61,20 @@
         }
     }
 }
+}
+
+.member-card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgb(29, 29, 29) !important;
+    color: white !important;
     height: 50px;
-    border-radius: 80px;
+    border-radius: 5px;
 }
 
 //Contacto en tarjeta
@@ -73,3 +104,74 @@
     }
 
 }
+
+@media (max-height: 400px){
+    .member-img{
+        opacity: 0;
+        height: 0px;
+        width: 0px;
+    }
+
+    .info-modal{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 150vh !important;
+        width: 100%;
+
+        .member-info-card{
+            height: 100% !important;
+            width: 80%;
+            box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+            -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+            -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+        }
+    }
+
+
+} 
+
+@media (max-width: 950px) {
+        .carousel-item-member{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            .info-modal{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                height: 100%;
+                width: 100%;
+        
+                .member-info-card{
+                    height: 50%;
+                    width: 80%;
+                    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+                    -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+                    -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+                }
+            }
+        
+            .member-img{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                max-height: 100%;
+                max-width: 100%;
+        
+                img {
+                    margin-right: 0 !important;
+                    max-height: 35vh !important;
+                    max-width: 35vh !important;
+                    margin-right: 30px;
+                    border-radius: 10px;
+                    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+                    -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+                    -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+                }
+            }
+        }
+  }

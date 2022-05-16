@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {Container, Row, Col, Nav, Card, Button} from 'react-bootstrap'
+import {Container, Row, Col, Nav, Card} from 'react-bootstrap'
 import { Parallax } from "react-parallax";
 
 //photos

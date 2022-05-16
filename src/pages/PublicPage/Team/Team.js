@@ -242,7 +242,7 @@ export default function Team() {
         </AreaBanner>
       </Row>
       <Row className="members-list mt-5">
-        <MembersList members={testMembers} area={"Perception"} />
+        <MembersList video={perceptionVideo} members={testMembers} area={"Perception"} />
       </Row>
 
       {/* Software */}

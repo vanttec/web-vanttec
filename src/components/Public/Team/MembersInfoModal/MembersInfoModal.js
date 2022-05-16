@@ -53,17 +53,26 @@ export default function MembersInfoModal(props) {
               {membersData.map((member) => (
                 
                 <Carousel.Item className="carousel-item-member">
-                  <Row style={{height:"100%", width:"100%"}}>
-                  <Col xs={12} sm={6} className="info-modal">
+                  <Row className="carousel-item-member-row">
+                  <Col xs={12} md={6} className="member-img">
+                    <img
+                      src={member.contacto.profilePicture.David}
+                      alt={`${member.nombre} ${member.apellido}`}
+                    />
+                  </Col>
+                  <Col xs={12} md={6} className="info-modal">
                     <Card className="member-info-card">
                       <Card.Header as="h1">{`${member.nombre} ${member.apellido}`}</Card.Header>
-                      <Card.Body>
+                      <Card.Body className="member-card-body">
+                      <div className="member-bio">
                         <Card.Title as="h4">Bio</Card.Title>
                         <Card.Text>
-                          <div className="member-bio">Poner bio aquí</div>
-
-                          <Card.Title as="h4">About</Card.Title>
+                          Poner bio aquí
+                          </Card.Text></div>
                           <div className="member-personal-data">
+                          <Card.Title as="h4">About</Card.Title>
+                          <Card.Text>
+                          
                             Area: {member.infoGeneral.area}
                             <br />
                             Position: {member.infoGeneral.puesto}
@@ -73,19 +82,21 @@ export default function MembersInfoModal(props) {
                             Semester: {member.datosPersonales.semestre} <br />
                             Birthplace: {member.datosPersonales.birthplace}{" "}
                             <br />
+                          
+                          </Card.Text>
                           </div>
+                          <div className="member-contact-card">
+                          <Card.Text>
+                          
                           <Card.Title as="h4">Contact</Card.Title>
                           <ContactInfo member={member} />
-                        </Card.Text>
+                          
+                          </Card.Text>
+                          </div>
                       </Card.Body>
                     </Card>
                   </Col>
-                  <Col xs={12} sm={6} className="member-img">
-                    <img
-                      src={member.contacto.profilePicture.David}
-                      alt={`${member.nombre} ${member.apellido}`}
-                    />
-                  </Col>
+
                   </Row>
                 </Carousel.Item>
               ))}
