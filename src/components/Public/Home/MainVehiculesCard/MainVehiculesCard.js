@@ -78,7 +78,7 @@ function RoboBoatCard() {
             onClick={() => console.log("a vehiculos")}
           >
             <div className="vehicule-card__highlight">
-              <h3 className="info">Visit Projects</h3>
+              <h3 className="info">See More</h3>
             </div>
           </Card.ImgOverlay>
         </Card>
@@ -109,7 +109,7 @@ function RoboSubCard() {
             onClick={() => console.log("a vehiculos")}
           >
             <div className="vehicule-card__highlight">
-              <h3 className="info">Visit Projects</h3>
+              <h3 className="info">See More</h3>
             </div>
           </Card.ImgOverlay>
         </Card>
@@ -140,7 +140,7 @@ function DroneCard() {
             onClick={() => console.log("a vehiculos")}
           >
             <div className="vehicule-card__highlight">
-              <h3 className="info">Visit Projects</h3>
+              <h3 className="info">See More</h3>
             </div>
           </Card.ImgOverlay>
         </Card>
@@ -170,7 +170,7 @@ function SDV() {
             onClick={() => console.log("a vehiculos")}
           >
             <div className="vehicule-card__highlight">
-              <h3 className="info">Visit Projects</h3>
+              <h3 className="info">See More</h3>
             </div>
           </Card.ImgOverlay>
         </Card>
