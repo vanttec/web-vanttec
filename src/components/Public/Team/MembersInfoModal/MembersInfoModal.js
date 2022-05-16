@@ -20,16 +20,14 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "./MembersInfoModal.scss";
 
-import mural from "../../../../assets/videos/mp4/VanttecDroneMural.mp4"
 
 export default function MembersInfoModal(props) {
-  const { show, setShow, membersData, index, handleSelect } = props;
+  const { show, setShow, membersData, index, handleSelect, video } = props;
   const [activeIndex, setActiveIndex] = useState(index);
 
-  useEffect(()=>{
+  useEffect(() => {
     setActiveIndex(index);
-  }, [index])
-
+  }, [index]);
 
   return (
     <>
@@ -43,66 +41,60 @@ export default function MembersInfoModal(props) {
           style={{ display: "flex", justifyContent: "flex-end" }}
           closeButton
         ></Offcanvas.Header>
-        <div className="modal-align">
+        <Container>
+          <ModalBanner video={video}>
+          
+            <Carousel
+              fade
+              indicators={false}
+              activeIndex={activeIndex}
+              onSelect={handleSelect}
+            >
+              {membersData.map((member) => (
+                
+                <Carousel.Item className="carousel-item-member">
+                  <Row style={{height:"100%", width:"100%"}}>
+                  <Col xs={12} sm={6} className="info-modal">
+                    <Card className="member-info-card">
+                      <Card.Header as="h1">{`${member.nombre} ${member.apellido}`}</Card.Header>
+                      <Card.Body>
+                        <Card.Title as="h4">Bio</Card.Title>
+                        <Card.Text>
+                          <div className="member-bio">Poner bio aquí</div>
 
-        
-        <ModalBanner video={mural}>
-        <Carousel
-        fade
-          indicators={false}
-          style={{ height: "100%", width: "100%" }}
-          activeIndex={activeIndex}
-          onSelect={handleSelect}
-        >
-          {membersData.map((member) => (
-            <Carousel.Item style={{ height: "100%", width: "100%" }}>
-              <Container fluid>
-                <Row>
-                  <Col className="info-modal">
-                    <Row>
-                      <Card className="member-info-card">
-                        <Card.Header as="h1">{`${member.nombre} ${member.apellido}`}</Card.Header>
-                        <Card.Body>
-                          <Card.Title as="h4">Bio</Card.Title>
-                          <Card.Text>
-                            <div className="member-bio">Poner bio aquí</div>
-
-                            <Card.Title as="h4">About</Card.Title>
-                            <div className="member-personal-data">
-                              Area: {member.infoGeneral.area}
-                              <br />
-                              Position: {member.infoGeneral.puesto}
-                              <br />
-                              Projects: <br />
-                              Career: {member.datosPersonales.carrera} <br />
-                              Semester: {member.datosPersonales.semestre} <br />
-                              Birthplace: {
-                                member.datosPersonales.birthplace
-                              }{" "}
-                              <br />
-                            </div>
-                            <Card.Title as="h4">Contact</Card.Title>
-                            <ContactInfo member={member} />
-                          </Card.Text>
-                        </Card.Body>
-                      </Card>
-                    </Row>
+                          <Card.Title as="h4">About</Card.Title>
+                          <div className="member-personal-data">
+                            Area: {member.infoGeneral.area}
+                            <br />
+                            Position: {member.infoGeneral.puesto}
+                            <br />
+                            Projects: <br />
+                            Career: {member.datosPersonales.carrera} <br />
+                            Semester: {member.datosPersonales.semestre} <br />
+                            Birthplace: {member.datosPersonales.birthplace}{" "}
+                            <br />
+                          </div>
+                          <Card.Title as="h4">Contact</Card.Title>
+                          <ContactInfo member={member} />
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
                   </Col>
-                  <Col className="member-img">
+                  <Col xs={12} sm={6} className="member-img">
                     <img
                       src={member.contacto.profilePicture.David}
                       alt={`${member.nombre} ${member.apellido}`}
                     />
                   </Col>
-                </Row>
-              </Container>
-            </Carousel.Item>
-          ))}
-        </Carousel>
-        </ModalBanner>
-        </div>
+                  </Row>
+                </Carousel.Item>
+              ))}
+            </Carousel>
+            
+          </ModalBanner>
+          </Container>
       </Offcanvas>
-      </>
+    </>
   );
 }
 

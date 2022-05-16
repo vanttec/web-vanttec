@@ -5,7 +5,7 @@ import { Col, Card } from "react-bootstrap";
 import "./MembersList.scss";
 
 export default function MembersList(props) {
-  const { members, area } = props; //Agarramos la mambers list y el area que queremos
+  const { members, area, video } = props; //Agarramos la mambers list y el area que queremos
   const [membersData, setMembersData] = useState([]); //Guardamos los usuarios en el area en membersData
   const [show, setShow] = useState(false);
   const [index, setIndex] = useState(0);
@@ -40,7 +40,7 @@ export default function MembersList(props) {
           <Member handleSelect={handleSelect} setShow={setShow} key={member.matricula} member={member} />
         </Col>
       ))}
-      <MembersInfoModal index={index} handleSelect={handleSelect} membersData={membersData} setShow={setShow} show={show}/>
+      <MembersInfoModal video={video} index={index} handleSelect={handleSelect} membersData={membersData} setShow={setShow} show={show}/>
     </>
   );
 }

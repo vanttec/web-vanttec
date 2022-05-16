@@ -7,6 +7,11 @@ import MembersList from "../../../components/Public/Team/MembersList/MembersList
 import videoTest from "../../../assets/videos/mp4/VanttecPoolVideo.mp4";
 import muralVideo from "../../../assets/videos/mp4/VanttecDroneMural.mp4";
 import campusVideo from "../../../assets/videos/mp4/VanttecCampusVideo.mp4";
+import mediaVideo from "../../../assets/videos/mp4/mediaVideo.mp4";
+import perceptionVideo from "../../../assets/videos/mp4/perceptionVideo.mp4";
+import electronicsVideo from "../../../assets/videos/mp4/electronicsVideo.mp4";
+import mechanicsVideo from "../../../assets/videos/mp4/mechanicsVideo.mp4";
+import softwareVideo from "../../../assets/videos/mp4/softwareVideo.mp4";
 
 //Imagenes
 import David from "../../../assets/img/jpeg/Yo.jpg";
@@ -227,7 +232,7 @@ export default function Team() {
       </Row>
 
       <Row className="members-list mt-5">
-        <MembersList members={testMembers} area={"Media"} />
+        <MembersList video={mediaVideo} members={testMembers} area={"Media"} />
       </Row>
 
       {/* Perception */}
