@@ -6,7 +6,6 @@ import Footer from "../../../components/Public/Footer/Footer";
 import { Parallax } from "react-parallax";
 
 //Videos
-import videoTest from "../../../assets/videos/mp4/VanttecPoolVideo.mp4";
 import muralVideo from "../../../assets/videos/mp4/VanttecDroneMural.mp4";
 import campusVideo from "../../../assets/videos/mp4/VanttecCampusVideo.mp4";
 import mediaVideo from "../../../assets/videos/mp4/mediaVideo.mp4";
@@ -19,7 +18,7 @@ import softwareVideo from "../../../assets/videos/mp4/softwareVideo.mp4";
 import David from "../../../assets/img/jpeg/Yo.jpg";
 import demo from "../../../assets/img/jpg/backgroundwhite.png";
 
-import { Container, Row, Button } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 import "./Team.scss";
 

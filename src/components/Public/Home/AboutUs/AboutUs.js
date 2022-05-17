@@ -15,13 +15,12 @@ export default function AboutUs() {
         <Row className="about">
           <div className="about-description">
             <h4>
-              Student Group focused on research and development of
-              Autonomous Vehicles.
+              Student Group Focused on the Research and Development of Autonomous Vehicles for International Competitions and the Advancement of Technology
             </h4>
             <p>
               Founded in 2017, VantTec aims to inspire young 
               people to get involved in science and
-              technology, to build lasting relationships and above all, to make dreams come true.
+              technology, to build lasting relationships, and above all, to make dreams come true
             </p>
             <Button href='/about'>Learn More</Button>
           </div>

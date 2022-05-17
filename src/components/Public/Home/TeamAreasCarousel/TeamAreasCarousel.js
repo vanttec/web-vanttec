@@ -30,7 +30,7 @@ export default function TeamAreasCarousel() {
             </div>
             <Carousel.Caption>
               <h3>Perception</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <p>Training Neural Networks For Our Vehicules To Perceive The World Around Them</p>
               <Button className="team-carousel-button">See More</Button>
             </Carousel.Caption>
           </Carousel.Item>

@@ -105,8 +105,29 @@
         max-height: 80%;
         display: flex;
         align-items: flex-start;
-        justify-content: flex-start;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
 
+        h2, p{
+            text-align: center;
+        }
+
+        ul{
+            list-style:circle;
+        }
+
+        li{
+            text-align: center;
+            font-size: large;
+            font-weight: normal;
+            margin-top: 6px;
+            color: rgb(79, 79, 79);
+        }
+
+        &-stat{
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+        }
     }
 
     &-button{

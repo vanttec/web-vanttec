@@ -78,17 +78,18 @@ function RoboBoatCard() {
             onClick={() => console.log("a vehiculos")}
           >
             <div className="vehicule-card__highlight">
-              <h3 className="info">See More</h3>
+              <h3 className="info">Specs and Evidence</h3>
             </div>
           </Card.ImgOverlay>
         </Card>
       </Col>
       <Col xs={12} md={6} className="vehicule-data">
         <Row className="vehicule-data-stats">
-          <h1>Stats ROBOBOAT</h1>
+        <h2>Autonomous Boat that Competes Internationally</h2>
+        <p>Perceives Objects around him, has a seamless automatic change in direction to avoid obstacles, and much more</p>
         </Row>
         <Row className="vehicule-data-button">
-          <Button>See More</Button>
+          <Button>Specs and Evidence</Button>
         </Row>
       </Col>
     </Row>
@@ -109,17 +110,18 @@ function RoboSubCard() {
             onClick={() => console.log("a vehiculos")}
           >
             <div className="vehicule-card__highlight">
-              <h3 className="info">See More</h3>
+              <h3 className="info">Specs and Evidence</h3>
             </div>
           </Card.ImgOverlay>
         </Card>
       </Col>
       <Col xs={12} md={6} className="vehicule-data">
         <Row className="vehicule-data-stats">
-          <h1>Stats ROBOSUB</h1>
+        <h2>Autonomous Submarine that Competes Internationally</h2>
+        <p>Perceives Objects around him, has a seamless automatic change in direction to avoid obstacles, and much more</p>
         </Row>
         <Row className="vehicule-data-button">
-          <Button>See More</Button>
+          <Button>Specs and Evidence</Button>
         </Row>
       </Col>
     </Row>
@@ -140,7 +142,7 @@ function DroneCard() {
             onClick={() => console.log("a vehiculos")}
           >
             <div className="vehicule-card__highlight">
-              <h3 className="info">See More</h3>
+              <h3 className="info">Specs and Evidence</h3>
             </div>
           </Card.ImgOverlay>
         </Card>
@@ -150,7 +152,7 @@ function DroneCard() {
           <h1>Stats DRONE</h1>
         </Row>
         <Row className="vehicule-data-button">
-          <Button>See More</Button>
+          <Button>Specs and Evidence</Button>
         </Row>
       </Col>
     </Row>
@@ -170,17 +172,21 @@ function SDV() {
             onClick={() => console.log("a vehiculos")}
           >
             <div className="vehicule-card__highlight">
-              <h3 className="info">See More</h3>
+              <h3 className="info">Specs and Evidence</h3>
             </div>
           </Card.ImgOverlay>
         </Card>
       </Col>
       <Col xs={12} md={6} className="vehicule-data">
         <Row className="vehicule-data-stats">
-          <h1>Stats SDV</h1>
+        <h2>Autonomous Car For Campus Tours</h2>
+        <p>Autonomously, it can travel through a defined circuit of the ITESM Monterrey campus.
+
+The vehicle will be the product and example of the multidisciplinary collaboration of undergraduate students, with the support of professors from the Tecnológico de Monterrey.
+        </p>
         </Row>
         <Row className="vehicule-data-button">
-          <Button>See More</Button>
+          <Button>Specs and Evidence</Button>
         </Row>
       </Col>
     </Row>
