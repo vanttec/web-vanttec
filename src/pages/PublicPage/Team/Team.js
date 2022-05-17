@@ -275,9 +275,6 @@ export default function Team() {
               Passionate People Excited About Working On Technology That Shapes
               Our Society
             </p>
-            <Button className="button-banner" href="#quote">
-              See More
-            </Button>
           </Banner>
         </Row>
 
@@ -287,7 +284,7 @@ export default function Team() {
         <div className="division" />
         <Parallax strength={-200} bgImage={demo}>
           <Container fluid>
-        <Row className="quote" id="quote">
+        <Row className="quote">
           <blockquote className="blockquote mb-0">
             <p>
               {" "}
