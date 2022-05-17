@@ -263,6 +263,40 @@ export default function Team() {
         twitter: "https://twitter.com/davidmtzhi",
       },
     },
+    {
+      matricula: "A01235692",
+      nombre: "David",
+      apellido: "Martínez Hidrogo",
+      datosPersonales: {
+        carrera: "ITC",
+        semestre: "4to",
+        birthplace: "Torreón, Coahuila",
+        birthday: "21 Enero 2000",
+        genero: "M",
+      },
+      infoGeneral: {
+        proyectos: {
+          roboboat: false,
+          robosub: false,
+          sdv: true,
+          drone: false,
+        },
+        puesto: "Web Developer",
+        entryYear: "2022",
+        area: "Media",
+      },
+      contacto: {
+        profilePicture: { David },
+        emailInstitucional: "a01235692@tec.mx",
+        emailPersonal: "gerardomartinez.hi@gmail.com",
+        whatsapp: "8712759212",
+        linkedin: "",
+        github: "https://github.com/davidmartinezhi",
+        instagram: "https://www.instagram.com/davidmartinez.hi/",
+        facebook: "https://www.facebook.com/profile.php?id=100008118908014",
+        twitter: "https://twitter.com/davidmtzhi",
+      },
+    }
   ];
 
   return (
@@ -306,7 +340,7 @@ export default function Team() {
             <h1>Board Of Directors</h1>
           </AreaBanner>
         </Row>
-        <Parallax strength={200} bgImage={demo}>
+        <Parallax strength={-200} bgImage={demo}>
           <Container fluid>
             <Row className="members-list mt-5">
               <MembersList
