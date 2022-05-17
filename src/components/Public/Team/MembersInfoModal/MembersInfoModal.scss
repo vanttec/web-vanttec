@@ -10,7 +10,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: scroll;
         height: 100%;
         width: 100%;
     
@@ -28,6 +27,7 @@
             height: 100%;
             width: 90%;
             background-color: rgba(0,0,0,0.50);
+            overflow: scroll;
             h1, h4{
                 color: white;
             }
@@ -49,129 +49,202 @@
         max-width: 100%;
         margin-top: 10px;
         margin-bottom: 10px;
-
+        
         img {
             max-height: 80% !important;
             max-width: 80% !important;
             margin-right: 30px;
             border-radius: 10px;
-            box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
-            -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
-            -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+            box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
+            -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
+            -moz-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
         }
-    }
-}
-}
-
-.member-card-body{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
-}
-
-
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    background-color: rgb(29, 29, 29) !important;
-    color: white !important;
-    height: 50px;
-    border-radius: 5px;
-}
-
-//Contacto en tarjeta
-.member-contact-info{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    span {
-        margin-top: 10px;
-        padding: 5px 8px;
-        border-radius: 5px;
-    }
-}
-
-//Redes Sociales en tarjeta
-.member-social-media{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-
-    a {
-        margin-right: 10px;
-        padding: 5px 8px;
-        border-radius: 5px;
-    }
-
-}
-
-@media (max-height: 400px){
-    .member-img{
-        opacity: 0;
-        height: 0px;
-        width: 0px;
-    }
-
-    .info-modal{
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        height: 150vh !important;
-        width: 100%;
-
-        .member-info-card{
-            height: 100% !important;
-            width: 80%;
-            box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
-            -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
-            -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
         }
-    }
-
-
-} 
-
-@media (max-width: 950px) {
-        .carousel-item-member{
-            height: 100%;
+        }
+        }
+        
+        .member-card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        
+        
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: rgb(29, 29, 29) !important;
+            color: white !important;
+            height: 50px;
+            border-radius: 5px;
+        }
+        
+        //Contacto en tarjeta
+        .member-contact-information {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
             width: 100%;
+            text-align: center;
+            text-decoration: none !important;
+        
+            span {
+                display: flex;
+                margin: 2px;
+                padding: 0;
+                color: lightgray !important;
+        
+                .svg-inline--fa {
+                    margin-right: 5px;
+                }
+            }
+        
+            a {
+                text-decoration: none !important;
+                width: 100%;
+        
+            }
+        
+        
+        }
+        
+        //Redes Sociales en tarjeta
+        .member-social-media {
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
+            width: 100%;
         
-            .info-modal{
+            a {
+                margin-right: 10px;
+                padding: 5px 8px;
+                border-radius: 5px;
+                color: white;
+            }
+        
+        }
+        
+        @media (max-height: 400px) {
+            .member-img {
+                opacity: 0;
+                height: 0px;
+                width: 0px;
+            }
+        
+            .info-modal {
                 display: flex;
                 align-items: center;
                 justify-content: flex-start;
-                height: 100%;
+                height: 150vh !important;
                 width: 100%;
         
-                .member-info-card{
-                    height: 50%;
+                .member-info-card {
+                    height: 100% !important;
                     width: 80%;
-                    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
-                    -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
-                    -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+                    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
+                    -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
+                    -moz-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
                 }
             }
         
-            .member-img{
+        
+        }
+        
+        @media (max-width: 950px) {
+            .carousel-item-member {
+                height: 100%;
+                width: 100%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                max-height: 100%;
-                max-width: 100%;
         
-                img {
-                    margin-right: 0 !important;
-                    max-height: 35vh !important;
-                    max-width: 35vh !important;
-                    margin-right: 30px;
-                    border-radius: 10px;
-                    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
-                    -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
-                    -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.50) !important;
+                .info-modal {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    height: 100vh;
+                    width: 100%;
+        
+                    .member-info-card {
+                        height: 50%;
+                        width: 80%;
+                        box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
+                        -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
+                        -moz-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
+                    }
+                }
+        
+                .member-img {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    max-height: 100%;
+                    max-width: 100%;
+        
+                    img {
+                        margin-right: 0 !important;
+                        max-height: 35vh !important;
+                        max-width: 35vh !important;
+                        margin-right: 30px;
+                        border-radius: 10px;
+                        box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
+                        -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
+                        -moz-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
+                    }
                 }
             }
+        
+            //Contacto en tarjeta
+            .member-contact-information {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                text-align: center;
+                text-decoration: none !important;
+        
+                span {
+                    width: 100%;
+                    display: flex;
+                    margin-top: 8px;
+                    padding: 0;
+                    color: lightgray !important;
+        
+                    .svg-inline--fa {
+                        margin-right: 5px;
+                    }
+                }
+        
+                a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-decoration: none !important;
+                    width: 100%;
+        
+                }
+        
+        
+            }
+        
+            //Redes Sociales en tarjeta
+            .member-social-media {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 80%;
+                margin-bottom: 20px;
+        
+                a {
+                    margin-right: 10px;
+                    padding: 5px 8px;
+                    border-radius: 5px;
+                    color: white;
+        
+                }
+        
+            }
+        
+        
+        
         }
-  }

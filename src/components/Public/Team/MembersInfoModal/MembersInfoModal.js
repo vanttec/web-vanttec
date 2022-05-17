@@ -18,6 +18,7 @@ import {
   faFacebook,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+
 import "./MembersInfoModal.scss";
 
 
@@ -113,8 +114,9 @@ function ContactInfo(props) {
   const { member } = props;
 
   return (
-    <>
-      <div className="member-social-media">
+    <Row>
+      <Col xs={12} md={5} className="member-social-media">
+        <div>
         <a href={member.contacto.linkedin} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
@@ -132,25 +134,28 @@ function ContactInfo(props) {
         <a href={member.contacto.twitter} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
-      </div>
-      <div className="member-contact-info">
+        </div>
+      </Col>
+      <Col xs={12} md={7} className="member-contact-information">
+        <a href="">
+      <span>
+            <FontAwesomeIcon icon={faWhatsapp} />
+            <p>{member.contacto.whatsapp}</p>
+        </span>
+        </a>
         <a href={`mailto:${member.contacto.emailInstitucional}`}>
           <span>
-            <FontAwesomeIcon icon={faWhatsapp} />
-            {member.contacto.whatsapp}
-          </span>
-          <span>
             <FontAwesomeIcon icon={faEnvelope} />
-            {member.contacto.emailInstitucional}
+            <p>{member.contacto.emailInstitucional}</p>
           </span>
         </a>
         <a href={`mailto:${member.contacto.emailPersonal}`}>
           <span>
             <FontAwesomeIcon icon={faEnvelope} />
-            {member.contacto.emailPersonal}
+            <p>{member.contacto.emailPersonal}</p>
           </span>
         </a>
-      </div>
-    </>
+      </Col>
+    </Row>
   );
 }
