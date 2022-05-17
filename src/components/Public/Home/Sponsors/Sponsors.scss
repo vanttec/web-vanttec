@@ -22,6 +22,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     &-logo{
@@ -46,5 +50,23 @@
             max-width: 5rem;
             max-height: 5rem;
         }
+    }
+}
+
+.see-more-card{
+    background-color: rgb(0, 145, 255) !important;
+    color: white;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    .btn-primary{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        background-color: transparent !important;
+        border-color: transparent;
     }
 }
