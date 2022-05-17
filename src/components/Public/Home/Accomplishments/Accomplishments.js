@@ -4,6 +4,7 @@ import { Parallax } from "react-parallax";
 
 //photos
 import roboboat from "../../../../assets/img/png/roboboat-logo.png";
+import robosub from "../../../../assets/img/png/robosub-logo.png";
 import demo from "../../../../assets/img/jpg/backgroundwhite.png";
 
 import './Accomplishments.scss'
@@ -43,7 +44,7 @@ export default function Accomplishments() {
               {awardsToShow === "1" ? (
                 <RoboBoatAwards />
               ) : (
-                <h1>ROBOSUB</h1>
+                <RoboSubAwards />
               )}
             </Card.Body>
           </Card>
@@ -58,7 +59,19 @@ function RoboBoatAwards(){
     <Row className="awards-card-row">
     <Col xs={12} md={6} className="award-data">
       <Row className="award-data-stats">
-        <h1>Awards ROBOBOAT</h1>
+        <ul>
+          <li><span className='award-data-stats-year-2021'>First Place 2021</span> Skills Video Sensor Optimization</li>
+          <li><span className='award-data-stats-year-2021'>First Place 2021</span> Skills Video Power Management</li>
+          <li><span className='award-data-stats-year-2021'>First Place 2021</span> Optional Video</li>
+          <li><span className='award-data-stats-year-2021'>Third Place 2021</span> Website</li>
+          <li><span className='award-data-stats-year-2021'>Fourth Place 2021</span> Technical Design Report</li>
+          <li><span className='award-data-stats-year-2021'>Special Award 2021</span> Advanced Techniques</li>
+          <li><span className='award-data-stats-year-2020'>First Place 2020</span> Overall Standings</li>
+          <li><span className='award-data-stats-year-2020'>First Place 2020</span> Technical Design Report</li>
+          <li><span className='award-data-stats-year-2020'>First Place 2020</span> Website</li>
+          <li><span className='award-data-stats-year-2020'>First Place 2020</span> Video</li>
+          <li><span className='award-data-stats-year-2020'>Special Award 2020</span> Evidence In Testing</li>
+        </ul>
       </Row>
     </Col>
     <Col xs={12} md={6}>
@@ -66,6 +79,34 @@ function RoboBoatAwards(){
         className="award-card"
       >
         <Card.Img src={roboboat} alt="roboboat" />
+        <Card.ImgOverlay
+          className="text-center"
+        >
+        </Card.ImgOverlay>
+      </Card>
+    </Col>
+
+  </Row>
+);
+}
+
+function RoboSubAwards(){
+  return(
+    <Row className="awards-card-row">
+    <Col xs={12} md={6} className="award-data">
+      <Row className="award-data-stats">
+        <ul>
+          <li><span className='award-data-stats-year-2020'>Third Place 2020</span> Overall Standings</li>
+          <li><span className='award-data-stats-year-2020'>First Place 2020</span> Video Submission</li>
+          <li><span className='award-data-stats-year-2020'>Fourth Place 2020</span> Website</li>
+        </ul>
+      </Row>
+    </Col>
+    <Col xs={12} md={6}>
+      <Card
+        className="award-card"
+      >
+        <Card.Img src={robosub} alt="roboboat" />
         <Card.ImgOverlay
           className="text-center"
         >
