@@ -59,19 +59,26 @@ function RoboBoatAwards(){
     <Row className="awards-card-row">
     <Col xs={12} md={6} className="award-data">
       <Row className="award-data-stats">
+        <div>
+        <h4>2021</h4>
         <ul>
-          <li><span className='award-data-stats-year-2021'>First Place 2021</span> Skills Video Sensor Optimization</li>
-          <li><span className='award-data-stats-year-2021'>First Place 2021</span> Skills Video Power Management</li>
-          <li><span className='award-data-stats-year-2021'>First Place 2021</span> Optional Video</li>
-          <li><span className='award-data-stats-year-2021'>Third Place 2021</span> Website</li>
-          <li><span className='award-data-stats-year-2021'>Fourth Place 2021</span> Technical Design Report</li>
-          <li><span className='award-data-stats-year-2021'>Special Award 2021</span> Advanced Techniques</li>
-          <li><span className='award-data-stats-year-2020'>First Place 2020</span> Overall Standings</li>
-          <li><span className='award-data-stats-year-2020'>First Place 2020</span> Technical Design Report</li>
-          <li><span className='award-data-stats-year-2020'>First Place 2020</span> Website</li>
-          <li><span className='award-data-stats-year-2020'>First Place 2020</span> Video</li>
+          <li><span className='award-data-stats-year-2021'>1st Place</span> Skills Video Sensor Optimization</li>
+          <li><span className='award-data-stats-year-2021'>1st Place</span> Skills Video Power Management</li>
+          <li><span className='award-data-stats-year-2021'>1st Place</span> Optional Video</li>
+          <li><span className='award-data-stats-year-2021'>3rd Place</span> Website</li>
+          <li><span className='award-data-stats-year-2021'>4th Place</span> Technical Design Report</li>
+          <li><span className='award-data-stats-year-2021'>Special Award</span> Advanced Techniques</li>
+        </ul>
+
+        <h4>2020</h4>
+        <ul>
+        <li><span className='award-data-stats-year-2020'>1st Place 2020</span> Overall Standings</li>
+          <li><span className='award-data-stats-year-2020'>1st Place 2020</span> Technical Design Report</li>
+          <li><span className='award-data-stats-year-2020'>1st Place 2020</span> Website</li>
+          <li><span className='award-data-stats-year-2020'>1st Place 2020</span> Video</li>
           <li><span className='award-data-stats-year-2020'>Special Award 2020</span> Evidence In Testing</li>
         </ul>
+        </div>
       </Row>
     </Col>
     <Col xs={12} md={6}>
@@ -95,10 +102,11 @@ function RoboSubAwards(){
     <Row className="awards-card-row">
     <Col xs={12} md={6} className="award-data">
       <Row className="award-data-stats">
+        <h4>2020</h4>
         <ul>
-          <li><span className='award-data-stats-year-2020'>Third Place 2020</span> Overall Standings</li>
-          <li><span className='award-data-stats-year-2020'>First Place 2020</span> Video Submission</li>
-          <li><span className='award-data-stats-year-2020'>Fourth Place 2020</span> Website</li>
+          <li><span className='award-data-stats-year-2020'>3rd Place 2020</span> Overall Standings</li>
+          <li><span className='award-data-stats-year-2020'>1st Place 2020</span> Video Submission</li>
+          <li><span className='award-data-stats-year-2020'>4th Place 2020</span> Website</li>
         </ul>
       </Row>
     </Col>
