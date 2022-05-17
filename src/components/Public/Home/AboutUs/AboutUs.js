@@ -45,7 +45,7 @@ export default function AboutUs() {
                   Members
                 </Card.Text>
                 <Card.Title className="mb-2">
-                  <h2>80</h2>
+                  <h2>76</h2>
                 </Card.Title>
               </Card.Body>
             </Card>
@@ -57,7 +57,7 @@ export default function AboutUs() {
                   Papers Published
                 </Card.Text>
                 <Card.Title className="mb-2">
-                  <h2>6</h2>
+                  <h2>12</h2>
                 </Card.Title>
               </Card.Body>
             </Card>
