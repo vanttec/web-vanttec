@@ -36,7 +36,8 @@
 
 //Vehicule Image
 .vehicule-card{
-    max-height: 90%;
+    max-height: 600px;
+    overflow: hidden;
     max-width: 90%;
     margin: 0;
     padding: 0;
@@ -67,7 +68,7 @@
     }
 
     &-overlay{
-        background-color: rgba(0,0,0,0.2);
+        background-color: rgba(0,0,0,0.0);
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
