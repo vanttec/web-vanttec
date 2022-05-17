@@ -36,7 +36,7 @@ export default function MembersList(props) {
   return (
     <>
       {membersData.map((member) => (
-        <Col sm={12} md={4} lg={3} className="mb-5">
+        <Col sm={12} md={3} lg={3} className="mb-5">
           <Member handleSelect={handleSelect} setShow={setShow} key={member.matricula} member={member} />
         </Col>
       ))}
