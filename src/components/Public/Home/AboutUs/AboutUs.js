@@ -15,14 +15,15 @@ export default function AboutUs() {
         <Row className="about">
           <div className="about-description">
             <h4>
-              Group of students focused on research and development of
+              Student Group focused on research and development of
               Autonomous Vehicles.
             </h4>
             <p>
-              Aiming to inspire young people to get involved in science and
-              technology.
+              Founded in 2017, VantTec aims to inspire young 
+              people to get involved in science and
+              technology, to build lasting relationships and above all, to make dreams come true.
             </p>
-            <Button>See More</Button>
+            <Button href='/about'>Learn More</Button>
           </div>
         </Row>
         <Row className="about-stats">
@@ -42,7 +43,7 @@ export default function AboutUs() {
             <Card className="about-stats-card">
               <Card.Body>
                 <Card.Text>
-                  Number of Members
+                  Members
                 </Card.Text>
                 <Card.Title className="mb-2">
                   <h2>80</h2>
@@ -54,10 +55,10 @@ export default function AboutUs() {
             <Card className="about-stats-card">
               <Card.Body>
                 <Card.Text>
-                  Founded
+                  Papers Published
                 </Card.Text>
                 <Card.Title className="mb-2">
-                  <h2>2017</h2>
+                  <h2>6</h2>
                 </Card.Title>
               </Card.Body>
             </Card>
@@ -66,10 +67,10 @@ export default function AboutUs() {
             <Card className="about-stats-card">
               <Card.Body>
                 <Card.Text>
-                  Founded
+                  Awards
                 </Card.Text>
                 <Card.Title className="mb-2">
-                  <h2>2017</h2>
+                  <h2>18</h2>
                 </Card.Title>
               </Card.Body>
             </Card>
