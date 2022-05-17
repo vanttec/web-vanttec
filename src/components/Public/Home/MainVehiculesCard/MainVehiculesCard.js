@@ -39,10 +39,10 @@ export default function MainVehiculesCard() {
                   <Nav.Link eventKey={2}>RoboSub</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="vehicule-item">
-                  <Nav.Link eventKey={3}>Drone</Nav.Link>
+                  <Nav.Link eventKey={3}>SDV</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="vehicule-item">
-                  <Nav.Link eventKey={4}>SDV</Nav.Link>
+                  <Nav.Link eventKey={4}>Drone</Nav.Link>
                 </Nav.Item>
               </Nav>
             </Card.Header>
@@ -52,9 +52,9 @@ export default function MainVehiculesCard() {
               ) : vehiculeToShow === "2" ? (
                 <RoboSubCard />
               ) : vehiculeToShow === "3" ? (
-                <DroneCard />
-              ) : (
                 <SDV />
+              ) : (
+                <DroneCard />
               )}
             </Card.Body>
           </Card>
@@ -85,8 +85,12 @@ function RoboBoatCard() {
       </Col>
       <Col xs={12} md={6} className="vehicule-data">
         <Row className="vehicule-data-stats">
-        <h2>Autonomous Boat that Competes Internationally</h2>
-        <p>Perceives Objects around him, has a seamless automatic change in direction to avoid obstacles, and much more</p>
+          <h2>Autonomous Boat for International Competitions</h2>
+          <p>
+            Conquers the Surface by Perceiving Objects Around Him, Maneuvers
+            Around Obstacles, Resists Weather Disturbances, and has Waypoint
+            Navigation
+          </p>
         </Row>
         <Row className="vehicule-data-button">
           <Button>Specs and Evidence</Button>
@@ -117,8 +121,12 @@ function RoboSubCard() {
       </Col>
       <Col xs={12} md={6} className="vehicule-data">
         <Row className="vehicule-data-stats">
-        <h2>Autonomous Submarine that Competes Internationally</h2>
-        <p>Perceives Objects around him, has a seamless automatic change in direction to avoid obstacles, and much more</p>
+          <h2>Autonomous Submarine for International Competitions</h2>
+          <p>
+            Conquers the depths by detecting objects around Him, maneuvering
+            around them, resistant to weather disturbances and waypoint
+            navigation
+          </p>
         </Row>
         <Row className="vehicule-data-button">
           <Button>Specs and Evidence</Button>
@@ -149,11 +157,11 @@ function DroneCard() {
       </Col>
       <Col xs={12} md={6} className="vehicule-data">
         <Row className="vehicule-data-stats">
-          <h1>Stats DRONE</h1>
+          <h2>Coming Soon...</h2>
         </Row>
-        <Row className="vehicule-data-button">
+        {/* <Row className="vehicule-data-button">
           <Button>Specs and Evidence</Button>
-        </Row>
+        </Row> */}
       </Col>
     </Row>
   );
@@ -179,11 +187,13 @@ function SDV() {
       </Col>
       <Col xs={12} md={6} className="vehicule-data">
         <Row className="vehicule-data-stats">
-        <h2>Autonomous Car For Campus Tours</h2>
-        <p>Autonomously, it can travel through a defined circuit of the ITESM Monterrey campus.
-
-The vehicle will be the product and example of the multidisciplinary collaboration of undergraduate students, with the support of professors from the Tecnológico de Monterrey.
-        </p>
+          <h2>Autonomous Car For Campus Tours</h2>
+          <p>
+            Travels through a defined circuit of the ITESM Monterrey campus. The
+            vehicle will be the product and example of the multidisciplinary
+            collaboration of undergraduate students, with the support of
+            professors from the Tecnológico de Monterrey and Industry.
+          </p>
         </Row>
         <Row className="vehicule-data-button">
           <Button>Specs and Evidence</Button>
