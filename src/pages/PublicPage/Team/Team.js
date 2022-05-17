@@ -284,6 +284,9 @@ export default function Team() {
         <div className="content">
 
         {/* Quote */}
+        <div className="division" />
+        <Parallax strength={-200} bgImage={demo}>
+          <Container fluid>
         <Row className="quote" id="quote">
           <blockquote className="blockquote mb-0">
             <p>
@@ -296,6 +299,8 @@ export default function Team() {
             </footer>
           </blockquote>
         </Row>
+        </Container>
+        </Parallax>
 
         {/* Mesa Directiva */}
         <div className="division" />
