@@ -13,6 +13,7 @@ import perceptionVideo from "../../../assets/videos/mp4/perceptionVideo.mp4";
 import electronicsVideo from "../../../assets/videos/mp4/electronicsVideo.mp4";
 import mechanicsVideo from "../../../assets/videos/mp4/mechanicsVideo.mp4";
 import softwareVideo from "../../../assets/videos/mp4/softwareVideo.mp4";
+import abstractVideo from "../../../assets/videos/mp4/pexels-rostislav-uzunov-7670836.mp4";
 
 //Imagenes
 import David from "../../../assets/img/jpeg/Yo.jpg";
@@ -302,7 +303,7 @@ export default function Team() {
     <>
       <Container fluid>
         <Row className="main-banner">
-          <Banner video={campusVideo}>
+          <Banner video={muralVideo}>
             <h1>Meet The Team</h1>
             <p>
               Passionate People Excited About Working On Technology That Shapes
@@ -335,7 +336,7 @@ export default function Team() {
         {/* Mesa Directiva */}
         <div className="division" />
         <Row className="area-banner">
-          <AreaBanner video={muralVideo}>
+          <AreaBanner video={abstractVideo}>
             <h1>Board Of Directors</h1>
           </AreaBanner>
         </Row>
@@ -343,7 +344,7 @@ export default function Team() {
           <Container fluid>
             <Row className="members-list mt-5">
               <MembersList
-                video={mediaVideo}
+                video={abstractVideo}
                 members={testMembers}
                 area={"Media"}
               />
