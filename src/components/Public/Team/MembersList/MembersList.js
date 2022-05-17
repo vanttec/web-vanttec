@@ -22,7 +22,16 @@ export default function MembersList(props) {
 
     //Checamos los miembros en el area
     members.forEach((member) => {
-      if (member.infoGeneral.area === area) {
+
+      //query by just area
+      // if (member.infoGeneral.area === area) {
+      //   member.index = indexes;
+      //   membersList.push(member);
+      //   indexes = indexes + 1;
+      // }
+
+      //query by area and roboboat
+      if (member.infoGeneral.area === area && member.infoGeneral.proyectos.roboboat) {
         member.index = indexes;
         membersList.push(member);
         indexes = indexes + 1;

@@ -41,7 +41,7 @@ export default function Team() {
       },
       infoGeneral: {
         proyectos: {
-          roboboat: false,
+          roboboat: true,
           robosub: false,
           sdv: true,
           drone: false,
@@ -75,7 +75,7 @@ export default function Team() {
       },
       infoGeneral: {
         proyectos: {
-          roboboat: false,
+          roboboat: true,
           robosub: false,
           sdv: true,
           drone: false,
@@ -109,7 +109,7 @@ export default function Team() {
       },
       infoGeneral: {
         proyectos: {
-          roboboat: false,
+          roboboat: true,
           robosub: false,
           sdv: true,
           drone: false,
@@ -143,7 +143,7 @@ export default function Team() {
       },
       infoGeneral: {
         proyectos: {
-          roboboat: false,
+          roboboat: true,
           robosub: false,
           sdv: true,
           drone: false,
