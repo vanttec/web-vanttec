@@ -36,9 +36,9 @@ export default function TeamAreasCarousel() {
               <h3>Perception</h3>
               <p>
                 Enabling Our Vehicules To Perceive The World Around Them with
-                Sensors Such as Lidar, Hydrophones and Stereo Camera
+                Sensors Such as Lidar, Hydrophones and Stereo Cameras
               </p>
-              <Button className="team-carousel-button">See More</Button>
+              <Button className="team-carousel-button">See Members</Button>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -60,7 +60,7 @@ export default function TeamAreasCarousel() {
                 Control and Location. To enable our vehicules to Conquer the
                 Challenges in each Competitions
               </p>
-              <Button className="team-carousel-button">See More</Button>
+              <Button className="team-carousel-button">See Members</Button>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -81,7 +81,7 @@ export default function TeamAreasCarousel() {
                 Generating Signals for Vehicles Engines Based on References Such
                 as Position Speed and Orientation
               </p>
-              <Button className="team-carousel-button">See More</Button>
+              <Button className="team-carousel-button">See Members</Button>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -103,7 +103,7 @@ export default function TeamAreasCarousel() {
                 Vehicle with Different Sensors such as IMU, DVL, GPS and
                 barometers
               </p>
-              <Button className="team-carousel-button">See More</Button>
+              <Button className="team-carousel-button">See Members</Button>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -121,7 +121,7 @@ export default function TeamAreasCarousel() {
             <Carousel.Caption>
               <h3>Mechanics</h3>
               <p>Vehicle Design and Manufacturing</p>
-              <Button className="team-carousel-button">See More</Button>
+              <Button className="team-carousel-button">See Members</Button>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -142,7 +142,7 @@ export default function TeamAreasCarousel() {
                 Design of Power Systems and Integration of Modules such as
                 Sensors, Computers and Actuators
               </p>
-              <Button className="team-carousel-button">See More</Button>
+              <Button className="team-carousel-button">See Members</Button>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -162,7 +162,7 @@ export default function TeamAreasCarousel() {
               <p>
                 Getting Sponsorships and Finding Ways to Support Team Projects{" "}
               </p>
-              <Button className="team-carousel-button">See More</Button>
+              <Button className="team-carousel-button">See Members</Button>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -183,7 +183,7 @@ export default function TeamAreasCarousel() {
                 Representing the Team and what it stands for, on social media
                 and its website.
               </p>
-              <Button className="team-carousel-button">See More</Button>
+              <Button className="team-carousel-button">See Members</Button>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

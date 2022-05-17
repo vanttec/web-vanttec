@@ -13,6 +13,9 @@ import perceptionVideo from "../../../assets/videos/mp4/perceptionVideo.mp4";
 import electronicsVideo from "../../../assets/videos/mp4/electronicsVideo.mp4";
 import mechanicsVideo from "../../../assets/videos/mp4/mechanicsVideo.mp4";
 import softwareVideo from "../../../assets/videos/mp4/softwareVideo.mp4";
+import controlVideo from "../../../assets/videos/mp4/controlVideo.mp4";
+import locationVideo from "../../../assets/videos/mp4/locVideo.mp4";
+import businessVideo from "../../../assets/videos/mp4/businessVideo.mp4";
 import abstractVideo from "../../../assets/videos/mp4/pexels-rostislav-uzunov-7670836.mp4";
 
 //Imagenes
@@ -336,7 +339,7 @@ export default function Team() {
         {/* Mesa Directiva */}
         <div className="division" />
         <Row className="area-banner">
-          <AreaBanner video={abstractVideo}>
+          <AreaBanner video={muralVideo}>
             <h1>Board Of Directors</h1>
           </AreaBanner>
         </Row>
@@ -357,6 +360,10 @@ export default function Team() {
         <Row className="area-banner">
           <AreaBanner video={perceptionVideo}>
             <h1>Perception</h1>
+            <p>
+                Enabling Our Vehicules To Perceive The World Around Them with
+                Sensors Such as Lidar, Hydrophones and Stereo Cameras
+            </p>
           </AreaBanner>
         </Row>
         <Parallax strength={-200} bgImage={demo}>
@@ -376,6 +383,11 @@ export default function Team() {
         <Row className="area-banner">
           <AreaBanner video={softwareVideo}>
             <h1>Software</h1>
+            <p>
+                Development of Algorithms. Based on Systems from Perception,
+                Control and Location. To enable our vehicules to Conquer the
+                Challenges in each Competitions
+              </p>
           </AreaBanner>
         </Row>
         <Parallax strength={200} bgImage={demo}>
@@ -390,11 +402,59 @@ export default function Team() {
           </Container>
         </Parallax>
 
+       {/* Control */}
+       <div className="division" />
+        <Row className="area-banner">
+          <AreaBanner video={controlVideo}>
+            <h1>Control</h1>
+            <p>
+                Generating Signals for Vehicles Engines Based on References Such
+                as Position Speed and Orientation
+            </p>
+          </AreaBanner>
+        </Row>
+        <Parallax strength={-200} bgImage={demo}>
+          <Container fluid>
+            <Row className="members-list mt-5">
+              <MembersList
+                video={controlVideo}
+                members={testMembers}
+                area={"Media"}
+              />
+            </Row>
+          </Container>
+        </Parallax>
+
+       {/* Location */}
+       <div className="division" />
+        <Row className="area-banner">
+          <AreaBanner video={locationVideo}>
+            <h1>Location</h1>
+            <p>
+                Estimating Status Such as Position, Speed and Orientation of a
+                Vehicle with Different Sensors such as IMU, DVL, GPS and
+                barometers
+              </p>
+          </AreaBanner>
+        </Row>
+        <Parallax strength={-200} bgImage={demo}>
+          <Container fluid>
+            <Row className="members-list mt-5">
+              <MembersList
+                video={locationVideo}
+                members={testMembers}
+                area={"Media"}
+              />
+            </Row>
+          </Container>
+        </Parallax>
+
         {/* Mechanics */}
         <div className="division" />
         <Row className="area-banner">
           <AreaBanner video={mechanicsVideo}>
             <h1>Mechanics</h1>
+            <p>Vehicle Design and Manufacturing</p>
           </AreaBanner>
         </Row>
         <Parallax strength={-200} bgImage={demo}>
@@ -414,6 +474,10 @@ export default function Team() {
         <Row className="area-banner">
           <AreaBanner video={electronicsVideo}>
             <h1>Electronics</h1>
+            <p>
+                Design of Power Systems and Integration of Modules such as
+                Sensors, Computers and Actuators
+              </p>
           </AreaBanner>
         </Row>
         <Parallax strength={200} bgImage={demo}>
@@ -428,11 +492,37 @@ export default function Team() {
           </Container>
         </Parallax>
 
+      {/* Business */}
+      <div className="division" />
+        <Row className="area-banner">
+          <AreaBanner video={businessVideo}>
+            <h1>Business</h1>
+            <p>
+                Getting Sponsorships and Finding Ways to Support Team Projects{" "}
+              </p>
+          </AreaBanner>
+        </Row>
+        <Parallax strength={-200} bgImage={demo}>
+          <Container fluid>
+            <Row className="members-list mt-5">
+              <MembersList
+                video={businessVideo}
+                members={testMembers}
+                area={"Media"}
+              />
+            </Row>
+          </Container>
+        </Parallax>
+
       {/* Media */}
         <div className="division" />
         <Row className="area-banner">
           <AreaBanner video={mediaVideo}>
             <h1>Media</h1>
+            <p>
+                Representing the Team and what it stands for, on social media
+                and its website.
+              </p>
           </AreaBanner>
         </Row>
         <Parallax strength={-200} bgImage={demo}>
@@ -446,6 +536,7 @@ export default function Team() {
             </Row>
           </Container>
         </Parallax>
+        <div className="division" />
         <Footer />
         </div>
       </Container>
