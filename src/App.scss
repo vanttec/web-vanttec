@@ -12,3 +12,46 @@
     display: flex;
     justify-content: center;
 }
+
+//Division de areas
+.division{
+    position: static;
+    height: 5vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+@media (max-width: 900px) {
+
+    .division{
+        height: 2vh;
+    }
+}
+
+  .btn-primary{
+    background-color: rgb(0, 149, 255) !important;
+    border-color: rgb(0, 149, 255) !important;
+  }
+
+//Contenedor con efecto parallax
+.react-parallax{
+    width: 100vw;
+    position: static;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+//Contenido de la pagina
+.content{
+    position: absolute !important;
+    top: auto;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+}
