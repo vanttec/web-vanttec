@@ -102,12 +102,14 @@ function RoboSubAwards(){
     <Row className="awards-card-row">
     <Col xs={12} md={6} className="award-data">
       <Row className="award-data-stats">
+        <div>
         <h4>2020</h4>
         <ul>
           <li><span className='award-data-stats-year-2020'>3rd Place 2020</span> Overall Standings</li>
           <li><span className='award-data-stats-year-2020'>1st Place 2020</span> Video Submission</li>
           <li><span className='award-data-stats-year-2020'>4th Place 2020</span> Website</li>
         </ul>
+        </div>
       </Row>
     </Col>
     <Col xs={12} md={6}>
