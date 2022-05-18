@@ -4,6 +4,10 @@ import { Parallax } from "react-parallax";
 
 //vehicules photos
 import roboboat from "../../../../assets/img/png/Screen Shot 2022-05-09 at 18.51.28.png";
+import dronePhoto from "../../../../assets/img/jpeg/dronePhoto.jpeg";
+import roboboatPhoto from "../../../../assets/img/jpeg/roboboatPhoto.jpg";
+import robosubPhoto from "../../../../assets/img/jpeg/robosubPhoto.jpeg";
+import sdvPhoto from "../../../../assets/img/jpeg/sdvPhoto.jpeg";
 import demo from "../../../../assets/img/jpg/backgroundwhite.png";
 
 import "./MainVehiculesCard.scss";
@@ -72,7 +76,7 @@ function RoboBoatCard() {
           className="vehicule-card"
           onClick={() => console.log("a vehiculos")}
         >
-          <Card.Img src={roboboat} alt="roboboat" />
+          <Card.Img src={roboboatPhoto} alt="roboboat" />
           <Card.ImgOverlay
             className="text-center vehicule-card-overlay"
             onClick={() => console.log("a vehiculos")}
@@ -108,7 +112,7 @@ function RoboSubCard() {
           className="vehicule-card"
           onClick={() => console.log("a vehiculos")}
         >
-          <Card.Img src={roboboat} alt="roboboat" />
+          <Card.Img src={robosubPhoto} alt="roboboat" />
           <Card.ImgOverlay
             className="text-center vehicule-card-overlay"
             onClick={() => console.log("a vehiculos")}
@@ -122,11 +126,13 @@ function RoboSubCard() {
       <Col xs={12} md={6} className="vehicule-data">
         <Row className="vehicule-data-stats">
           <h2>Autonomous Submarine for International Competitions</h2>
+          <h2 style={{color:"rgb(0, 149, 255)"}}>Currently Under Redesign</h2>
           <p>
             Conquers the depths by detecting objects around Him, maneuvering
             around them, resistant to weather disturbances and waypoint
             navigation
           </p>
+          
         </Row>
         <Row className="vehicule-data-button">
           <Button>Specs and Evidence</Button>
@@ -144,7 +150,7 @@ function DroneCard() {
           className="vehicule-card"
           onClick={() => console.log("a vehiculos")}
         >
-          <Card.Img src={roboboat} alt="roboboat" />
+          <Card.Img src={dronePhoto} alt="roboboat" />
           <Card.ImgOverlay
             className="text-center vehicule-card-overlay"
             onClick={() => console.log("a vehiculos")}
@@ -174,7 +180,7 @@ function SDV() {
           className="vehicule-card"
           onClick={() => console.log("a vehiculos")}
         >
-          <Card.Img src={roboboat} alt="roboboat" />
+          <Card.Img src={sdvPhoto} alt="roboboat" />
           <Card.ImgOverlay
             className="text-center vehicule-card-overlay"
             onClick={() => console.log("a vehiculos")}
