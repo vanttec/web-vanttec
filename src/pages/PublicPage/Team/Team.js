@@ -8,6 +8,7 @@ import { Parallax } from "react-parallax";
 //Videos
 import muralVideo from "../../../assets/videos/mp4/VanttecDroneMural.mp4";
 import campusVideo from "../../../assets/videos/mp4/VanttecCampusVideo.mp4";
+import teamVideo from "../../../assets/videos/mp4/teamBackgroundOfficial.mp4";
 import mediaVideo from "../../../assets/videos/mp4/mediaVideo.mp4";
 import perceptionVideo from "../../../assets/videos/mp4/perceptionVideo.mp4";
 import electronicsVideo from "../../../assets/videos/mp4/electronicsVideo.mp4";
@@ -306,7 +307,7 @@ export default function Team() {
     <>
       <Container fluid>
         <Row className="main-banner">
-          <Banner video={muralVideo}>
+          <Banner video={teamVideo}>
             <h1>Meet The Team</h1>
             <p>
               Passionate People Excited About Working On Technology That Shapes
@@ -347,7 +348,7 @@ export default function Team() {
           <Container fluid>
             <Row className="members-list mt-5">
               <MembersList
-                video={abstractVideo}
+                video={muralVideo}
                 members={testMembers}
                 area={"Media"}
               />
