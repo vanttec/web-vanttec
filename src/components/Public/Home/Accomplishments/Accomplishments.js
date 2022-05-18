@@ -14,7 +14,7 @@ export default function Accomplishments() {
   const [awardsToShow, setAwardsToShow] = useState("1");
   return (
     <Parallax strength={200} bgImage={demo}>
-    <Container fluid>
+    <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
         <Row className='home-header'>
             <h1>Achievements</h1>
         </Row>
