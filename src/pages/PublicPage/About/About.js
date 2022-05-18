@@ -3,10 +3,10 @@ import { Container, Row } from "react-bootstrap";
 import Banner from "../../../components/Public/Banner/Banner";
 import Footer from "../../../components/Public/Footer/Footer";
 import MissionVision from "../../../components/Public/About/MissionVision/MissionVision";
-import Values from "../../../components/Public/About/Values/Values";
+import Accomplishments from "../../../components/Public/Home/Accomplishments/Accomplishments";
 
 //video
-import demo from "../../../assets/videos/mp4/VanttecDroneMural.mp4";
+import demo from "../../../assets/videos/mp4/VanttecPoolVideo.mp4";
 
 export default function About() {
   return (
@@ -14,15 +14,15 @@ export default function About() {
       {/* Main Banner */}
       <Row className="main-banner">
         <Banner video={demo}>
-          <h1>Welcome!</h1>
+          <h1>About VantTec</h1>
+          <h2 style={{color:"white"}}>Welcome!</h2>
         </Banner>
       </Row>
       {/* Content */}
       <div className="content">
         <div className="division" />
         <MissionVision />
-        <div className="division" />
-        <Values />
+        <Accomplishments/>
         <div className="division" />
         <Footer />
       </div>
