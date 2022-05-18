@@ -8,7 +8,7 @@ import './AboutUs.scss'
 export default function AboutUs() {
   return (
     <Parallax strength={200} bgImage={demo}>
-      <Container fluid>
+      <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
         <Row className="home-header">
           <h1>About</h1>
         </Row>
