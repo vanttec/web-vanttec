@@ -14,14 +14,13 @@ export default function Accomplishments() {
   const [awardsToShow, setAwardsToShow] = useState("1");
   return (
     <Parallax strength={200} bgImage={demo}>
-    <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
+    <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}} className="hover-effect">
         <Row className='home-header'>
             <h1>Achievements</h1>
         </Row>
         <Row>
         <Card
             className="awards-card"
-            style={{ backgroundColor: "transparent" }}
           >
             <Card.Header>
               <Nav
