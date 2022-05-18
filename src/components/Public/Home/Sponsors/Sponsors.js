@@ -17,6 +17,7 @@ import vectorNavLogo from "../../../../assets/img/png/vectorNavLogo.png";
 import siemensLogo from "../../../../assets/img/png/siemensLogo.png";
 import techmakeLogo from "../../../../assets/img/png/techmakeLogo.png";
 import zfLogo from "../../../../assets/img/png/zfLogo.png";
+import akkyLogo from "../../../../assets/img/png/akkyLogo.png";
 
 import "./Sponsors.scss";
 
@@ -32,7 +33,7 @@ export default function Sponsors() {
           <Col xs={6} md={3}>
             <Card className="sponsor-card">
               <Card.Body className="sponsor-card-body">
-                <img className="sponsor-card-logo" src={tecLogo} alt="google logo" />
+                <img className="sponsor-card-logo" src={tecLogo} alt="tec de monterrey logo" />
               </Card.Body>
             </Card>
           </Col>
@@ -48,7 +49,7 @@ export default function Sponsors() {
           <Col xs={6} md={3}>
             <Card className="sponsor-card">
               <Card.Body className="sponsor-card-body">
-                <img className="sponsor-card-logo" src={nvidiaLogo} alt="google logo" />
+                <img className="sponsor-card-logo" src={nvidiaLogo} alt="nvidia logo" />
               </Card.Body>
             </Card>
           </Col>
@@ -56,7 +57,7 @@ export default function Sponsors() {
           <Col xs={6} md={3}>
             <Card className="sponsor-card">
               <Card.Body className="sponsor-card-body">
-                <img className="sponsor-card-logo" src={roboNationLogo} alt="google logo" />
+                <img className="sponsor-card-logo" src={roboNationLogo} alt="robonation logo" />
               </Card.Body>
             </Card>
           </Col>
@@ -64,7 +65,7 @@ export default function Sponsors() {
           <Col xs={6} md={3}>
             <Card className="sponsor-card">
               <Card.Body className="sponsor-card-body">
-                <img className="sponsor-card-logo" src={sbgSysLogo} alt="google logo" />
+                <img className="sponsor-card-logo" src={sbgSysLogo} alt="sbg logo" />
               </Card.Body>
             </Card>
           </Col>
@@ -72,7 +73,7 @@ export default function Sponsors() {
           <Col xs={6} md={3}>
             <Card className="sponsor-card">
               <Card.Body className="sponsor-card-body">
-                <img className="sponsor-card-logo" src={velodyneLogo} alt="google logo" />
+                <img className="sponsor-card-logo" src={velodyneLogo} alt="velodyne logo" />
               </Card.Body>
             </Card>
           </Col>
@@ -80,7 +81,7 @@ export default function Sponsors() {
           <Col xs={6} md={3}>
             <Card className="sponsor-card">
               <Card.Body className="sponsor-card-body">
-                <img className="sponsor-card-logo" src={guntnerLogo} alt="google logo" />
+                <img className="sponsor-card-logo" src={guntnerLogo} alt="guntner logo" />
               </Card.Body>
             </Card>
           </Col>
@@ -88,7 +89,7 @@ export default function Sponsors() {
           <Col xs={6} md={3}>
             <Card className="sponsor-card">
               <Card.Body className="sponsor-card-body">
-                <img className="sponsor-card-logo" src={vectorNavLogo} alt="google logo" />
+                <img className="sponsor-card-logo" src={vectorNavLogo} alt="vector nav logo" />
               </Card.Body>
             </Card>
           </Col>
@@ -96,7 +97,7 @@ export default function Sponsors() {
           <Col xs={6} md={3}>
             <Card className="sponsor-card">
               <Card.Body className="sponsor-card-body">
-                <img className="sponsor-card-logo" src={siemensLogo} alt="google logo" />
+                <img className="sponsor-card-logo" src={siemensLogo} alt="siemens logo" />
               </Card.Body>
             </Card>
           </Col>
@@ -104,7 +105,7 @@ export default function Sponsors() {
           <Col xs={6} md={3}>
             <Card className="sponsor-card">
               <Card.Body className="sponsor-card-body">
-                <img className="sponsor-card-logo" src={techmakeLogo} alt="google logo" />
+                <img className="sponsor-card-logo" src={techmakeLogo} alt="techmake logo" />
               </Card.Body>
             </Card>
           </Col>
@@ -112,19 +113,28 @@ export default function Sponsors() {
           <Col xs={6} md={3}>
             <Card className="sponsor-card">
               <Card.Body className="sponsor-card-body">
-                <img className="sponsor-card-logo" src={zfLogo} alt="google logo" />
+                <img className="sponsor-card-logo" src={zfLogo} alt="zf logo" />
+              </Card.Body>
+            </Card>
+          </Col>
+
+          {/* Akky */}
+          <Col xs={6} md={3}>
+            <Card className="sponsor-card">
+              <Card.Body className="sponsor-card-body">
+                <img className="sponsor-card-logo" src={akkyLogo} alt="akky logo" />
               </Card.Body>
             </Card>
           </Col>
 
           {/* More */}
-          <Col xs={6} md={3}>
+          {/* <Col xs={6} md={3}>
             <Card className="sponsor-card see-more-card" >
               <Card.Body className="sponsor-card-body">
                 <Button href="/sponsors" style={{height:"100%", width: "100%"}}>See More</Button>
               </Card.Body>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Parallax>
