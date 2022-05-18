@@ -1,10 +1,11 @@
 import React, {useState} from 'react'
-import {Container, Row, Col, Nav, Card} from 'react-bootstrap'
+import {Container, Row, Col, Nav, Card, Button} from 'react-bootstrap'
 import { Parallax } from "react-parallax";
 
 //photos
 import roboboat from "../../../../assets/img/png/roboboat-logo.png";
 import robosub from "../../../../assets/img/png/robosub-logo.png";
+import vanttecLogo from "../../../../assets/img/png/LogoAzul_Negro.png";
 import demo from "../../../../assets/img/jpg/backgroundwhite.png";
 
 import './Accomplishments.scss'
@@ -33,25 +34,62 @@ export default function Accomplishments() {
                 }}
               >
                 <Nav.Item className="award-item">
-                  <Nav.Link eventKey={1}>RoboBoat</Nav.Link>
+                  <Nav.Link eventKey={1}>VantTec</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="award-item">
-                  <Nav.Link eventKey={2}>RoboSub</Nav.Link>
+                  <Nav.Link eventKey={2}>RoboBoat</Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="award-item">
+                  <Nav.Link eventKey={3}>RoboSub</Nav.Link>
                 </Nav.Item>
               </Nav>
             </Card.Header>
             <Card.Body className="awards-card-body">
               {awardsToShow === "1" ? (
+                <VanttecCard />
+              ) : awardsToShow === "2" ? (
                 <RoboBoatAwards />
               ) : (
                 <RoboSubAwards />
-              )}
+              )
+            }
             </Card.Body>
           </Card>
         </Row>
     </Container>
     </Parallax>
   )
+}
+
+function VanttecCard(){
+  return (
+    <Row className="awards-card-row">
+      <Col xs={12} md={6} className="award-data">
+        <Row className="award-data-stats">
+          <h2>RÓMULO GARZA AWARD</h2>
+          <p>
+            The Rómulo Garza award is the main distinction granted by the
+            Tecnológico de Monterrey and Xignux to recognize the effort made and
+            the results of the research carried out by the professors and
+            student researchers of the Tecnológico de Monterrey.
+          </p>
+
+          <p>
+            We were awarded the Rómulo Garza award for our focus on researching
+            issues related to autonomous vehicles. This work has been exhibited
+            at different outreach conferences and published in different media.
+          </p>
+        </Row>
+        <Button href="/research">Learn More About Our Research</Button>
+      </Col>
+      <Col xs={12} md={6}>
+        <Card className="award-card">
+          <Card.Img src={vanttecLogo} alt="roboboat" />
+          <Card.ImgOverlay className="text-center"></Card.ImgOverlay>
+        </Card>
+      </Col>
+    </Row>
+  );
 }
 
 function RoboBoatAwards(){
