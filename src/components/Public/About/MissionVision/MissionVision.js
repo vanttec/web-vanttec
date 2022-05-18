@@ -4,6 +4,7 @@ import { Parallax } from "react-parallax";
 import demo from "../../../../assets/img/jpg/whiteandgray.png";
 import vision from "../../../../assets/img/jpg/competition2.jpg";
 import mission from "../../../../assets/img/jpg/competencia.jpg";
+import values from "../../../../assets/img/jpg/valuess.jpg";
 
 import "./MissionVision.scss";
 
@@ -12,7 +13,7 @@ export default function MissionVision() {
     <Parallax strength={200} bgImage={demo}>
       <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
         <Row className="home-header">
-          <h1>About Us</h1>
+          <h1>What We Stand For</h1>
         </Row>
         <Row className="mission-vision">
           <Card className="mission-vision-card">
@@ -63,6 +64,35 @@ export default function MissionVision() {
                   </Card.Text>
                 </Col>
 
+              </Row>
+            </Card.Body>
+          </Card>
+        </Row>
+        <Row className="mission-vision">
+          <Card className="mission-vision-card">
+            <Card.Body>
+              <Row className="mission-vision-data">
+                <Col xs={12} md={6} className="mission-vision-data-col">
+                  <Card.Title>
+                    <h2>Values</h2>
+                  </Card.Title>
+                  <Card.Text>
+                    <ul>
+                      <li>Respect and help others</li>
+                      <li>Share the knowledge</li>
+                      <li>Create the craziest things</li>
+                      <li>Be yourself and trust in your talent</li>
+                      <li>Unlimited creativity</li>
+                      <li>Passion</li>
+                      <li>Inspiration</li>
+                      <li>Commitment and Dedication</li>
+                      <li>Learn beyond school</li>
+                    </ul>
+                  </Card.Text>
+                </Col>
+                <Col xs={12} md={6}>
+                  <Card.Img src={values} alt="vision"/>                  
+                </Col>
               </Row>
             </Card.Body>
           </Card>
