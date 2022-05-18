@@ -1,9 +1,7 @@
 import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap'
+import { Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
-  faTiktok,
   faLinkedin,
   faGithub,
   faInstagram,
