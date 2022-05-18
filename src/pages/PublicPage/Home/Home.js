@@ -16,7 +16,7 @@ import logoVantec from "../../../assets/img/png/LogoBlanco_Blanco.png";
 
 
 //video
-import demo from "../../../assets/videos/mp4/VanttecDroneMural.mp4";
+import demo from "../../../assets/videos/mp4/roboboatBackgroundAlt.mp4";
 
 import "./Home.scss";
 
