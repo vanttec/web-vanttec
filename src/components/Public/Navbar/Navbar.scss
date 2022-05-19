@@ -10,11 +10,16 @@ nav.bg-light {
   padding-left: 30px;
 }
 
-a.nav-link {
-}
-
 a.active-link {
-  color: rgb(3, 175, 255) !important;
+  color: rgb(3, 175, 255);
 }
 
+
+@media (max-width: 991px) {
+  a.nav-link {
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
 

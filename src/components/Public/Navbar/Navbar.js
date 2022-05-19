@@ -2,19 +2,24 @@ import React, { useState } from "react";
 import {Container, Offcanvas, Nav, Form, FormControl, Button, Navbar as NavbarBootstrap } from "react-bootstrap";
 
 //Logo
-import logoVantec from "../../../assets/img/png/LogoAzul_Negro.png";
+import logoVanttec from "../../../assets/img/png/LogoAzul_Negro.png";
+import logoVanttecWhite from "../../../assets/img/png/LogoBlanco_Blanco.png";
 
 import './Navbar.scss'
 
 function Navbar() {
 
   const [navbar, setNavBar] = useState(false);
+  const [top, setTop] = useState("blue");
+  const [logo, setLogo] = useState(logoVanttecWhite)
 
   const changeBackground = () => {
     if(window.scrollY < 57 && window.innerWidth > 750){
       setNavBar(false);
+      setLogo(logoVanttecWhite);
     }else{
       setNavBar(true);
+      setLogo(logoVanttec);
     }
   }
 
@@ -24,7 +29,7 @@ function Navbar() {
     <>
         <NavbarBootstrap  fixed="top" key={"md"} bg={navbar ? "light" : ""} expand={"lg"} className="mb-0">
           <Container fluid>
-            <NavbarBootstrap.Brand href="/"><img className="logo-navbar" src={logoVantec} alt="Vanttec logo"/></NavbarBootstrap.Brand>
+            <NavbarBootstrap.Brand href="/"><img className="logo-navbar" src={logo} alt="Vanttec logo"/></NavbarBootstrap.Brand>
             <NavbarBootstrap.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
             <NavbarBootstrap.Offcanvas
               id={`offcanvasNavbar-expand-lg`}
@@ -33,17 +38,17 @@ function Navbar() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-lg`}>
-                    <a href="/home">LOGO VANTTEC</a>
+                    <a href="/home"><img className="logo-navbar" src={logoVanttec} alt="Vanttec logo"/></a>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="/about">About</Nav.Link>
-                  <Nav.Link href="/team">Team</Nav.Link>
-                  <Nav.Link href="/vehicules">Vehicules</Nav.Link>
-                  <Nav.Link href="/research">Research</Nav.Link>
-                  <Nav.Link href="/sponsors">Sponsors</Nav.Link>
-                  <Nav.Link href="/contact">Contact</Nav.Link>
+                  <Nav.Link style={{color:{top}}} href="/about">About</Nav.Link>
+                  <Nav.Link style={{color:{top}}} href="/team">Team</Nav.Link>
+                  <Nav.Link style={{color:{top}}} href="/vehicules">Vehicules</Nav.Link>
+                  <Nav.Link style={{color:{top}}} href="/research">Research</Nav.Link>
+                  <Nav.Link style={{color:{top}}} href="/sponsors">Sponsors</Nav.Link>
+                  <Nav.Link style={{color:{top}}} href="/contact">Contact</Nav.Link>
                 </Nav>
                 {/* <Form className="d-flex">
                   <FormControl
