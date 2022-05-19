@@ -7,6 +7,7 @@
         flex-direction: column;
         justify-content: center;
         width: 100vw;
+        height: 100%;
     }
 
     &-row{
@@ -14,12 +15,13 @@
         align-items: center;
         justify-content: center;
 
-        a{
-            display: flex;
-            align-items: center;
-            justify-content: center;           
-        }
+
     }
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        }
 
     // &-col{
     //     width: 90%;
@@ -40,11 +42,12 @@
     }
 }
 
+
+
 //Vehicule Image
 .vehicule-card{
-    max-height: 600px;
-    overflow: hidden;
     max-width: 90%;
+    max-height: 100% !important;
     margin: 0;
     padding: 0;
     border-radius: 10px;

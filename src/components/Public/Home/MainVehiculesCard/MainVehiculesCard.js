@@ -13,7 +13,7 @@ export default function MainVehiculesCard() {
   const [vehiculeToShow, setVehiculeToShow] = useState("1");
 
   return (
-      <Container fluid className="hover-effect">
+      <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}} className="hover-effect">
         <Row className="home-header">
           <h2>Main Projects</h2>
         </Row>
@@ -40,7 +40,7 @@ export default function MainVehiculesCard() {
                   <Nav.Link eventKey={2}>RoboSub Competition</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="vehicule-item">
-                  <Nav.Link eventKey={3}>Self Driving Car</Nav.Link>
+                  <Nav.Link eventKey={3}>Autonomous Car</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="vehicule-item">
                   <Nav.Link eventKey={4}>Drone</Nav.Link>
@@ -71,7 +71,6 @@ function RoboBoatCard() {
       <a href="/vehicules">
         <Card
           className="vehicule-card"
-          onClick={() => console.log("a vehiculos")}
         >
           <Card.Img src={roboboatPhoto} alt="roboboat" />
           <Card.ImgOverlay
@@ -109,7 +108,6 @@ function RoboSubCard() {
         <a href="/vehicules">
         <Card
           className="vehicule-card"
-          onClick={() => console.log("a vehiculos")}
         >
           <Card.Img src={robosubPhoto} alt="roboboat" />
           <Card.ImgOverlay
@@ -148,7 +146,6 @@ function DroneCard() {
       <Col xs={12} md={6}>
         <Card
           className="vehicule-card"
-          onClick={() => console.log("a vehiculos")}
         >
           <Card.Img src={dronePhoto} alt="roboboat" />
           <Card.ImgOverlay
