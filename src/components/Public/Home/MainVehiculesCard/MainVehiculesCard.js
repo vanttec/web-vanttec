@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Card, Nav, Row, Col, Container, Button } from "react-bootstrap";
+import {SwitchTransition ,CSSTransition} from 'react-transition-group';
+
 
 //vehicules photos
 import dronePhoto from "../../../../assets/img/jpeg/dronePhoto.jpeg";
@@ -9,8 +11,10 @@ import sdvPhoto from "../../../../assets/img/jpeg/sdvPhoto.jpeg";
 
 import "./MainVehiculesCard.scss";
 
+
 export default function MainVehiculesCard() {
   const [vehiculeToShow, setVehiculeToShow] = useState("1");
+  const [state, setState] = React.useState(true);
 
   return (
       <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}} className="hover-effect">
@@ -47,7 +51,18 @@ export default function MainVehiculesCard() {
                 </Nav.Item>
               </Nav>
             </Card.Header>
+
             <Card.Body className="vehicules-card-body">
+            <SwitchTransition mode={"out-in"}>
+            <CSSTransition
+            key={vehiculeToShow}
+            addEndListener={(node, done) => {
+              node.addEventListener("transitionend", done, false);
+            }}
+            classNames="fade"
+          >
+    
+              <div>
               {vehiculeToShow === "1" ? (
                 <RoboBoatCard />
               ) : vehiculeToShow === "2" ? (
@@ -57,6 +72,9 @@ export default function MainVehiculesCard() {
               ) : (
                 <DroneCard />
               )}
+              </div>
+              </CSSTransition>
+              </SwitchTransition>
             </Card.Body>
           </Card>
         </Row>
@@ -66,6 +84,7 @@ export default function MainVehiculesCard() {
 
 function RoboBoatCard() {
   return (
+
     <Row className="vehicules-card-row">
       <Col xs={12} md={6}>
       <a href="/vehicules">

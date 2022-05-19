@@ -1,5 +1,6 @@
-import React, {useState} from 'react'
-import {Container, Row, Col, Nav, Card, Button} from 'react-bootstrap'
+import React, {useState} from 'react';
+import {Container, Row, Col, Nav, Card, Button} from 'react-bootstrap';
+import {SwitchTransition, CSSTransition} from 'react-transition-group';
 
 //photos
 import roboboat from "../../../../assets/img/png/roboboat-logo.png";
@@ -40,6 +41,14 @@ export default function Accomplishments() {
                 </Nav.Item>
               </Nav>
             </Card.Header>
+            <SwitchTransition mode={"out-in"}>
+            <CSSTransition
+            key={awardsToShow}
+            addEndListener={(node, done) => {
+              node.addEventListener("transitionend", done, false);
+            }}
+            classNames="fade"
+          >
             <Card.Body className="awards-card-body">
               {awardsToShow === "1" ? (
                 <VanttecCard />
@@ -50,6 +59,8 @@ export default function Accomplishments() {
               )
             }
             </Card.Body>
+            </CSSTransition>
+            </SwitchTransition>
           </Card>
         </Row>
     </Container>
