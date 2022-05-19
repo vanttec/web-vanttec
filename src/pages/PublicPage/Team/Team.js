@@ -319,9 +319,7 @@ export default function Team() {
         <div className="content">
 
         {/* Quote */}
-        <div className="division" />
-        <Parallax strength={-200} bgImage={demo}>
-          <Container fluid>
+          <Container fluid className="hover-effect">
         <Row className="quote">
           <blockquote className="blockquote mb-0">
             <p>
@@ -335,10 +333,8 @@ export default function Team() {
           </blockquote>
         </Row>
         </Container>
-        </Parallax>
 
         {/* Mesa Directiva */}
-        <div className="division" />
         <Row className="area-banner">
           <AreaBanner video={muralVideo}>
             <h1>Board Of Directors</h1>

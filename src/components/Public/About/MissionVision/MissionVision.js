@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Parallax } from "react-parallax";
-import demo from "../../../../assets/img/jpg/whiteandgray.png";
+import demo from "../../../../assets/img/jpg/david-jorre-9f1gCaLkZBU-unsplash.jpg";
 import vision from "../../../../assets/img/jpg/competition2.jpg";
 import mission from "../../../../assets/img/jpg/competencia.jpg";
 import values from "../../../../assets/img/jpg/valuess.jpg";
@@ -10,7 +10,6 @@ import "./MissionVision.scss";
 
 export default function MissionVision() {
   return (
-    <Parallax strength={200} bgImage={demo}>
       <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
         <Row className="mission-vision">
           <Card className="mission-vision-card">
@@ -78,7 +77,7 @@ export default function MissionVision() {
                       <li>Respect and Help Others</li>
                       <li>Share Your Knowledge</li>
                       <li>Create the Craziest Things</li>
-                      <li>Be yourself and Trust in your talent</li>
+                      <li>Be yourself and Trust in your Talent</li>
                       <li>Unlimited Creativity</li>
                       <li>Passion</li>
                       <li>Inspiration</li>
@@ -95,6 +94,5 @@ export default function MissionVision() {
           </Card>
         </Row>
       </Container>
-    </Parallax>
   );
 }
