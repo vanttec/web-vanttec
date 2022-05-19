@@ -27,13 +27,12 @@ export default function AboutUs() {
                   </Card.Title>
                   <Card.Text>
                     <p>
-                      Our Vision is to Become one of the main exponents of autonomous vehicles in
-                      Mexico.
+                      One of the main exponents of autonomous vehicles in
+                      Mexico. Participating annually in RoboNation competitions.
                     </p>{" "}
-                    <p>
-                      Inspire young people to get involved in research in areas
-                      related to science and technology. In addition, participate in national and international competitions, and help them
-                      learn about opportunities in
+                    <p style={{fontWeight:"normal"}}>
+                      Aiming to Inspire young people to get involved in research in areas
+                      related to science and technology. In addition, help them learn about opportunities in
                       academic and professional fields.
                     </p>
                     <Button className="mb-3" href="/about">
