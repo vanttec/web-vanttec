@@ -12,9 +12,6 @@ export default function MissionVision() {
   return (
     <Parallax strength={200} bgImage={demo}>
       <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
-        <Row className="home-header">
-          <h1>What We Stand For</h1>
-        </Row>
         <Row className="mission-vision">
           <Card className="mission-vision-card">
             <Card.Body>
@@ -78,15 +75,15 @@ export default function MissionVision() {
                   </Card.Title>
                   <Card.Text>
                     <ul>
-                      <li>Respect and help others</li>
-                      <li>Share the knowledge</li>
-                      <li>Create the craziest things</li>
-                      <li>Be yourself and trust in your talent</li>
-                      <li>Unlimited creativity</li>
+                      <li>Respect and Help Others</li>
+                      <li>Share Your Knowledge</li>
+                      <li>Create the Craziest Things</li>
+                      <li>Be yourself and Trust in your talent</li>
+                      <li>Unlimited Creativity</li>
                       <li>Passion</li>
                       <li>Inspiration</li>
                       <li>Commitment and Dedication</li>
-                      <li>Learn beyond school</li>
+                      <li>Learn Beyond School</li>
                     </ul>
                   </Card.Text>
                 </Col>

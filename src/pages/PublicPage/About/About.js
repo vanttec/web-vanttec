@@ -14,8 +14,7 @@ export default function About() {
       {/* Main Banner */}
       <Row className="main-banner">
         <Banner video={demo}>
-          <h1>About VantTec</h1>
-          <h2 style={{color:"white"}}>Welcome!</h2>
+          <h1>About Us</h1>
         </Banner>
       </Row>
       {/* Content */}
@@ -23,7 +22,6 @@ export default function About() {
         <div className="division" />
         <MissionVision />
         <Accomplishments/>
-        <div className="division" />
         <Footer />
       </div>
     </Container>

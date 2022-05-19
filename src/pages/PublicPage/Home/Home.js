@@ -37,13 +37,11 @@ export default function Home() {
       {/* Content */}
       <div className="content">
 
-        <div className="division" />
         <AboutUs />
         <MainVehiculesCard />
         <Accomplishments/>
         <TeamAreasCarousel/>
         <Sponsors />
-        <div className="division" />
         <Footer />
 
       </div>

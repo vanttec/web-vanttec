@@ -1,26 +1,4 @@
 
-.hover-effect{
-    width: 95vw;
-    border-color: transparent;
-    max-height: 100%;
-    margin: 10px;
-    padding: 0;
-    margin-bottom: 10px;
-    display: flex;
-    border-radius: 10px !important;
-    box-shadow: 5px 10px 20px 1px rgba(0,0,0,.2) !important;
-    -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.2) !important;
-    -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.2) !important;
-
-    &:hover{
-        transform: scale(1.02);
-        transition: all 0.3s ease-in !important;
-        box-shadow: 5px 10px 20px 1px rgba(0,0,0,.45) !important;
-        -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.45) !important;
-        -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.45) !important;
-    }
-
-}
 .awards-card{
     background-color: rgb(255, 255, 255) !important;
     padding: 0 !important;
