@@ -128,9 +128,9 @@ function RoboSubCard() {
           <h2>Autonomous Submarine for International Competitions</h2>
           <h2 style={{color:"rgb(0, 149, 255)"}}>Currently Under Redesign</h2>
           <p>
-            Conquers the depths by detecting objects around Him, maneuvering
-            around them, resistant to weather disturbances and waypoint
-            navigation
+            Conquers the depths by detecting objects around Him, Maneuvers
+            Around Obstacles, Resists Weather Disturbances, and has Waypoint
+            Navigation
           </p>
           
         </Row>
