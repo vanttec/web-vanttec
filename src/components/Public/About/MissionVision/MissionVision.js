@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import { Parallax } from "react-parallax";
-import demo from "../../../../assets/img/jpg/david-jorre-9f1gCaLkZBU-unsplash.jpg";
 import vision from "../../../../assets/img/jpg/competition2.jpg";
 import mission from "../../../../assets/img/jpg/competencia.jpg";
 import values from "../../../../assets/img/jpg/valuess.jpg";
