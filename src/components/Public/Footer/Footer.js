@@ -16,7 +16,7 @@ export default function Footer() {
           <a href="mailto:vanttecmty@gmail.com">
             <p>vanttecmty@gmail.com</p>
           </a>
-          <a href="mailto:vanttecmty@gmail.com">
+          <a href="mailto:vanttec@servicios.tec.mx">
             <p>vanttec@servicios.tec.mx</p>
           </a>
         </Col>
