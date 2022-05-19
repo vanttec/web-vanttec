@@ -26,7 +26,7 @@ export default function Sponsors() {
     <Parallax strength={-200} bgImage={demo}>
       <Container fluid className="hover-effect">
         <Row className="home-header">
-          <h1>All Of This Is Possible Thanks To Our Sponsors</h1>
+          <h2>All Of This Is Possible Thanks To Our Sponsors</h2>
         </Row>
         <Row>
           {/* Tec de monterrey */}

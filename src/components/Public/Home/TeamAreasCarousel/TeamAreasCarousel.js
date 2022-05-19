@@ -17,7 +17,7 @@ export default function TeamAreasCarousel() {
   return (
     <Container fluid>
       <Row className="home-header">
-        <h1> Team Areas</h1>
+        <h2> Team Areas</h2>
       </Row>
       <Row>
         <Carousel>

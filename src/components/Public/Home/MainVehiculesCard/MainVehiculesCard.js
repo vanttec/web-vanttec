@@ -19,7 +19,7 @@ export default function MainVehiculesCard() {
     <Parallax bgImage={demo} strength={-200}>
       <Container fluid className="hover-effect">
         <Row className="home-header">
-          <h1>Main Projects</h1>
+          <h2>Main Projects</h2>
         </Row>
         <Row>
           <Card
