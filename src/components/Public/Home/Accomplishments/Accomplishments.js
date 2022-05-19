@@ -13,7 +13,7 @@ export default function Accomplishments() {
   return (
     <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}} className="hover-effect">
         <Row className='home-header'>
-            <h2>Awards</h2>
+            <h2 style={{color: "rgb(0, 149, 255)"}}>Awards</h2>
         </Row>
         <Row>
         <Card
@@ -30,13 +30,13 @@ export default function Accomplishments() {
                 }}
               >
                 <Nav.Item className="award-item">
-                  <Nav.Link eventKey={1}>VantTec</Nav.Link>
+                  <Nav.Link eventKey={1}>VantTec Organization</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="award-item">
-                  <Nav.Link eventKey={2}>RoboBoat</Nav.Link>
+                  <Nav.Link eventKey={2}>RoboBoat Competition</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="award-item">
-                  <Nav.Link eventKey={3}>RoboSub</Nav.Link>
+                  <Nav.Link eventKey={3}>RoboSub Competition</Nav.Link>
                 </Nav.Item>
               </Nav>
             </Card.Header>
