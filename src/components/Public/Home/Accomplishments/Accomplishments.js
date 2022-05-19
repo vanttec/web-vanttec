@@ -14,7 +14,7 @@ export default function Accomplishments() {
   return (
     <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}} className="hover-effect">
         <Row className='home-header'>
-            <h2 style={{color: "rgb(0, 149, 255)"}}>Awards</h2>
+            <h2>Awards</h2>
         </Row>
         <Row>
         <Card
