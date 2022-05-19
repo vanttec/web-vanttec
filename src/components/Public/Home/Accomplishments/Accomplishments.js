@@ -1,12 +1,10 @@
 import React, {useState} from 'react'
 import {Container, Row, Col, Nav, Card, Button} from 'react-bootstrap'
-import { Parallax } from 'react-parallax';
 
 //photos
 import roboboat from "../../../../assets/img/png/roboboat-logo.png";
 import robosub from "../../../../assets/img/png/robosub-logo.png";
 import vanttecLogo from "../../../../assets/img/png/LogoAzul_Negro.png";
-import demo from "../../../../assets/img/jpg/david-jorre-9f1gCaLkZBU-unsplash.jpg";
 
 import './Accomplishments.scss'
 

@@ -7,7 +7,6 @@ import { Parallax } from "react-parallax";
 
 //Videos
 import muralVideo from "../../../assets/videos/mp4/VanttecDroneMural.mp4";
-import campusVideo from "../../../assets/videos/mp4/VanttecCampusVideo.mp4";
 import teamVideo from "../../../assets/videos/mp4/teamBackgroundOfficial.mp4";
 import mediaVideo from "../../../assets/videos/mp4/mediaVideo.mp4";
 import perceptionVideo from "../../../assets/videos/mp4/perceptionVideo.mp4";
@@ -17,7 +16,6 @@ import softwareVideo from "../../../assets/videos/mp4/softwareVideo.mp4";
 import controlVideo from "../../../assets/videos/mp4/controlVideo.mp4";
 import locationVideo from "../../../assets/videos/mp4/locVideo.mp4";
 import businessVideo from "../../../assets/videos/mp4/businessVideo.mp4";
-import abstractVideo from "../../../assets/videos/mp4/pexels-rostislav-uzunov-7670836.mp4";
 
 //Imagenes
 import David from "../../../assets/img/jpeg/Yo.jpg";
