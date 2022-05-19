@@ -1,19 +1,16 @@
 import React, {useState} from 'react'
 import {Container, Row, Col, Nav, Card, Button} from 'react-bootstrap'
-import { Parallax } from "react-parallax";
 
 //photos
 import roboboat from "../../../../assets/img/png/roboboat-logo.png";
 import robosub from "../../../../assets/img/png/robosub-logo.png";
 import vanttecLogo from "../../../../assets/img/png/LogoAzul_Negro.png";
-import demo from "../../../../assets/img/jpg/backgroundwhite.png";
 
 import './Accomplishments.scss'
 
 export default function Accomplishments() {
   const [awardsToShow, setAwardsToShow] = useState("1");
   return (
-    <Parallax strength={200} bgImage={demo}>
     <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}} className="hover-effect">
         <Row className='home-header'>
             <h1>Achievements</h1>
@@ -56,7 +53,6 @@ export default function Accomplishments() {
           </Card>
         </Row>
     </Container>
-    </Parallax>
   )
 }
 

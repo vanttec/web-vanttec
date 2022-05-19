@@ -55,3 +55,27 @@
     width: 100vw;
     height: 100%;
 }
+
+
+.hover-effect{
+    width: 100vw;
+    border-color: transparent;
+    background-color: white;
+    max-height: 100%;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px !important;
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,.2) !important;
+    -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.2) !important;
+    -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.2) !important;
+
+    &:hover{
+        transform: scale(1.02);
+        transition: all 0.3s ease-in !important;
+        box-shadow: 5px 10px 20px 1px rgba(0,0,0,.45) !important;
+        -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.45) !important;
+        -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.45) !important;
+    }
+
+}

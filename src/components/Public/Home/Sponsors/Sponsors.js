@@ -24,7 +24,7 @@ import "./Sponsors.scss";
 export default function Sponsors() {
   return (
     <Parallax strength={-200} bgImage={demo}>
-      <Container fluid>
+      <Container fluid className="hover-effect">
         <Row className="home-header">
           <h1>All Of This Is Possible Thanks To Our Sponsors</h1>
         </Row>
