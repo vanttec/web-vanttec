@@ -32,8 +32,8 @@ export default function AboutUs() {
                     </p>{" "}
                     <p>
                       Inspire young people to get involved in research in areas
-                      related to science and technology. In addition, help them
-                      learn about national and international opportunities in
+                      related to science and technology. In addition, participate in national and international competitions, and help them
+                      learn about opportunities in
                       academic and professional fields.
                     </p>
                     <Button className="mb-3" href="/about">
