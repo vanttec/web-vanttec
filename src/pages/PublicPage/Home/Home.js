@@ -39,13 +39,9 @@ export default function Home() {
 
         <div className="division" />
         <AboutUs />
-        <div className="division" />
         <MainVehiculesCard />
-        <div className="division" />
         <Accomplishments/>
-        <div className="division" />
         <TeamAreasCarousel/>
-        <div className="division" />
         <Sponsors />
         <div className="division" />
         <Footer />
