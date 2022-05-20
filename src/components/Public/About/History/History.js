@@ -11,7 +11,7 @@ export default function History() {
         <h2> Our History</h2>
       </Row>
       <Row>
-        <Carousel indicators={false}>
+        <Carousel>
           <Carousel.Item>
             <div className="overlay-area-about">
               <img className="d-block w-100" src={mission} alt="First slide" />
