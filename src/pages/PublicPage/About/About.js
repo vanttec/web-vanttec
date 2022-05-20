@@ -4,6 +4,7 @@ import Banner from "../../../components/Public/Banner/Banner";
 import Footer from "../../../components/Public/Footer/Footer";
 import MissionVision from "../../../components/Public/About/MissionVision/MissionVision";
 import Accomplishments from "../../../components/Public/Home/Accomplishments/Accomplishments";
+import History from "../../../components/Public/About/History/History";
 
 //video
 import demo from "../../../assets/videos/mp4/VanttecPoolVideo.mp4";
@@ -21,6 +22,7 @@ export default function About() {
       <div className="content">
         <div className="division" />
         <MissionVision />
+        <History/>
         <Accomplishments/>
         <Footer />
       </div>
