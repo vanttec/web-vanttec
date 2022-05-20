@@ -66,6 +66,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 10px !important;
+    overflow: hidden !important;
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,.2) !important;
     -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.2) !important;
     -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.2) !important;
@@ -79,3 +80,25 @@
     }
 
 }
+
+//transitions
+.fade-enter{
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  .fade-enter-active{
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  .fade-exit{
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  .fade-exit-active{
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  .fade-enter-active,
+  .fade-exit-active{
+    transition: opacity 600ms, transform 600ms;
+  }
