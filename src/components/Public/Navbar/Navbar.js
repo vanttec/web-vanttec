@@ -47,9 +47,9 @@ function Navbar() {
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                 <Nav.Link href="/home">Home</Nav.Link>
                   <Nav.Link href="/about">About</Nav.Link>
-                  <Nav.Link href="/team">Team</Nav.Link>
+                  {/* <Nav.Link href="/team">Team</Nav.Link> */}
                   <Nav.Link href="/projects">Projects</Nav.Link>
-                  <Nav.Link href="/research">Research</Nav.Link>
+                  {/* <Nav.Link href="/research">Research</Nav.Link> */}
                   <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
                 {/* <Form className="d-flex">

@@ -1,0 +1,866 @@
+[
+  {
+    "contacto": {
+      "github": "",
+      "whatsapp": "8119086997",
+      "facebook": "",
+      "instagram": "",
+      "emailInstitucional": "A00830224@tec.mx",
+      "twitter": "",
+      "emailPersonal": "rodrigogza01@hotmail.com",
+      "linkedin": "",
+      "profilePicture": "https://i.ibb.co/9t3YgcT/A00830224-Rodrigo-Small.png"
+    },
+    "apellido": "Garza Reyes",
+    "updated": "21/5/2022",
+    "historial": {
+      "entryYear": "2022",
+      "temporadas": [
+        {
+          "proyectos": {
+            "sdv": "false",
+            "roboboat": true,
+            "robosub": "false",
+            "drone": false
+          },
+          "puesto": "",
+          "periodo": "",
+          "area": ""
+        }
+      ]
+    },
+    "profilePicture": "https://i.ibb.co/9t3YgcT/A00830224-Rodrigo-Small.png",
+    "datosPersonales": {
+      "carrera": "B.S. Mechatronics Engineering",
+      "genero": "M",
+      "birthday": "2002-06-11",
+      "semestre": "4",
+      "birthplace": "Monterrey, Nuevo Leon"
+    },
+    "bio": "",
+    "matricula": "a00830224",
+    "nombre": "Rodrigo Alejandro",
+    "infoGeneral": {
+      "area": "Mechanics Team Member",
+      "proyectos": {
+        "drone": "false",
+        "roboboat": true,
+        "robosub": "false",
+        "sdv": "false"
+      },
+      "entryYear": "2021",
+      "puesto": "Mechanics Team Member"
+    },
+    "displayName": "Rodrigo Alejandro Garza Reyes"
+  },
+  {
+    "displayName": "Alberto Tamez",
+    "contacto": {
+      "whatsapp": "5520913464",
+      "emailPersonal": "alberto.chinx@gmail.com",
+      "facebook": "",
+      "emailInstitucional": "alberto.chinx@gmail.com",
+      "github": "",
+      "profilePicture": "https://i.ibb.co/GxzPvxM/A01026999-Alberto-Small.png",
+      "twitter": "",
+      "instagram": "@1albertotamez1",
+      "linkedin": "https://www.linkedin.com/in/alberto-tamez/"
+    },
+    "nombre": "Alberto",
+    "bio": "Hello, I am Alberto, I am a passionate programmer in love with Finance and Artificial Intelligence, currently I am studying Computer Science @Tec de Monterrey.\n",
+    "datosPersonales": {
+      "carrera": "B.S Computer Science and Technology",
+      "genero": "M",
+      "semestre": "2",
+      "birthplace": "Monterrey, Nuevo Leon",
+      "birthday": "2003-09-18"
+    },
+    "profilePicture": "https://i.ibb.co/GxzPvxM/A01026999-Alberto-Small.png",
+    "updated": "5/22/2022",
+    "infoGeneral": {
+      "entryYear": "2021",
+      "area": "Software",
+      "proyectos": {
+        "sdv": "false",
+        "robosub": false,
+        "drone": "false",
+        "roboboat": true
+      },
+      "puesto": "Software Developer"
+    },
+    "apellido": "Tamez",
+    "historial": {
+      "entryYear": "2022",
+      "temporadas": [
+        {
+          "puesto": "",
+          "area": "",
+          "periodo": "",
+          "proyectos": {
+            "robosub": "false",
+            "sdv": "false",
+            "roboboat": "false",
+            "drone": "false"
+          }
+        }
+      ]
+    },
+    "matricula": "a01026999"
+  },
+  {
+    "bio": "A passionate students who enjoys engineering design, 3D printing and sports.",
+    "apellido": "Sánchez López",
+    "nombre": "Mauricio",
+    "infoGeneral": {
+      "area": "Mechanics",
+      "puesto": "Mechanics leader",
+      "entryYear": "2021",
+      "proyectos": {
+        "sdv": "false",
+        "robosub": "false",
+        "roboboat": true,
+        "drone": "false"
+      }
+    },
+    "historial": {
+      "entryYear": "2022",
+      "temporadas": [
+        {
+          "proyectos": {
+            "sdv": "false",
+            "robosub": "false",
+            "roboboat": "false",
+            "drone": "false"
+          },
+          "area": "",
+          "periodo": "",
+          "puesto": ""
+        }
+      ]
+    },
+    "updated": "22/5/2022",
+    "displayName": "Mauricio Sánchez López",
+    "matricula": "a01138535",
+    "profilePicture": "https://i.ibb.co/zhFywSB/A01138535-Mauricio-Small.png",
+    "datosPersonales": {
+      "birthplace": "Monterrey, Nuevo León",
+      "birthday": "2000-01-02",
+      "carrera": "Bachelor’s Degree in Industrial Engineering with a minor in Systems Engineering ",
+      "genero": "M",
+      "semestre": "8"
+    },
+    "contacto": {
+      "instagram": "",
+      "profilePicture": "https://i.ibb.co/zhFywSB/A01138535-Mauricio-Small.png",
+      "github": "",
+      "facebook": "",
+      "twitter": "",
+      "emailInstitucional": "a01138535@tec.mx",
+      "linkedin": "",
+      "whatsapp": "8116835466",
+      "emailPersonal": "maurisl@live.com.mx"
+    }
+  },
+  {
+    "historial": {
+      "entryYear": "2022",
+      "temporadas": [
+        {
+          "periodo": "",
+          "proyectos": {
+            "roboboat": "false",
+            "sdv": "false",
+            "drone": "false",
+            "robosub": "false"
+          },
+          "area": "",
+          "puesto": ""
+        }
+      ]
+    },
+    "displayName": "Alexa Sofía Arreola Alvarado",
+    "profilePicture": "https://i.ibb.co/xDGHfcp/A01177452-Alexa-Small.png",
+    "matricula": "a01177452",
+    "bio": "",
+    "nombre": "Alexa Sofía",
+    "contacto": {
+      "facebook": "",
+      "github": "alexa0s",
+      "instagram": "alexa.asaa",
+      "linkedin": "",
+      "whatsapp": "+52 8112585917",
+      "twitter": "",
+      "emailInstitucional": "a01177452@tec.mx",
+      "emailPersonal": "alexa.s.arreola@gmail.com",
+      "profilePicture": "https://i.ibb.co/xDGHfcp/A01177452-Alexa-Small.png"
+    },
+    "infoGeneral": {
+      "proyectos": {
+        "robosub": false,
+        "roboboat": true,
+        "drone": "false",
+        "sdv": false
+      },
+      "area": "Perception",
+      "puesto": "",
+      "entryYear": "2021"
+    },
+    "apellido": "Arreola Alvarado",
+    "datosPersonales": {
+      "semestre": "4",
+      "birthplace": "San Pedro, Garza García",
+      "carrera": "B.S. Computer Science and Technology",
+      "genero": "F",
+      "birthday": "2002-08-31"
+    },
+    "updated": "5/22/2022"
+  },
+  {
+    "infoGeneral": {
+      "entryYear": "2022",
+      "area": "Electronics",
+      "proyectos": {
+        "robosub": "false",
+        "roboboat": true,
+        "sdv": "false",
+        "drone": "false"
+      },
+      "puesto": "Electronics"
+    },
+    "updated": "5/22/2022",
+    "profilePicture": "https://i.ibb.co/mCtTYNc/A01026999-Anel-Small.png",
+    "matricula": "a01197372",
+    "apellido": "Alvarado Gutiérrez",
+    "bio": "",
+    "datosPersonales": {
+      "birthplace": "Monterrey, Nuevo Leon",
+      "semestre": "6",
+      "carrera": "Mechatronics Engineering",
+      "birthday": "2001-04-22",
+      "genero": "F"
+    },
+    "displayName": "Anel Beatriz  Alvarado Gutiérrez",
+    "historial": {
+      "temporadas": [
+        {
+          "puesto": "",
+          "area": "",
+          "periodo": "",
+          "proyectos": {
+            "drone": "false",
+            "roboboat": "false",
+            "robosub": "false",
+            "sdv": "false"
+          }
+        }
+      ],
+      "entryYear": "2022"
+    },
+    "contacto": {
+      "profilePicture": "https://i.ibb.co/mCtTYNc/A01026999-Anel-Small.png",
+      "github": "",
+      "emailPersonal": "anelgtz01@gmail.com",
+      "emailInstitucional": "a01197372@tec.mx",
+      "facebook": "",
+      "whatsapp": "8117859527",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": ""
+    },
+    "nombre": "Anel Beatriz "
+  },
+  {
+    "infoGeneral": {
+      "entryYear": "2019",
+      "area": "Perception",
+      "proyectos": {
+        "sdv": false,
+        "drone": false,
+        "robosub": false,
+        "roboboat": true
+      },
+      "puesto": "Software developer"
+    },
+    "apellido": "Martínez",
+    "displayName": "Sebastian Martínez",
+    "nombre": "Sebastian",
+    "matricula": "a01232474",
+    "profilePicture": "https://i.ibb.co/rQkQyNs/A01232474-Sebastian-Small.png",
+    "datosPersonales": {
+      "birthplace": "Durango, Durango",
+      "birthday": "1999-04-04",
+      "genero": "M",
+      "carrera": "B.S. Digital Systems and Robotics",
+      "semestre": "10"
+    },
+    "updated": "5/21/2022",
+    "contacto": {
+      "emailInstitucional": "A01232474@tec.mx",
+      "profilePicture": "https://i.ibb.co/rQkQyNs/A01232474-Sebastian-Small.png",
+      "linkedin": "https://mx.linkedin.com/in/vsebas",
+      "emailPersonal": "sebas.martp@gmail.com",
+      "facebook": "https://www.facebook.com/sebas.martinez.5203",
+      "instagram": "v.sebasm",
+      "twitter": "https://twitter.com/victorseb4",
+      "github": "https://github.com/vSebas",
+      "whatsapp": "+52 618 154 45 99"
+    },
+    "historial": {
+      "temporadas": [
+        {
+          "periodo": "",
+          "area": "",
+          "proyectos": {
+            "robosub": "false",
+            "drone": "false",
+            "sdv": "false",
+            "roboboat": "false"
+          },
+          "puesto": ""
+        }
+      ],
+      "entryYear": "2022"
+    },
+    "bio": "Just want to change the worldd"
+  },
+  {
+    "updated": "5/22/2022",
+    "apellido": "Martínez Hidrogo",
+    "datosPersonales": {
+      "semestre": "4",
+      "carrera": "Computer Science & Engineering",
+      "birthplace": "Torreón, Coahuila",
+      "genero": "M",
+      "birthday": "2000-01-21"
+    },
+    "infoGeneral": {
+      "area": "Media",
+      "puesto": "Web Developer",
+      "entryYear": "2022",
+      "proyectos": {
+        "roboboat": true,
+        "drone": "false",
+        "sdv": "false",
+        "robosub": "false"
+      }
+    },
+    "bio": "FullStack Developer (MERN Stack) as a Hobby and for Entrepreneurship.\n\nWeb Developer and AI apprentice For Vanttec.\n\nPassionate about designing and implementing new technologies that have the potential to change the world.",
+    "nombre": "David Gerardo",
+    "historial": {
+      "entryYear": "2022",
+      "temporadas": [
+        {
+          "proyectos": {
+            "roboboat": "false",
+            "drone": "false",
+            "sdv": "false",
+            "robosub": "false"
+          },
+          "periodo": "",
+          "area": "",
+          "puesto": ""
+        }
+      ]
+    },
+    "displayName": "David Gerardo Martínez Hidrogo",
+    "profilePicture": "https://i.ibb.co/ncKzxhc/a01235692-David-Small.png",
+    "contacto": {
+      "linkedin": "https://www.linkedin.com/in/david-gerardo-mart%C3%ADnez-hidrogo-7340b21b8",
+      "twitter": "https://twitter.com/davidmtzhi",
+      "github": "https://github.com/davidmartinezhi",
+      "emailInstitucional": "a01235692@tec.mx",
+      "instagram": "",
+      "whatsapp": "8712759212",
+      "profilePicture": "https://i.ibb.co/ncKzxhc/a01235692-David-Small.png",
+      "emailPersonal": "gerardomartinez.hi@gmail.com",
+      "facebook": ""
+    },
+    "matricula": "a01235692"
+  },
+  {
+    "historial": {
+      "temporadas": [
+        {
+          "proyectos": {
+            "roboboat": "false",
+            "robosub": "false",
+            "sdv": "false",
+            "drone": "false"
+          },
+          "puesto": "",
+          "periodo": "",
+          "area": ""
+        }
+      ],
+      "entryYear": "2022"
+    },
+    "matricula": "a01242428",
+    "contacto": {
+      "emailInstitucional": "a01242428@tec.mx",
+      "twitter": "",
+      "github": "https://github.com/ncgo",
+      "facebook": "",
+      "profilePicture": "https://i.ibb.co/6DtjfKc/A01242428-Nadia-Small.png",
+      "whatsapp": "6563362231",
+      "linkedin": "https://www.linkedin.com/in/ncgo/",
+      "emailPersonal": "ngarciaorozco@outlook.com",
+      "instagram": "https://www.instagram.com/ngarciaorozco/"
+    },
+    "apellido": "Garcia Orozco",
+    "bio": "STEMinist with a passion of sharing what science, technology and engineering has to offer to the general public. Microsoft PM intern",
+    "updated": "5/23/2022",
+    "profilePicture": "https://i.ibb.co/6DtjfKc/A01242428-Nadia-Small.png",
+    "datosPersonales": {
+      "birthday": "2000-06-21",
+      "carrera": "B.S. Computer Science & Technology",
+      "birthplace": "Ciudad Juarez, Chihuahua",
+      "genero": "F",
+      "semestre": "8"
+    },
+    "displayName": "Nadia Corina Garcia Orozco",
+    "infoGeneral": {
+      "puesto": "Head of Media",
+      "area": "Media",
+      "entryYear": "2020",
+      "proyectos": {
+        "sdv": true,
+        "robosub": true,
+        "drone": true,
+        "roboboat": true
+      }
+    },
+    "nombre": "Nadia Corina"
+  },
+  {
+    "contacto": {
+      "instagram": "https://www.instagram.com/adrianleon205/",
+      "emailInstitucional": "A01242469@tec.mx",
+      "github": "https://github.com/Adr205",
+      "profilePicture": "https://i.ibb.co/Fkry6zR/A01242469-Adrian-Small.png",
+      "emailPersonal": "Adrianvillal@hotmail.com",
+      "whatsapp": "6563529786",
+      "facebook": "https://www.facebook.com/adrianleon1206/",
+      "twitter": "https://twitter.com/adrianvillal",
+      "linkedin": "https://www.linkedin.com/in/adrianvillaxyz/"
+    },
+    "infoGeneral": {
+      "entryYear": "2022",
+      "puesto": "Media Member",
+      "proyectos": {
+        "robosub": true,
+        "roboboat": true,
+        "drone": "false",
+        "sdv": "false"
+      },
+      "area": "Media"
+    },
+    "matricula": "a01242469",
+    "updated": "22/5/2022",
+    "displayName": "Javier Adrian Villa Leon",
+    "nombre": "Javier Adrian",
+    "apellido": "Villa Leon",
+    "historial": {
+      "temporadas": [
+        {
+          "periodo": "",
+          "proyectos": {
+            "sdv": "false",
+            "robosub": "false",
+            "drone": "false",
+            "roboboat": "false"
+          },
+          "puesto": "",
+          "area": ""
+        }
+      ],
+      "entryYear": "2022"
+    },
+    "datosPersonales": {
+      "semestre": "8",
+      "carrera": "B. S.  Computer Science and Technology",
+      "birthday": "2000-12-06",
+      "genero": "M",
+      "birthplace": "Ciudad Juarez, Chihuahua"
+    },
+    "bio": "I am a technology enthusiast who really likes to learn about different areas of technology, such as vision, mobile and web development, AI, etc.",
+    "profilePicture": "https://i.ibb.co/Fkry6zR/A01242469-Adrian-Small.png"
+  },
+  {
+    "nombre": "David Rogelio",
+    "bio": "Motivado, dedicado y con gran curiosidad para el aprendizaje",
+    "apellido": "Saláis Carrasco",
+    "updated": "5/22/2022",
+    "datosPersonales": {
+      "genero": "M",
+      "carrera": "B. S. in Digital Systems and Robotic",
+      "birthday": "2000-01-20",
+      "semestre": "8",
+      "birthplace": "Ciudad Juárez, Chihuahua"
+    },
+    "displayName": "David Rogelio Saláis Carrasco",
+    "infoGeneral": {
+      "puesto": "RoboBoat Captain",
+      "area": "Software",
+      "entryYear": "2022",
+      "proyectos": {
+        "roboboat": true,
+        "sdv": "false",
+        "robosub": "false",
+        "drone": "false"
+      }
+    },
+    "contacto": {
+      "whatsapp": "+526561057621",
+      "facebook": "",
+      "emailPersonal": "rogelio.salais@hotmail.com",
+      "instagram": "@ro_geli",
+      "emailInstitucional": "A01245089@tec.mx",
+      "profilePicture": "https://i.ibb.co/7yYdQSD/A01245089-Roger-Small.png",
+      "github": "/DRogerSC",
+      "linkedin": "https://www.linkedin.com/in/david-rogelio-salais/",
+      "twitter": ""
+    },
+    "matricula": "a01245089",
+    "profilePicture": "https://i.ibb.co/7yYdQSD/A01245089-Roger-Small.png",
+    "historial": {
+      "temporadas": [
+        {
+          "area": "",
+          "proyectos": {
+            "robosub": "false",
+            "sdv": "false",
+            "drone": "false",
+            "roboboat": "false"
+          },
+          "puesto": "",
+          "periodo": ""
+        }
+      ],
+      "entryYear": "2022"
+    }
+  },
+  {
+    "historial": {
+      "entryYear": "2022",
+      "temporadas": [
+        {
+          "periodo": "",
+          "area": "",
+          "proyectos": {
+            "drone": "false",
+            "sdv": "false",
+            "roboboat": "false",
+            "robosub": "false"
+          },
+          "puesto": ""
+        }
+      ]
+    },
+    "nombre": "Ian ",
+    "bio": "I <3 Robotics",
+    "displayName": "Ian  De La Garza",
+    "contacto": {
+      "facebook": "https://www.facebook.com/ian.delagarza.1/",
+      "instagram": "ianyan1",
+      "whatsapp": "8180834721",
+      "github": "ianyan11",
+      "emailInstitucional": "a01283525@itesm.mx",
+      "profilePicture": "https://i.ibb.co/BBkQ1Gx/A01283525-Ian-de-la-Garza-Small.png",
+      "emailPersonal": "iandelagg@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/ian-de-la-garza-gzz-4429b430/",
+      "twitter": "ianyan11"
+    },
+    "datosPersonales": {
+      "semestre": "6",
+      "birthday": "2001-01-08",
+      "genero": "M",
+      "birthplace": "St. Charles, MO. EEUU.",
+      "carrera": "B.S  Robotics and Digital Systems"
+    },
+    "updated": "5/22/2022",
+    "infoGeneral": {
+      "puesto": "RoboBoat Captain",
+      "entryYear": "2020",
+      "proyectos": {
+        "roboboat": true,
+        "drone": "false",
+        "robosub": "false",
+        "sdv": "false"
+      },
+      "area": "Software, Testing"
+    },
+    "matricula": "a01283525",
+    "apellido": "De La Garza",
+    "profilePicture": "https://i.ibb.co/BBkQ1Gx/A01283525-Ian-de-la-Garza-Small.png"
+  },
+  {
+    "nombre": "Andrea",
+    "profilePicture": "https://i.ibb.co/grR3qkX/A01351545-Andrea-Small.png",
+    "infoGeneral": {
+      "area": "Media",
+      "proyectos": {
+        "roboboat": true,
+        "sdv": "false",
+        "robosub": "false",
+        "drone": "false"
+      },
+      "puesto": "Sub-Head of Media ",
+      "entryYear": "2020"
+    },
+    "matricula": "a01351545",
+    "apellido": "Rangel Hernández",
+    "datosPersonales": {
+      "genero": "F",
+      "semestre": "6",
+      "birthplace": "Irapuato, Guanajuato",
+      "carrera": "Bachelor of Business Administration",
+      "birthday": "2000-11-21"
+    },
+    "contacto": {
+      "whatsapp": "4626534071",
+      "github": "andrea21rangel",
+      "emailPersonal": "a01351545@tec.mx",
+      "linkedin": "https://www.linkedin.com/in/andrea-rangel-hdz/",
+      "emailInstitucional": "andrearangel21h@gmail.com",
+      "facebook": "https://www.facebook.com/andrearangel21H",
+      "instagram": "andrea21rangel",
+      "twitter": "Andrea21Rangel",
+      "profilePicture": "https://i.ibb.co/grR3qkX/A01351545-Andrea-Small.png"
+    },
+    "displayName": "Andrea Rangel Hernández",
+    "bio": "Hello! My name is Andrea Rangel, I am 21 years old, I study business but I love engineering because in VantTec I have been able to learn things that I could never have learned in my career, I like to meet people and look for new adventures.",
+    "historial": {
+      "entryYear": "2022",
+      "temporadas": [
+        {
+          "area": "",
+          "puesto": "",
+          "proyectos": {
+            "roboboat": "false",
+            "robosub": "false",
+            "sdv": "false",
+            "drone": "false"
+          },
+          "periodo": ""
+        }
+      ]
+    },
+    "updated": "22/5/2022"
+  },
+  {
+    "contacto": {
+      "instagram": "",
+      "facebook": "",
+      "twitter": "",
+      "emailInstitucional": "A01382547@tec.mx",
+      "linkedin": "",
+      "whatsapp": "8442994140",
+      "profilePicture": "https://i.ibb.co/k3H2bgs/A01382547-Fernando-Small.png",
+      "emailPersonal": "fer_arizpe@hotmail.com",
+      "github": ""
+    },
+    "updated": "22/5/2022",
+    "displayName": "Fernando Arizpe",
+    "datosPersonales": {
+      "genero": "M",
+      "birthday": "2001-03-17",
+      "carrera": "Mechatronics",
+      "semestre": "6",
+      "birthplace": "Saltillo, Coahuila"
+    },
+    "infoGeneral": {
+      "puesto": "Mechanism Developer",
+      "area": "Mechanics",
+      "proyectos": {
+        "robosub": "false",
+        "roboboat": true,
+        "sdv": "false",
+        "drone": "false"
+      },
+      "entryYear": "2022"
+    },
+    "profilePicture": "https://i.ibb.co/k3H2bgs/A01382547-Fernando-Small.png",
+    "nombre": "Fernando",
+    "bio": "Like to spend time with my friends and learn new things, keep moving forward.",
+    "apellido": "Arizpe",
+    "historial": {
+      "temporadas": [
+        {
+          "puesto": "",
+          "periodo": "",
+          "proyectos": {
+            "roboboat": "false",
+            "sdv": "false",
+            "robosub": "false",
+            "drone": "false"
+          },
+          "area": ""
+        }
+      ],
+      "entryYear": "2022"
+    },
+    "matricula": "a01382547"
+  },
+  {
+    "profilePicture": "https://i.ibb.co/tPvxr0r/A00830224-Jesus-2-Small.png",
+    "infoGeneral": {
+      "entryYear": "2022",
+      "proyectos": {
+        "sdv": true,
+        "drone": true,
+        "robosub": true,
+        "roboboat": true
+      },
+      "puesto": "Project Management",
+      "area": "Administration "
+    },
+    "historial": {
+      "entryYear": "2022",
+      "temporadas": [
+        {
+          "periodo": "",
+          "area": "",
+          "puesto": "",
+          "proyectos": {
+            "drone": "false",
+            "sdv": "false",
+            "roboboat": "false",
+            "robosub": "false"
+          }
+        }
+      ]
+    },
+    "datosPersonales": {
+      "genero": "M",
+      "birthday": "1999-04-13",
+      "carrera": "B.S in Industrial Engineering with minor in Systems Engineering",
+      "birthplace": "Tampico, Tamaulipas, México",
+      "semestre": "6"
+    },
+    "displayName": "Jesús Eduardo Arteaga Lara",
+    "apellido": "Arteaga Lara",
+    "matricula": "a01411074",
+    "nombre": "Jesús Eduardo",
+    "updated": "5/22/2022",
+    "bio": "Hi my name is Jesús, I’m the project Manager of VantTec. I like making friends and helping people.",
+    "contacto": {
+      "twitter": "",
+      "whatsapp": "8331057639",
+      "emailPersonal": "jesus.arteagala@gmail.com",
+      "linkedin": "",
+      "instagram": "Eduardoartl",
+      "facebook": "",
+      "profilePicture": "",
+      "emailInstitucional": "A01411074@tec.mx",
+      "github": ""
+    }
+  },
+  {
+    "matricula": "a01552369",
+    "bio": "I am an engineering student passionate about math, robotics, and solving problems. ",
+    "contacto": {
+      "emailInstitucional": "a01552369@itesm.mx",
+      "emailPersonal": "maxprpxam@icloud.com",
+      "instagram": "maxpachecoramirez",
+      "whatsapp": "9221545256",
+      "profilePicture": "https://i.ibb.co/kBXmGyc/A01552369-Max-Small.png",
+      "github": "MaxPacheco02",
+      "twitter": "",
+      "linkedin": "",
+      "facebook": ""
+    },
+    "displayName": "Max Pacheco",
+    "nombre": "Max",
+    "datosPersonales": {
+      "genero": "M",
+      "carrera": "B.S. Robotics and Digital Systems",
+      "semestre": "2",
+      "birthplace": "Coatzacoalcos, Veracruz",
+      "birthday": "2002-09-23"
+    },
+    "profilePicture": "https://i.ibb.co/kBXmGyc/A01552369-Max-Small.png",
+    "updated": "22/5/2022",
+    "infoGeneral": {
+      "proyectos": {
+        "sdv": "false",
+        "drone": "false",
+        "robosub": "false",
+        "roboboat": true
+      },
+      "entryYear": "2021",
+      "area": "Software, Electronics",
+      "puesto": "Electronics Designer, Software Developer"
+    },
+    "historial": {
+      "temporadas": [
+        {
+          "area": "",
+          "periodo": "",
+          "puesto": "",
+          "proyectos": {
+            "robosub": "false",
+            "drone": "false",
+            "sdv": "false",
+            "roboboat": "false"
+          }
+        }
+      ],
+      "entryYear": "2022"
+    },
+    "apellido": "Pacheco"
+  },
+  {
+    "bio": "I am a software developer who studies Engineering in Computer Technologies. I love building robots and I am passionate about empowering people through the use of technology.",
+    "apellido": "Prieto Camarillo",
+    "profilePicture": "https://i.ibb.co/NmRJgSj/A01610324-Javier-Small.png",
+    "datosPersonales": {
+      "birthplace": "San Luis Potosí, San Luis Potosí",
+      "genero": "M",
+      "semestre": "6",
+      "carrera": "Engineering in Computer Technologies",
+      "birthday": "1999-07-13"
+    },
+    "displayName": "Javier Prieto Camarillo",
+    "nombre": "Javier",
+    "infoGeneral": {
+      "puesto": "Software developer",
+      "area": "Perception",
+      "entryYear": "2021",
+      "proyectos": {
+        "roboboat": true,
+        "sdv": "false",
+        "drone": "false",
+        "robosub": "false"
+      }
+    },
+    "historial": {
+      "temporadas": [
+        {
+          "periodo": "",
+          "proyectos": {
+            "drone": "false",
+            "robosub": "false",
+            "roboboat": "false",
+            "sdv": "false"
+          },
+          "area": "",
+          "puesto": ""
+        }
+      ],
+      "entryYear": "2022"
+    },
+    "matricula": "a01610324",
+    "contacto": {
+      "whatsapp": "4442859619",
+      "facebook": "",
+      "instagram": "",
+      "github": "",
+      "profilePicture": "",
+      "linkedin": "",
+      "emailInstitucional": "a01610324@tec.mx",
+      "emailPersonal": "prietojavi551@gmail.com",
+      "twitter": ""
+    },
+    "updated": "22/5/2022"
+  }
+]

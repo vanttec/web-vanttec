@@ -14,6 +14,7 @@ export default function MembersList(props) {
     setIndex(selectedIndex);
   };
 
+
   //Checa por algún cambio en members o area
   useEffect(() => {
     const membersList = [];
@@ -31,7 +32,8 @@ export default function MembersList(props) {
       // }
 
       //query by area and roboboat
-      if (member.infoGeneral.area === area && member.infoGeneral.proyectos.roboboat) {
+      // if (member.infoGeneral.area === area && member.infoGeneral.proyectos.roboboat) {
+      if ( member.infoGeneral.proyectos.roboboat) {
         member.index = indexes;
         membersList.push(member);
         indexes = indexes + 1;
@@ -65,7 +67,7 @@ function Member(props) {
   return (
     <Card className="member-card" onClick={() => onClickMember()}>
       <Card.Img
-        src={member.contacto.profilePicture.David}
+        src={member.profilePicture}
         alt={`${member.nombre} ${member.apellido}`}
       />
       <Card.ImgOverlay className="text-center member-card-overlay">

@@ -57,7 +57,7 @@ export default function MembersInfoModal(props) {
                   <Row className="carousel-item-member-row">
                   <Col xs={12} md={6} className="member-img">
                     <img
-                      src={member.contacto.profilePicture.David}
+                      src={member.profilePicture}
                       alt={`${member.nombre} ${member.apellido}`}
                     />
                   </Col>
@@ -68,7 +68,7 @@ export default function MembersInfoModal(props) {
                       <div className="member-bio">
                         <Card.Title as="h4">Bio</Card.Title>
                         <Card.Text>
-                          Poner bio aquí
+                          {member.bio}
                           </Card.Text></div>
                           <div className="member-personal-data">
                           <Card.Title as="h4">About</Card.Title>
@@ -139,8 +139,8 @@ function ContactInfo(props) {
       <Col xs={12} md={7} className="member-contact-information">
         <a href="">
       <span>
-            <FontAwesomeIcon icon={faWhatsapp} />
-            <p>{member.contacto.whatsapp}</p>
+            {/* <FontAwesomeIcon icon={faWhatsapp} />
+            <p>{member.contacto.whatsapp}</p> */}
         </span>
         </a>
         <a href={`mailto:${member.contacto.emailInstitucional}`}>
