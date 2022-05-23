@@ -40,11 +40,7 @@ export default function RoboBoatProject() {
                     invites participants to tackle simplified versions of
                     challenges facing the modern maritime industry.
                   </p>{" "}
-                  <p>
-                    Vanttec started participating in this competition since 2016
-                    and this year, the competition is a little different because
-                    it is held online.
-                  </p>
+
                   <Button href="https://roboboat.org/programs/2022/">
                     Learn More
                   </Button>
@@ -68,15 +64,9 @@ export default function RoboBoatProject() {
                 </Card.Title>
                 <Card.Text>
                   <p>
-                    International RoboBoat Competition is a competition that
-                    invites participants to tackle simplified versions of
-                    challenges facing the modern maritime industry.
+                  Vanttec started participating in this competition since 2017 and this year, the competition is a little different because it is held online.
                   </p>{" "}
-                  <p>
-                    Vanttec started participating in this competition since 2016
-                    and this year, the competition is a little different because
-                    it is held online.
-                  </p>
+
                   <Button className="mb-5" href="">
                   Technical Design Report
                   </Button>
@@ -84,6 +74,7 @@ export default function RoboBoatProject() {
               </Col>
               <Col xs={12} md={6}>
                 <iframe className="video-frame" src="https://www.youtube.com/embed/T0QQMA9NpLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Competition Strategy Video</p>
               </Col>
             </Row>
           </Card.Body>
