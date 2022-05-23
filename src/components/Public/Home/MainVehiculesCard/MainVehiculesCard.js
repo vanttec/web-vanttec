@@ -191,7 +191,7 @@ function DroneCard() {
 function SDV() {
   return (
     <Row className="vehicules-card-row">
-      <Col xs={12} md={6}>
+      <Col xs={12} lg={6}>
         <a href="/projects">
         <Card
           className="vehicule-card"
