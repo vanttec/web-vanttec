@@ -12,7 +12,7 @@ export default function ContactInfo() {
     >
       <Row className="contact-row">
         {/* Contact Info */}
-        <Col xs={12} md={6} >
+        <Col xs={12} lg={6} >
           <div className="vanttec-contact">
 
             {/* Dr. Leonardo Garrido */}
@@ -42,7 +42,7 @@ export default function ContactInfo() {
         </Col>
 
         {/* Map */}
-        <Col xs={12} md={6} className="vanttec-contact-map">
+        <Col xs={12} lg={6} className="vanttec-contact-map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d998.8277953573172!2d-100.29104255549173!3d25.65077644851632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd5c08d577d6b08c1!2zMjXCsDM5JzAxLjIiTiAxMDDCsDE3JzI3LjgiVw!5e0!3m2!1ses!2smx!4v1653110506691!5m2!1ses!2smx"
             width="500"
