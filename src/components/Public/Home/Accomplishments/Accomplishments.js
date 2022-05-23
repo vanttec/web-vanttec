@@ -70,7 +70,7 @@ export default function Accomplishments() {
 function VanttecCard(){
   return (
     <Row className="awards-card-row">
-      <Col xs={12} md={6} className="award-data">
+      <Col xs={12} lg={6} className="award-data">
         <Row className="award-data-stats">
           <h2>RÓMULO GARZA AWARD</h2>
           <p>
@@ -88,7 +88,7 @@ function VanttecCard(){
         </Row>
         <Button href="/research">Learn More About Our Research</Button>
       </Col>
-      <Col xs={12} md={6}>
+      <Col xs={12} lg={6}>
         <Card className="award-card">
           <Card.Img src={vanttecLogo} alt="roboboat" />
           <Card.ImgOverlay className="text-center"></Card.ImgOverlay>
@@ -101,7 +101,7 @@ function VanttecCard(){
 function RoboBoatAwards(){
   return(
     <Row className="awards-card-row">
-    <Col xs={12} md={6} className="award-data">
+    <Col xs={12} lg={6} className="award-data">
       <Row className="award-data-stats">
         <div>
         <h4>2021</h4>
@@ -125,7 +125,7 @@ function RoboBoatAwards(){
         </div>
       </Row>
     </Col>
-    <Col xs={12} md={6}>
+    <Col xs={12} lg={6}>
       <Card
         className="award-card"
       >
@@ -144,7 +144,7 @@ function RoboBoatAwards(){
 function RoboSubAwards(){
   return(
     <Row className="awards-card-row">
-    <Col xs={12} md={6} className="award-data">
+    <Col xs={12} lg={6} className="award-data">
       <Row className="award-data-stats">
         <div>
         <h4>2020</h4>
@@ -156,7 +156,7 @@ function RoboSubAwards(){
         </div>
       </Row>
     </Col>
-    <Col xs={12} md={6}>
+    <Col xs={12} lg={6}>
       <Card
         className="award-card"
       >
