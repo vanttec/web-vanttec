@@ -103,7 +103,7 @@ function RoboBoatCard() {
         </Card>
         {/* </a> */}
       </Col>
-      <Col xs={12} md={6} className="vehicule-data">
+      <Col xs={12} md={6} className="vehicule-data mt-5">
         <Row className="vehicule-data-stats">
           <h2>Autonomous Boat for International Competitions</h2>
           <p>
@@ -140,7 +140,7 @@ function RoboSubCard() {
         </Card>
         {/* </a> */}
       </Col>
-      <Col xs={12} md={6} className="vehicule-data">
+      <Col xs={12} md={6} className="vehicule-data mt-5">
         <Row className="vehicule-data-stats">
           <h2>Autonomous Submarine for International Competitions</h2>
           <h2 style={{color:"rgb(0, 149, 255)"}}>Currently Under Redesign</h2>
@@ -177,7 +177,7 @@ function DroneCard() {
           </Card.ImgOverlay>
         </Card>
       </Col>
-      <Col xs={12} md={6} className="vehicule-data">
+      <Col xs={12} md={6} className="vehicule-data mt-5">
         <Row className="vehicule-data-stats">
           <h2>Coming Soon...</h2>
         </Row>
@@ -208,7 +208,7 @@ function SDV() {
         </Card>
         </a>
       </Col>
-      <Col xs={12} md={6} className="vehicule-data">
+      <Col xs={12} md={6} className="vehicule-data mt-5">
         <Row className="vehicule-data-stats">
           <h2>Autonomous Car For Campus Tours</h2>
           <p>
