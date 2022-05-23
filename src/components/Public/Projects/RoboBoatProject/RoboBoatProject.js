@@ -285,6 +285,20 @@ export default function RoboBoatProject() {
         </Row>
       </Row>
 
+            {/* Members */}
+            <Row className="pt-3 pb-3  justify-content-center hover-effect">
+        <Row className="project-header">
+          <h2>Members</h2>
+        </Row>
+        <Row className="members-list pb-5">
+          <MembersList
+            video={muralVideo}
+            members={testMembers}
+            area={"Media"}
+          />
+        </Row>
+      </Row>
+
      {/* Evidence */}
      <Row className="pt-3 pb-3  justify-content-center">
         <Row className="project-header">
@@ -302,20 +316,6 @@ export default function RoboBoatProject() {
               <img className="d-block w-100" src={roboboatEvidence} />
             </Carousel.Item>
           </Carousel>
-        </Row>
-      </Row>
-
-      {/* Members */}
-      <Row className="pt-3 pb-5  justify-content-center hover-effect">
-        <Row className="project-header">
-          <h2>Members</h2>
-        </Row>
-        <Row className="members-list pb-5">
-          <MembersList
-            video={muralVideo}
-            members={testMembers}
-            area={"Media"}
-          />
         </Row>
       </Row>
     </>
