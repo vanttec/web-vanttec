@@ -87,7 +87,7 @@ function RoboBoatCard() {
 
     <Row className="vehicules-card-row">
       <Col xs={12} md={6}>
-      <a href="/vehicules">
+      <a href="/projects">
         <Card
           className="vehicule-card"
         >
@@ -113,7 +113,7 @@ function RoboBoatCard() {
           </p>
         </Row>
         <Row className="vehicule-data-button">
-          <Button href="/vehicules">Learn More</Button>
+          <Button href="/projects">Learn More</Button>
         </Row>
       </Col>
     </Row>
@@ -124,7 +124,7 @@ function RoboSubCard() {
   return (
     <Row className="vehicules-card-row">
       <Col xs={12} md={6}>
-        <a href="/vehicules">
+        <a href="/projects">
         <Card
           className="vehicule-card"
         >
@@ -152,7 +152,7 @@ function RoboSubCard() {
           
         </Row>
         <Row className="vehicule-data-button">
-          <Button href="/vehicules">Learn More</Button>
+          <Button href="/projects">Learn More</Button>
         </Row>
       </Col>
     </Row>
@@ -192,7 +192,7 @@ function SDV() {
   return (
     <Row className="vehicules-card-row">
       <Col xs={12} md={6}>
-        <a href="/vehicules">
+        <a href="/projects">
         <Card
           className="vehicule-card"
         >
@@ -219,7 +219,7 @@ function SDV() {
           </p>
         </Row>
         <Row className="vehicule-data-button">
-          <Button href="/vehicules">Learn More</Button>
+          <Button href="/projects">Learn More</Button>
         </Row>
       </Col>
     </Row>
