@@ -335,7 +335,7 @@ function RoboBoatMechanicalCard() {
       </Col>
       <Col xs={12} lg={6} className="vehicule-data mt-3">
         <Row className="project-data-stats p-5">
-          <h2>Mechanical Specs</h2>
+          <h2>Mechanics</h2>
             <ul>
               <li> Length: 1 m</li>
               <li>Beam: 0.75 m</li>
@@ -358,7 +358,7 @@ function RoboBoatSoftwareCard() {
       </Col>
       <Col xs={12} lg={6} className="vehicule-data mt-3">
         <Row className="project-data-stats p-5">
-          <h2>Software Specs</h2>
+          <h2>Software</h2>
             <ul>
               <li> ROS Interface</li>
               <li>Python</li>
@@ -379,7 +379,7 @@ function RoboBoatComponentsCard() {
       </Col>
       <Col xs={12} lg={6} className="vehicule-data mt-3 justify-content-center">
         <Row className="project-data-stats p-5 ">
-          <h2>Components Specs</h2>
+          <h2>Components</h2>
             <ul >
               <li> Thrusters: Blue Robotics T200</li>
               <li>Power System: Li-4S 14.8V 18Ah</li>
