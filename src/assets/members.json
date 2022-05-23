@@ -108,60 +108,6 @@
     "displayName": "Alberto Tamez"
   },
   {
-    "matricula": "a01138535",
-    "apellido": "Sánchez López",
-    "contacto": {
-      "facebook": "",
-      "emailPersonal": "maurisl@live.com.mx",
-      "github": "",
-      "emailInstitucional": "a01138535@tec.mx",
-      "profilePicture": "https://i.ibb.co/zhFywSB/A01138535-Mauricio-Small.png",
-      "whatsapp": "8116835466",
-      "instagram": "",
-      "linkedin": "",
-      "twitter": ""
-    },
-    "displayName": "Mauricio Sánchez López",
-    "updated": "22/5/2022",
-    "bio": "A passionate students who enjoys engineering design, 3D printing and sports.",
-    "nombre": "Mauricio",
-    "profilePicture": "https://i.ibb.co/zhFywSB/A01138535-Mauricio-Small.png",
-    "infoGeneral": {
-      "area": "Mechanics",
-      "proyectos": {
-        "roboboat": true,
-        "robosub": "false",
-        "sdv": "false",
-        "drone": "false"
-      },
-      "entryYear": "2021",
-      "puesto": "Mechanics leader"
-    },
-    "datosPersonales": {
-      "birthday": "2000-01-02",
-      "genero": "M",
-      "semestre": "8",
-      "carrera": "Bachelor’s Degree in Industrial Engineering with a minor in Systems Engineering ",
-      "birthplace": "Monterrey, Nuevo León"
-    },
-    "historial": {
-      "temporadas": [
-        {
-          "area": "",
-          "proyectos": {
-            "sdv": "false",
-            "drone": "false",
-            "roboboat": "false",
-            "robosub": "false"
-          },
-          "puesto": "",
-          "periodo": ""
-        }
-      ],
-      "entryYear": "2022"
-    }
-  },
-  {
     "displayName": "Alexa Sofía Arreola Alvarado",
     "matricula": "a01177452",
     "bio": "",
@@ -1024,5 +970,59 @@
     "matricula": "a01610324",
     "updated": "22/5/2022",
     "bio": "I am a software developer who studies Engineering in Computer Technologies. I love building robots and I am passionate about empowering people through the use of technology."
+  },
+  {
+    "matricula": "a01138535",
+    "apellido": "Sánchez López",
+    "contacto": {
+      "facebook": "",
+      "emailPersonal": "maurisl@live.com.mx",
+      "github": "",
+      "emailInstitucional": "a01138535@tec.mx",
+      "profilePicture": "https://i.ibb.co/zhFywSB/A01138535-Mauricio-Small.png",
+      "whatsapp": "8116835466",
+      "instagram": "",
+      "linkedin": "",
+      "twitter": ""
+    },
+    "displayName": "Mauricio Sánchez López",
+    "updated": "22/5/2022",
+    "bio": "A passionate students who enjoys engineering design, 3D printing and sports.",
+    "nombre": "Mauricio",
+    "profilePicture": "https://i.ibb.co/zhFywSB/A01138535-Mauricio-Small.png",
+    "infoGeneral": {
+      "area": "Mechanics",
+      "proyectos": {
+        "roboboat": true,
+        "robosub": "false",
+        "sdv": "false",
+        "drone": "false"
+      },
+      "entryYear": "2021",
+      "puesto": "Mechanics leader"
+    },
+    "datosPersonales": {
+      "birthday": "2000-01-02",
+      "genero": "M",
+      "semestre": "8",
+      "carrera": "Bachelor’s Degree in Industrial Engineering with a minor in Systems Engineering ",
+      "birthplace": "Monterrey, Nuevo León"
+    },
+    "historial": {
+      "temporadas": [
+        {
+          "area": "",
+          "proyectos": {
+            "sdv": "false",
+            "drone": "false",
+            "roboboat": "false",
+            "robosub": "false"
+          },
+          "puesto": "",
+          "periodo": ""
+        }
+      ],
+      "entryYear": "2022"
+    }
   }
 ]
