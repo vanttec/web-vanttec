@@ -9,7 +9,7 @@ import mechanicsVideo from "../../../../assets/videos/mp4/mechanicsVideo.mp4";
 import softwareVideo from "../../../../assets/videos/mp4/softwareVideo.mp4";
 import controlVideo from "../../../../assets/videos/mp4/controlVideo.mp4";
 import locationVideo from "../../../../assets/videos/mp4/locVideo.mp4";
-import businessVideo from "../../../../assets/videos/mp4/businessVideo.mp4";
+import businessVideo from "../../../../assets/videos/mp4/businessVideo.mov";
 
 import "./TeamAreasCarousel.scss";
 
