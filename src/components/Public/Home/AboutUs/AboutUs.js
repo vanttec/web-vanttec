@@ -41,7 +41,7 @@ export default function AboutUs() {
                   </Card.Text>
                 </Col>
                 <Col xs={12} md={6}>
-                  <Card.Img src={aboutPhoto} alt="vision" />
+                  <Card.Img className="shadow-effect" src={aboutPhoto} alt="vision" />
                 </Col>
               </Row>
               <Row className="about-stats">
