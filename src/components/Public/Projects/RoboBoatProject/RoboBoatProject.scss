@@ -76,3 +76,22 @@
         width: 50% !important;
     }
 }
+
+.video-frame{
+    height: 320px !important;
+    width: 510px !important;
+}
+
+@media (max-width: 400px) {
+    .video-frame{
+        height: 175px !important;
+        width: 300px !important;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    .video-frame{
+        height: 250px !important;
+        width: 335px !important;
+    }
+  }

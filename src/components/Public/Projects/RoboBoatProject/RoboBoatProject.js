@@ -23,10 +23,13 @@ export default function RoboBoatProject() {
   return (
     <>
       {/* ABOUT ROBOBOAT COMPETITION */}
-      <Row>
+      <Row className="mt-5 mb-5">
         <Card style={{ borderColor: "transparent" }}>
           <Card.Body>
             <Row className="mission-vision-data">
+            <Col xs={12} md={6}>
+                <Card.Img src={roboboatCompetition} alt="vision" />
+              </Col>
               <Col xs={12} md={6} className="mission-vision-data-col">
                 <Card.Title>
                   <h2>About International RoboBoat Competition</h2>
@@ -47,32 +50,45 @@ export default function RoboBoatProject() {
                   </Button>
                 </Card.Text>
               </Col>
-              <Col xs={12} md={6}>
-                <Card.Img src={roboboatCompetition} alt="vision" />
-              </Col>
+
             </Row>
           </Card.Body>
         </Card>
       </Row>
 
       {/* 2022 Submission Intro */}
-      <div className="hover-effect">
-        <Row>
-          <Row className="home-header">
-            <h2>2022 Submission</h2>
-          </Row>
-          <Row className="submission-links">
-            <Button className="submission-links-btn">
-              <h4>Technical Design Report</h4>
-            </Button>
-            
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/T0QQMA9NpLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            {/* <Button className="submission-links-btn">
-              <h4>Skill Video # 2</h4>
-            </Button> */}
-          </Row>
-        </Row>
+      <Row className="mt-5 mb-5">
+        <Card style={{ borderColor: "transparent" }}>
+          <Card.Body>
+            <Row className="mission-vision-data">
+
+              <Col xs={12} md={6} className="mission-vision-data-col">
+                <Card.Title>
+                  <h2>2022 Submission</h2>
+                </Card.Title>
+                <Card.Text>
+                  <p>
+                    International RoboBoat Competition is a competition that
+                    invites participants to tackle simplified versions of
+                    challenges facing the modern maritime industry.
+                  </p>{" "}
+                  <p>
+                    Vanttec started participating in this competition since 2016
+                    and this year, the competition is a little different because
+                    it is held online.
+                  </p>
+                  <Button className="mb-5" href="">
+                  Technical Design Report
+                  </Button>
+                </Card.Text>
+              </Col>
+              <Col xs={12} md={6}>
+                <iframe className="video-frame" src="https://www.youtube.com/embed/T0QQMA9NpLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </Col>
+            </Row>
+          </Card.Body>
+        </Card>
+      </Row>
 
         {/* SPECS ROBOBOAT COMPETITION */}
         <Row>
@@ -162,7 +178,6 @@ export default function RoboBoatProject() {
             />
           </Row>
         </Row>
-      </div>
     </>
   );
 }

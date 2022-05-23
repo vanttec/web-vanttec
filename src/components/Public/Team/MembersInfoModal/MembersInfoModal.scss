@@ -51,13 +51,16 @@
         margin-bottom: 10px;
         
         img {
-            max-height: 80% !important;
-            max-width: 80% !important;
-            margin-right: 30px;
+            max-height: 360px !important;
+            max-width: 500px !important;
+            min-height: 350px !important;
+            min-width: 450px !important;
+            margin-left: 30px;
+            overflow: hidden;
             border-radius: 10px;
-            box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
-            -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
-            -moz-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.50) !important;
+            box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.30) !important;
+            -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.30) !important;
+            -moz-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.30) !important;
         }
         }
         }
