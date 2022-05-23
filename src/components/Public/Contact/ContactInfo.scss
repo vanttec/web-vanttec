@@ -1,0 +1,57 @@
+.contact-row{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+//Info de contacto
+.vanttec-contact{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    margin-top: 20px;
+    overflow: hidden;
+
+    //Titulo
+    h3{
+        font-weight: bold;
+        color: rgb(0, 149, 255);
+        margin-top: 20px;
+    }
+
+    //Nombre
+    p{
+        font-weight: normal;
+        font-size: x-large;
+        margin-bottom: 5px;
+        font-weight: normal;
+    }
+
+    //Correo Electronico
+    a{
+        text-decoration: none;
+        color: rgb(101, 101, 101);
+        
+
+        p{
+            font-weight: normal;
+            font-size: medium;
+        }
+    }
+
+
+
+}
+
+//Mapa
+.vanttec-contact-map{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-right: 5px;
+}
+
