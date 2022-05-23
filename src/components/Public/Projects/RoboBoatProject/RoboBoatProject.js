@@ -1,24 +1,301 @@
 import React, { useState } from "react";
-import { Card, Nav, Row, Col, Container, Button } from "react-bootstrap";
+import { Card, Nav, Row, Col, Button, Carousel } from "react-bootstrap";
 import { SwitchTransition, CSSTransition } from "react-transition-group";
+import MembersList from "../../Team/MembersList/MembersList";
 
 //vehicules photos
-import dronePhoto from "../../../../assets/img/jpeg/dronePhoto.jpeg";
 import roboboatCompetition from "../../../../assets/img/png/roboboat-logo.png";
 import roboboatPhoto from "../../../../assets/img/jpeg/roboboatPhoto.jpg";
-import robosubPhoto from "../../../../assets/img/jpeg/robosubPhoto.jpeg";
-import sdvPhoto from "../../../../assets/img/jpeg/sdvPhoto.jpeg";
+import roboboatEvidence from "../../../../assets/img/jpg/competencia.jpg";
+
+//video
+import muralVideo from "../../../../assets/videos/mp4/VanttecDroneMural.mp4";
+import David from "../../../../assets/img/jpeg/Yo.jpg";
 
 import "./RoboBoatProject.scss";
 
 export default function RoboBoatProject() {
   const [vehiculeToShow, setVehiculeToShow] = useState("1");
+  const testMembers = [
+    {
+      matricula: "A01235692",
+      nombre: "David Gerardo",
+      apellido: "Martínez Hidrogo",
+      datosPersonales: {
+        carrera: "ITC",
+        semestre: "4to",
+        birthplace: "Torreón, Coahuila",
+        birthday: "21 Enero 2000",
+        genero: "M",
+      },
+      infoGeneral: {
+        proyectos: {
+          roboboat: true,
+          robosub: false,
+          sdv: true,
+          drone: false,
+        },
+        puesto: "Web Developer",
+        entryYear: "2022",
+        area: "Media",
+      },
+      contacto: {
+        profilePicture: { David },
+        emailInstitucional: "a01235692@tec.mx",
+        emailPersonal: "gerardomartinez.hi@gmail.com",
+        whatsapp: "8712759212",
+        linkedin: "",
+        github: "https://github.com/davidmartinezhi",
+        instagram: "https://www.instagram.com/davidmartinez.hi/",
+        facebook: "https://www.facebook.com/profile.php?id=100008118908014",
+        twitter: "https://twitter.com/davidmtzhi",
+      },
+    },
+    {
+      matricula: "A01235692",
+      nombre: "Rodrigo",
+      apellido: "Alatorre Cuellar",
+      datosPersonales: {
+        carrera: "ITC",
+        semestre: "4to",
+        birthplace: "Torreón, Coahuila",
+        birthday: "21 Enero 2000",
+        genero: "M",
+      },
+      infoGeneral: {
+        proyectos: {
+          roboboat: true,
+          robosub: false,
+          sdv: true,
+          drone: false,
+        },
+        puesto: "Web Developer",
+        entryYear: "2022",
+        area: "Media",
+      },
+      contacto: {
+        profilePicture: { David },
+        emailInstitucional: "a01235692@tec.mx",
+        emailPersonal: "gerardomartinez.hi@gmail.com",
+        whatsapp: "8712759212",
+        linkedin: "",
+        github: "https://github.com/davidmartinezhi",
+        instagram: "https://www.instagram.com/davidmartinez.hi/",
+        facebook: "https://www.facebook.com/profile.php?id=100008118908014",
+        twitter: "https://twitter.com/davidmtzhi",
+      },
+    },
+    {
+      matricula: "A01235692",
+      nombre: "Eduardo",
+      apellido: "Ramosclamont",
+      datosPersonales: {
+        carrera: "ITC",
+        semestre: "4to",
+        birthplace: "Torreón, Coahuila",
+        birthday: "21 Enero 2000",
+        genero: "M",
+      },
+      infoGeneral: {
+        proyectos: {
+          roboboat: true,
+          robosub: false,
+          sdv: true,
+          drone: false,
+        },
+        puesto: "Web Developer",
+        entryYear: "2022",
+        area: "Media",
+      },
+      contacto: {
+        profilePicture: { David },
+        emailInstitucional: "a01235692@tec.mx",
+        emailPersonal: "gerardomartinez.hi@gmail.com",
+        whatsapp: "8712759212",
+        linkedin: "",
+        github: "https://github.com/davidmartinezhi",
+        instagram: "https://www.instagram.com/davidmartinez.hi/",
+        facebook: "https://www.facebook.com/profile.php?id=100008118908014",
+        twitter: "https://twitter.com/davidmtzhi",
+      },
+    },
+    {
+      matricula: "A01235692",
+      nombre: "Gerardo",
+      apellido: "Martínez Hidrogo",
+      datosPersonales: {
+        carrera: "ITC",
+        semestre: "4to",
+        birthplace: "Torreón, Coahuila",
+        birthday: "21 Enero 2000",
+        genero: "M",
+      },
+      infoGeneral: {
+        proyectos: {
+          roboboat: true,
+          robosub: false,
+          sdv: true,
+          drone: false,
+        },
+        puesto: "Web Developer",
+        entryYear: "2022",
+        area: "Media",
+      },
+      contacto: {
+        profilePicture: { David },
+        emailInstitucional: "a01235692@tec.mx",
+        emailPersonal: "gerardomartinez.hi@gmail.com",
+        whatsapp: "8712759212",
+        linkedin: "",
+        github: "https://github.com/davidmartinezhi",
+        instagram: "https://www.instagram.com/davidmartinez.hi/",
+        facebook: "https://www.facebook.com/profile.php?id=100008118908014",
+        twitter: "https://twitter.com/davidmtzhi",
+      },
+    },
+    {
+      matricula: "A01235692",
+      nombre: "David",
+      apellido: "Martínez Hidrogo",
+      datosPersonales: {
+        carrera: "ITC",
+        semestre: "4to",
+        birthplace: "Torreón, Coahuila",
+        birthday: "21 Enero 2000",
+        genero: "M",
+      },
+      infoGeneral: {
+        proyectos: {
+          roboboat: false,
+          robosub: false,
+          sdv: true,
+          drone: false,
+        },
+        puesto: "Web Developer",
+        entryYear: "2022",
+        area: "Media",
+      },
+      contacto: {
+        profilePicture: { David },
+        emailInstitucional: "a01235692@tec.mx",
+        emailPersonal: "gerardomartinez.hi@gmail.com",
+        whatsapp: "8712759212",
+        linkedin: "",
+        github: "https://github.com/davidmartinezhi",
+        instagram: "https://www.instagram.com/davidmartinez.hi/",
+        facebook: "https://www.facebook.com/profile.php?id=100008118908014",
+        twitter: "https://twitter.com/davidmtzhi",
+      },
+    },
+    {
+      matricula: "A01235692",
+      nombre: "David",
+      apellido: "Martínez Hidrogo",
+      datosPersonales: {
+        carrera: "ITC",
+        semestre: "4to",
+        birthplace: "Torreón, Coahuila",
+        birthday: "21 Enero 2000",
+        genero: "M",
+      },
+      infoGeneral: {
+        proyectos: {
+          roboboat: false,
+          robosub: false,
+          sdv: true,
+          drone: false,
+        },
+        puesto: "Web Developer",
+        entryYear: "2022",
+        area: "Media",
+      },
+      contacto: {
+        profilePicture: { David },
+        emailInstitucional: "a01235692@tec.mx",
+        emailPersonal: "gerardomartinez.hi@gmail.com",
+        whatsapp: "8712759212",
+        linkedin: "",
+        github: "https://github.com/davidmartinezhi",
+        instagram: "https://www.instagram.com/davidmartinez.hi/",
+        facebook: "https://www.facebook.com/profile.php?id=100008118908014",
+        twitter: "https://twitter.com/davidmtzhi",
+      },
+    },
+    {
+      matricula: "A01235692",
+      nombre: "David",
+      apellido: "Martínez Hidrogo",
+      datosPersonales: {
+        carrera: "ITC",
+        semestre: "4to",
+        birthplace: "Torreón, Coahuila",
+        birthday: "21 Enero 2000",
+        genero: "M",
+      },
+      infoGeneral: {
+        proyectos: {
+          roboboat: false,
+          robosub: false,
+          sdv: true,
+          drone: false,
+        },
+        puesto: "Web Developer",
+        entryYear: "2022",
+        area: "Media",
+      },
+      contacto: {
+        profilePicture: { David },
+        emailInstitucional: "a01235692@tec.mx",
+        emailPersonal: "gerardomartinez.hi@gmail.com",
+        whatsapp: "8712759212",
+        linkedin: "",
+        github: "https://github.com/davidmartinezhi",
+        instagram: "https://www.instagram.com/davidmartinez.hi/",
+        facebook: "https://www.facebook.com/profile.php?id=100008118908014",
+        twitter: "https://twitter.com/davidmtzhi",
+      },
+    },
+    {
+      matricula: "A01235692",
+      nombre: "David",
+      apellido: "Martínez Hidrogo",
+      datosPersonales: {
+        carrera: "ITC",
+        semestre: "4to",
+        birthplace: "Torreón, Coahuila",
+        birthday: "21 Enero 2000",
+        genero: "M",
+      },
+      infoGeneral: {
+        proyectos: {
+          roboboat: false,
+          robosub: false,
+          sdv: true,
+          drone: false,
+        },
+        puesto: "Web Developer",
+        entryYear: "2022",
+        area: "Media",
+      },
+      contacto: {
+        profilePicture: { David },
+        emailInstitucional: "a01235692@tec.mx",
+        emailPersonal: "gerardomartinez.hi@gmail.com",
+        whatsapp: "8712759212",
+        linkedin: "",
+        github: "https://github.com/davidmartinezhi",
+        instagram: "https://www.instagram.com/davidmartinez.hi/",
+        facebook: "https://www.facebook.com/profile.php?id=100008118908014",
+        twitter: "https://twitter.com/davidmtzhi",
+      },
+    },
+  ];
 
   return (
     <>
       {/* ABOUT ROBOBOAT COMPETITION */}
       <Row>
-        <Card style={{borderColor:"transparent"}}>
+        <Card style={{ borderColor: "transparent" }}>
           <Card.Body>
             <Row className="mission-vision-data">
               <Col xs={12} md={6} className="mission-vision-data-col">
@@ -49,60 +326,114 @@ export default function RoboBoatProject() {
         </Card>
       </Row>
 
-      {/* SPECS ROBOBOAT COMPETITION */}
-      <Row className="hover-effect">
-        <Row className="project-header">
-          <h2>Specs</h2>
+      {/* 2022 Submission Intro */}
+      <div className="hover-effect">
+        <Row>
+          <Row className="home-header">
+            <h2>2022 Submission</h2>
+          </Row>
+          <Row className="submission-links">
+            <Button className="submission-links-btn">
+              <h4>Technical Design Report</h4>
+            </Button>
+            <Button className="submission-links-btn">
+              <h4>Skill Video # 1</h4>
+            </Button>
+            <Button className="submission-links-btn">
+              <h4>Skill Video # 2</h4>
+            </Button>
+          </Row>
         </Row>
-        <Card
-          className="projects-card"
-          style={{ backgroundColor: "transparent" }}
-        >
-          <Card.Header>
-            <Nav
-              variant="pills"
-              justify
-              defaultActiveKey={vehiculeToShow}
-              activeKey={vehiculeToShow}
-              onSelect={(selectedKey) => {
-                setVehiculeToShow(selectedKey);
-              }}
-            >
-              <Nav.Item className="vehicule-item">
-                <Nav.Link eventKey={1}>Mechanical</Nav.Link>
-              </Nav.Item>
-              <Nav.Item className="vehicule-item">
-                <Nav.Link eventKey={2}>Software</Nav.Link>
-              </Nav.Item>
-              <Nav.Item className="vehicule-item">
-                <Nav.Link eventKey={3}>Components</Nav.Link>
-              </Nav.Item>
-            </Nav>
-          </Card.Header>
 
-          <Card.Body className="projects-card-body">
-            <SwitchTransition mode={"out-in"}>
-              <CSSTransition
-                key={vehiculeToShow}
-                addEndListener={(node, done) => {
-                  node.addEventListener("transitionend", done, false);
+        {/* SPECS ROBOBOAT COMPETITION */}
+        <Row>
+          <Row className="project-header">
+            <h2>Specs</h2>
+          </Row>
+          <Card
+            className="projects-card"
+            style={{ backgroundColor: "transparent" }}
+          >
+            <Card.Header>
+              <Nav
+                variant="pills"
+                justify
+                defaultActiveKey={vehiculeToShow}
+                activeKey={vehiculeToShow}
+                onSelect={(selectedKey) => {
+                  setVehiculeToShow(selectedKey);
                 }}
-                classNames="fade"
               >
-                <div>
-                  {vehiculeToShow === "1" ? (
-                    <RoboBoatMechanicalCard />
-                  ) : vehiculeToShow === "2" ? (
-                    <RoboBoatSoftwareCard />
-                  ) : (
-                    <RoboBoatComponentsCard />
-                  )}
-                </div>
-              </CSSTransition>
-            </SwitchTransition>
-          </Card.Body>
-        </Card>
-      </Row>
+                <Nav.Item className="vehicule-item">
+                  <Nav.Link eventKey={1}>Mechanical</Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="vehicule-item">
+                  <Nav.Link eventKey={2}>Software</Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="vehicule-item">
+                  <Nav.Link eventKey={3}>Components</Nav.Link>
+                </Nav.Item>
+              </Nav>
+            </Card.Header>
+
+            <Card.Body className="projects-card-body">
+              <SwitchTransition mode={"out-in"}>
+                <CSSTransition
+                  key={vehiculeToShow}
+                  addEndListener={(node, done) => {
+                    node.addEventListener("transitionend", done, false);
+                  }}
+                  classNames="fade"
+                >
+                  <div>
+                    {vehiculeToShow === "1" ? (
+                      <RoboBoatMechanicalCard />
+                    ) : vehiculeToShow === "2" ? (
+                      <RoboBoatSoftwareCard />
+                    ) : (
+                      <RoboBoatComponentsCard />
+                    )}
+                  </div>
+                </CSSTransition>
+              </SwitchTransition>
+            </Card.Body>
+          </Card>
+        </Row>
+
+        {/* Evidence */}
+        <Row>
+          <Row className="project-header">
+            <h2>Evidence</h2>
+          </Row>
+          <Row>
+            <Carousel>
+              <Carousel.Item>
+                <img className="d-block w-100" src={roboboatEvidence} />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={roboboatEvidence} />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={roboboatEvidence} />
+              </Carousel.Item>
+            </Carousel>
+          </Row>
+        </Row>
+
+        {/* Members */}
+        <Row>
+          <Row className="project-header">
+            <h2>Members</h2>
+          </Row>
+          <Row className="members-list mb-5">
+            <MembersList
+              video={muralVideo}
+              members={testMembers}
+              area={"Media"}
+            />
+          </Row>
+        </Row>
+      </div>
     </>
   );
 }
@@ -117,12 +448,15 @@ function RoboBoatMechanicalCard() {
       </Col>
       <Col xs={12} md={6} className="vehicule-data">
         <Row className="project-data-stats">
-          <ul>
-            <li> Length: 1 m</li>
-            <li>Beam: 0.75 m</li>
-            <li>Mass: 30 kg</li>
-            <li>Maximum Thrust: 73</li>
-          </ul>
+          <h2>Mechanical Specs</h2>
+          <div>
+            <ul>
+              <li> Length: 1 m</li>
+              <li>Beam: 0.75 m</li>
+              <li>Mass: 30 kg</li>
+              <li>Maximum Thrust: 73</li>
+            </ul>
+          </div>
         </Row>
       </Col>
     </Row>
@@ -130,50 +464,54 @@ function RoboBoatMechanicalCard() {
 }
 
 function RoboBoatSoftwareCard() {
-    return (
-      <Row className="projects-card-row">
-        <Col xs={12} md={6}>
-            <Card className="project-card">
-              <Card.Img src={roboboatPhoto} alt="roboboat" />
-            </Card>
-        </Col>
-        <Col xs={12} md={6} className="vehicule-data">
-          <Row className="vehicule-data-stats">
-            <h2>Autonomous Boat for International Competitions</h2>
-            <p>
-              Conquers the Surface by Perceiving Objects Around Him, Maneuvers
-              Around Obstacles, Resists Weather Disturbances, and has Waypoint
-              Navigation
-            </p>
-          </Row>
-          <Row className="vehicule-data-button">
-            <Button href="/vehicules">Learn More</Button>
-          </Row>
-        </Col>
-      </Row>
-    );
-  }
-  function RoboBoatComponentsCard() {
-    return (
-      <Row className="projects-card-row">
-        <Col xs={12} md={6}>
-            <Card className="project-card">
-              <Card.Img src={roboboatPhoto} alt="roboboat" />
-            </Card>
-        </Col>
-        <Col xs={12} md={6} className="vehicule-data">
-          <Row className="vehicule-data-stats">
-            <h2>Autonomous Boat for International Competitions</h2>
-            <p>
-              Conquers the Surface by Perceiving Objects Around Him, Maneuvers
-              Around Obstacles, Resists Weather Disturbances, and has Waypoint
-              Navigation
-            </p>
-          </Row>
-          <Row className="vehicule-data-button">
-            <Button href="/vehicules">Learn More</Button>
-          </Row>
-        </Col>
-      </Row>
-    );
-  }
+  return (
+    <Row className="projects-card-row">
+      <Col xs={12} md={6}>
+        <Card className="project-card">
+          <Card.Img src={roboboatPhoto} alt="roboboat" />
+        </Card>
+      </Col>
+      <Col xs={12} md={6} className="vehicule-data">
+        <Row className="project-data-stats">
+          <h2>Software Specs</h2>
+          <div>
+            <ul>
+              <li> ROS Interface</li>
+              <li>Python</li>
+              <li>C++</li>
+            </ul>
+          </div>
+        </Row>
+      </Col>
+    </Row>
+  );
+}
+function RoboBoatComponentsCard() {
+  return (
+    <Row className="projects-card-row">
+      <Col xs={12} md={6}>
+        <Card className="project-card">
+          <Card.Img src={roboboatPhoto} alt="roboboat" />
+        </Card>
+      </Col>
+      <Col xs={12} md={6} className="vehicule-data">
+        <Row className="project-data-stats">
+          <h2>Components Specs</h2>
+          <div>
+            <ul>
+              <li> Thrusters: Blue Robotics T200</li>
+              <li>Power System: Li-4S 14.8V 18Ah</li>
+              <li>Teleoperation: FrSky Taranis X9D Plus</li>
+              <li>Processor: NVIDIA Jetson TX2</li>
+              <li>LiDAR: Velodyne VLP-16</li>
+              <li>INS: VectorNav VN-300</li>
+              <li>Camera: ZED Camera</li>
+              <li>Hydrophones: Teledyne TC4013, Aquarian H1C</li>
+              <li>RF Modules: Digi XTend</li>
+            </ul>
+          </div>
+        </Row>
+      </Col>
+    </Row>
+  );
+}
