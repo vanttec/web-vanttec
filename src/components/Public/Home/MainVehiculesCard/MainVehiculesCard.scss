@@ -58,23 +58,23 @@
     -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.35) !important;
 
     //Animation on hover
-    &:hover{
-        cursor: pointer;
-        transform: scale(1.01);
-        transition: all 0.3s ease-in !important;
-        box-shadow: 5px 10px 20px 1px rgba(0,0,0,.8) !important;
-        -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.8) !important;
-        -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.8) !important;
-    }
+    // &:hover{
+    //     cursor: pointer;
+    //     transform: scale(1.01);
+    //     transition: all 0.3s ease-in !important;
+    //     box-shadow: 5px 10px 20px 1px rgba(0,0,0,.8) !important;
+    //     -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.8) !important;
+    //     -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.8) !important;
+    // }
 
     &__highlight{
         opacity: 0;
         transition: all 0.3s ease-in !important;
 
-        :hover > & {
-            opacity: 1;
-            transition: all 0.2s ease-out !important;
-        }
+        // :hover > & {
+        //     opacity: 1;
+        //     transition: all 0.2s ease-out !important;
+        // }
     }
 
     &-overlay{
@@ -91,10 +91,10 @@
             color: white;
         }
 
-        &:hover{
-            background-color: rgba(0,0,0,0.6);
-            transition: all 0.2s linear !important;
-        }
+        // &:hover{
+        //     background-color: rgba(0,0,0,0.6);
+        //     transition: all 0.2s linear !important;
+        // }
         
     }
 }

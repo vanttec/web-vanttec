@@ -87,7 +87,7 @@ function RoboBoatCard() {
 
     <Row className="vehicules-card-row">
       <Col xs={12} md={6}>
-      <a href="/projects">
+      {/* <a href="/projects"> */}
         <Card
           className="vehicule-card"
         >
@@ -101,7 +101,7 @@ function RoboBoatCard() {
             </div>
           </Card.ImgOverlay>
         </Card>
-        </a>
+        {/* </a> */}
       </Col>
       <Col xs={12} md={6} className="vehicule-data">
         <Row className="vehicule-data-stats">
@@ -124,7 +124,7 @@ function RoboSubCard() {
   return (
     <Row className="vehicules-card-row">
       <Col xs={12} md={6}>
-        <a href="/projects">
+        {/* <a href="/projects"> */}
         <Card
           className="vehicule-card"
         >
@@ -138,7 +138,7 @@ function RoboSubCard() {
             </div>
           </Card.ImgOverlay>
         </Card>
-        </a>
+        {/* </a> */}
       </Col>
       <Col xs={12} md={6} className="vehicule-data">
         <Row className="vehicule-data-stats">
