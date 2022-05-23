@@ -103,7 +103,7 @@ function RoboBoatCard() {
         </Card>
         {/* </a> */}
       </Col>
-      <Col xs={12} md={6} className="vehicule-data mt-5">
+      <Col xs={12} lg={6} className="vehicule-data mt-5">
         <Row className="vehicule-data-stats">
           <h2>Autonomous Boat for International Competitions</h2>
           <p>
@@ -123,7 +123,7 @@ function RoboBoatCard() {
 function RoboSubCard() {
   return (
     <Row className="vehicules-card-row">
-      <Col xs={12} md={6}>
+      <Col xs={12} lg={6}>
         {/* <a href="/projects"> */}
         <Card
           className="vehicule-card"
@@ -140,7 +140,7 @@ function RoboSubCard() {
         </Card>
         {/* </a> */}
       </Col>
-      <Col xs={12} md={6} className="vehicule-data mt-5">
+      <Col xs={12} lg={6} className="vehicule-data mt-5">
         <Row className="vehicule-data-stats">
           <h2>Autonomous Submarine for International Competitions</h2>
           <h2 style={{color:"rgb(0, 149, 255)"}}>Currently Under Redesign</h2>
@@ -162,7 +162,7 @@ function RoboSubCard() {
 function DroneCard() {
   return (
     <Row className="vehicules-card-row">
-      <Col xs={12} md={6}>
+      <Col xs={12} lg={6}>
         <Card
           className="vehicule-card"
         >
