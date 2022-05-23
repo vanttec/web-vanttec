@@ -35,10 +35,10 @@ export default function TeamAreasCarousel() {
             <Carousel.Caption>
               <h3>Perception</h3>
               <p>
-                Enabling Our Vehicules To Perceive The World Around Them with
-                Sensors Such as Lidar, Hydrophones and Stereo Cameras
+                Train Neural Networks to Enable our Vehicules To Perceive The World Around Them through
+                Sensors Such as Lidar, Hydrophones and Stereo Cameras.
               </p>
-              <Button className="team-carousel-button">See Members</Button>
+              {/* <Button className="team-carousel-button">See Members</Button> */}
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -57,10 +57,10 @@ export default function TeamAreasCarousel() {
               <h3>Software</h3>
               <p>
                 Development of Algorithms. Based on Systems from Perception,
-                Control and Location. To enable our vehicules to Conquer the
-                Challenges in each Competitions
+                Control and Localization. To Enable our Vehicules to do their Tasks efficiently an Conquer the
+                Challenges in each Competitions.
               </p>
-              <Button className="team-carousel-button">See Members</Button>
+              {/* <Button className="team-carousel-button">See Members</Button> */}
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -78,10 +78,10 @@ export default function TeamAreasCarousel() {
             <Carousel.Caption>
               <h3>Control</h3>
               <p>
-                Generating Signals for Vehicles Engines Based on References Such
-                as Position Speed and Orientation
+                Generate Signals for Vehicles Engines Based on References Such
+                as Position Speed and Orientation.
               </p>
-              <Button className="team-carousel-button">See Members</Button>
+              {/* <Button className="team-carousel-button">See Members</Button> */}
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -97,13 +97,13 @@ export default function TeamAreasCarousel() {
               />
             </div>
             <Carousel.Caption>
-              <h3>Location</h3>
+              <h3>Localization</h3>
               <p>
-                Estimating Status Such as Position, Speed and Orientation of a
+                Estimate States Such as Position, Speed and Orientation of a
                 Vehicle with Different Sensors such as IMU, DVL, GPS and
-                barometers
+                Barometers
               </p>
-              <Button className="team-carousel-button">See Members</Button>
+              {/* <Button className="team-carousel-button">See Members</Button> */}
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -121,7 +121,7 @@ export default function TeamAreasCarousel() {
             <Carousel.Caption>
               <h3>Mechanics</h3>
               <p>Vehicle Design and Manufacturing</p>
-              <Button className="team-carousel-button">See Members</Button>
+              {/* <Button className="team-carousel-button">See Members</Button> */}
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -142,7 +142,7 @@ export default function TeamAreasCarousel() {
                 Design of Power Systems and Integration of Modules such as
                 Sensors, Computers and Actuators
               </p>
-              <Button className="team-carousel-button">See Members</Button>
+              {/* <Button className="team-carousel-button">See Members</Button> */}
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -162,7 +162,7 @@ export default function TeamAreasCarousel() {
               <p>
                 Getting Sponsorships and Finding Ways to Support Team Projects{" "}
               </p>
-              <Button className="team-carousel-button">See Members</Button>
+              {/* <Button className="team-carousel-button">See Members</Button> */}
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -183,7 +183,7 @@ export default function TeamAreasCarousel() {
                 Representing the Team and what it stands for, on social media
                 and its website.
               </p>
-              <Button className="team-carousel-button">See Members</Button>
+              {/* <Button className="team-carousel-button">See Members</Button> */}
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
