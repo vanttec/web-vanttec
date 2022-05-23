@@ -6,6 +6,9 @@ import MembersList from "../../Team/MembersList/MembersList";
 //vehicules photos
 import roboboatCompetition from "../../../../assets/img/png/roboboat-logo.png";
 import roboboatPhoto from "../../../../assets/img/jpeg/roboboatPhoto.jpg";
+import roboboatRender from "../../../../assets/img/jpeg/renderBote.jpeg";
+import roboboatSoftware from "../../../../assets/img/png/softwareBote.png";
+import roboboatComponents from "../../../../assets/img/png/componentsBote.png";
 import roboboatEvidence from "../../../../assets/img/jpg/competencia.jpg";
 
 //video
@@ -325,13 +328,13 @@ export default function RoboBoatProject() {
 function RoboBoatMechanicalCard() {
   return (
     <Row className="projects-card-row">
-      <Col xs={12} md={6}>
+      <Col xs={12} lg={6} className="mb-5">
         <Card className="project-card">
-          <Card.Img src={roboboatPhoto} alt="roboboat" />
+          <Card.Img  src={roboboatRender} alt="roboboat" />
         </Card>
       </Col>
-      <Col xs={12} md={6} className="vehicule-data">
-        <Row className="project-data-stats">
+      <Col xs={12} lg={6} className="vehicule-data mt-3">
+        <Row className="project-data-stats p-5">
           <h2>Mechanical Specs</h2>
             <ul>
               <li> Length: 1 m</li>
@@ -348,13 +351,13 @@ function RoboBoatMechanicalCard() {
 function RoboBoatSoftwareCard() {
   return (
     <Row className="projects-card-row">
-      <Col xs={12} md={6}>
+      <Col xs={12} lg={6}>
         <Card className="project-card">
-          <Card.Img src={roboboatPhoto} alt="roboboat" />
+          <Card.Img src={roboboatSoftware} alt="roboboat" />
         </Card>
       </Col>
-      <Col xs={12} md={6} className="vehicule-data">
-        <Row className="project-data-stats">
+      <Col xs={12} lg={6} className="vehicule-data mt-3">
+        <Row className="project-data-stats p-5">
           <h2>Software Specs</h2>
             <ul>
               <li> ROS Interface</li>
@@ -369,15 +372,15 @@ function RoboBoatSoftwareCard() {
 function RoboBoatComponentsCard() {
   return (
     <Row className="projects-card-row">
-      <Col xs={12} md={6}>
+      <Col xs={12} lg={6}>
         <Card className="project-card">
-          <Card.Img src={roboboatPhoto} alt="roboboat" />
+          <Card.Img src={roboboatComponents} alt="roboboat" />
         </Card>
       </Col>
-      <Col xs={12} md={6} className="vehicule-data">
-        <Row className="project-data-stats">
+      <Col xs={12} lg={6} className="vehicule-data mt-3 justify-content-center">
+        <Row className="project-data-stats p-5 ">
           <h2>Components Specs</h2>
-            <ul>
+            <ul >
               <li> Thrusters: Blue Robotics T200</li>
               <li>Power System: Li-4S 14.8V 18Ah</li>
               <li>Teleoperation: FrSky Taranis X9D Plus</li>
