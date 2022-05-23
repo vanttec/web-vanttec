@@ -18,7 +18,7 @@ export default function RoboBoatProject() {
     <>
       {/* ABOUT ROBOBOAT COMPETITION */}
       <Row>
-        <Card className="mission-vision-card">
+        <Card style={{borderColor:"transparent"}}>
           <Card.Body>
             <Row className="mission-vision-data">
               <Col xs={12} md={6} className="mission-vision-data-col">

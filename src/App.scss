@@ -58,10 +58,10 @@
 
 
 .hover-effect{
-    width: 100vw;
+    width: 98vw;
     border-color: transparent;
     background-color: white;
-    max-height: 150%;
+    max-height: 300%;
     padding: 0;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -101,4 +101,19 @@
   .fade-enter-active,
   .fade-exit-active{
     transition: opacity 600ms, transform 600ms;
+  }
+
+  .my-node-enter {
+    opacity: 0;
+  }
+  .my-node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+  }
+  .my-node-exit {
+    opacity: 1;
+  }
+  .my-node-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
   }
