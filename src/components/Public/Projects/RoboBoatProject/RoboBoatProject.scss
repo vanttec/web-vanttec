@@ -1,0 +1,65 @@
+.project-header{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h2{
+        color: rgb(0, 149, 255) !important;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+}
+@media (max-width: 900px) {
+    .project-header{
+        height: 10vh;
+    }
+  }
+
+  .project-data{
+        max-height: 90%;
+        max-width: 90%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    
+        &-stats{
+            max-height: 80%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+    
+            h2, p{
+                text-align: center;
+            }
+    
+            h2{
+                font-weight: bold;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+    
+            P{
+                font-size: medium;
+                font-weight: normal;
+            }
+    
+            ul{
+                list-style: none;
+                li{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px;
+                    font-weight: normal;
+                    margin-top: 6px;
+                }   
+            }
+    
+
+        }
+  }

@@ -1,0 +1,105 @@
+.projects-header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h2{
+        //color: rgb(0, 149, 255) !important;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+}
+
+.projects-card{
+    background-color: rgba(255, 255, 255, 0.0) !important;
+    padding: 0 !important;
+    min-height: 100%;
+
+    &-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        height: 100%;
+    }
+
+    &-row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+
+    }
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        }
+
+    // &-col{
+    //     width: 90%;
+    // }
+}
+
+.card-header{
+    background-color: transparent !important;
+}
+
+//Nav projects
+.project-item{
+    background-color: white !important;
+    .nav-link{
+        color: black;
+        background-color: white;
+
+        &:hover{
+            color: white;
+            background-color: lightgray;
+        }
+    }
+}
+
+
+
+//project Image
+.project-card{
+    max-width: 90%;
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    border-color: transparent !important;
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,.35) !important;
+    -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.35) !important;
+    -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.35) !important;
+
+
+    &-overlay{
+        background-color: rgba(0,0,0,0.0);
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        box-shadow: 5px 10px 20px 1px rgba(0,0,0,.2) !important;
+        -webkit-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.2) !important;
+        -moz-box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.2) !important;
+        transition: all 0.3s ease-out !important;
+
+        .info{
+            color: white;
+        }
+
+        &:hover{
+            background-color: rgba(0,0,0,0.6);
+            transition: all 0.2s linear !important;
+        }
+        
+    }
+}
+
+a.nav-link.active{
+    background-color: rgb(0, 149, 255) !important;
+    color: white !important;
+}
