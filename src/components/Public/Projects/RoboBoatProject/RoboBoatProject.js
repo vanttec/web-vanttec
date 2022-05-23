@@ -286,7 +286,7 @@ export default function RoboBoatProject() {
       </Row>
 
             {/* Members */}
-            <Row className="pt-3 pb-3  justify-content-center hover-effect">
+            <Row className="pt-3 pb-5  justify-content-center hover-effect">
         <Row className="project-header">
           <h2>Members</h2>
         </Row>
