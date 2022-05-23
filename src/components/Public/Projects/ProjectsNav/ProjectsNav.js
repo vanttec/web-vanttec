@@ -60,7 +60,7 @@ export default function ProjectsNav() {
             classNames="my-node"
           >
     
-              <div>
+              
               {vehiculeToShow === "1" ? (
                 <RoboBoatProject />
               ) : vehiculeToShow === "2" ? (
@@ -70,7 +70,7 @@ export default function ProjectsNav() {
               ) : (
                 <DroneCard />
               )}
-              </div>
+              
               </CSSTransition>
               </SwitchTransition>
             </Card.Body>
