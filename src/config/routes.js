@@ -12,7 +12,7 @@ import About from '../pages/PublicPage/About/About';
 import Team from '../pages/PublicPage/Team/Team';
 import Vehicules from '../pages/PublicPage/Vehicules/Vehicules';
 import Research from '../pages/PublicPage/Research/Research';
-import Sponsors from '../pages/PublicPage/Sponsors/Sponsors';
+//import Sponsors from '../pages/PublicPage/Sponsors/Sponsors';
 import Contact from '../pages/PublicPage/Contact';
 
 
@@ -88,11 +88,11 @@ const routes = [
                 component: Research,
                 exact: true
             },
-            {
-                path: "/sponsors",
-                component: Sponsors,
-                exact: true
-            },
+            // {
+            //     path: "/sponsors",
+            //     component: Sponsors,
+            //     exact: true
+            // },
             {
                 path: "/contact",
                 component: Contact,
