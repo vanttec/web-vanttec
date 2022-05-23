@@ -85,38 +85,7 @@ export default function ProjectsNav() {
 function RoboSubCard() {
   return (
     <Row className="vehicules-card-row">
-      <Col xs={12} md={6}>
-        <a href="/vehicules">
-        <Card
-          className="vehicule-card"
-        >
-          <Card.Img src={robosubPhoto} alt="roboboat" />
-          <Card.ImgOverlay
-            className="text-center vehicule-card-overlay"
-            onClick={() => console.log("a vehiculos")}
-          >
-            <div className="vehicule-card__highlight">
-              <h3 className="info">Learn More</h3>
-            </div>
-          </Card.ImgOverlay>
-        </Card>
-        </a>
-      </Col>
-      <Col xs={12} md={6} className="vehicule-data">
-        <Row className="vehicule-data-stats">
-          <h2>Autonomous Submarine for International Competitions</h2>
-          <h2 style={{color:"rgb(0, 149, 255)"}}>Currently Under Redesign</h2>
-          <p>
-            Conquers the depths by detecting objects around Him, Maneuvers
-            Around Obstacles, Resists Weather Disturbances, and has Waypoint
-            Navigation
-          </p>
-          
-        </Row>
-        <Row className="vehicule-data-button">
-          <Button href="/vehicules">Learn More</Button>
-        </Row>
-      </Col>
+      <h1>Coming Soon...</h1>
     </Row>
   );
 }
@@ -124,66 +93,14 @@ function RoboSubCard() {
 function DroneCard() {
   return (
     <Row className="vehicules-card-row">
-      <Col xs={12} md={6}>
-        <Card
-          className="vehicule-card"
-        >
-          <Card.Img src={dronePhoto} alt="roboboat" />
-          <Card.ImgOverlay
-            className="text-center vehicule-card-overlay"
-            onClick={() => console.log("a vehiculos")}
-          >
-            <div className="vehicule-card__highlight">
-              <h3 className="info">Coming Soon...</h3>
-            </div>
-          </Card.ImgOverlay>
-        </Card>
-      </Col>
-      <Col xs={12} md={6} className="vehicule-data">
-        <Row className="vehicule-data-stats">
-          <h2>Coming Soon...</h2>
-        </Row>
-        {/* <Row className="vehicule-data-button">
-          <Button>Specs and Evidence</Button>
-        </Row> */}
-      </Col>
-    </Row>
+    <h1>Coming Soon...</h1>
+  </Row>
   );
 }
 function SDV() {
   return (
     <Row className="vehicules-card-row">
-      <Col xs={12} md={6}>
-        <a href="/vehicules">
-        <Card
-          className="vehicule-card"
-        >
-          <Card.Img src={sdvPhoto} alt="roboboat"/>
-          <Card.ImgOverlay
-            className="text-center vehicule-card-overlay"
-            onClick={() => console.log("a vehiculos")}
-          >
-            <div className="vehicule-card__highlight">
-              <h3 className="info">Learn More</h3>
-            </div>
-          </Card.ImgOverlay>
-        </Card>
-        </a>
-      </Col>
-      <Col xs={12} md={6} className="vehicule-data">
-        <Row className="vehicule-data-stats">
-          <h2>Autonomous Car For Campus Tours</h2>
-          <p>
-            Travels through a defined circuit of the ITESM Monterrey campus. The
-            vehicle will be the product and example of the multidisciplinary
-            collaboration of undergraduate students, with the support of
-            professors from the Tecnológico de Monterrey and Industry.
-          </p>
-        </Row>
-        <Row className="vehicule-data-button">
-          <Button href="/vehicules">Learn More</Button>
-        </Row>
-      </Col>
-    </Row>
+    <h1>Coming Soon...</h1>
+  </Row>
   );
 }
