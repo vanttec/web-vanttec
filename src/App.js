@@ -31,7 +31,7 @@ function RouteWithSubRoutes(route) {
             chat-title="VantTecBot"
             agent-id="8b9c7f93-2e5f-425d-a4bb-c3496f054d88"
             language-code="en"
-            chat-icon="./boat.png"
+            chat-icon="./assets/img/png/boat.png"
           ></df-messenger>
 `,
         }}
