@@ -329,6 +329,14 @@ export default function Team() {
 
   return (
     <>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="VantTec"
+  agent-id="8b9c7f93-2e5f-425d-a4bb-c3496f054d88"
+  language-code="en"
+></df-messenger>
+
       <Container fluid>
         <Row className="main-banner">
           <Banner video={teamVideo}>
@@ -533,7 +541,6 @@ export default function Team() {
               </Row>
             </Container>
           </Parallax>
-
           {/* Media */}
           <div className="division" />
           <Row className="area-banner">

@@ -11,21 +11,23 @@ import demo from "../../../assets/videos/mp4/VanttecPoolVideo.mp4";
 
 export default function About() {
   return (
-    <Container fluid>
-      {/* Main Banner */}
-      <Row className="main-banner">
-        <Banner video={demo}>
-          <h1>About Us</h1>
-        </Banner>
-      </Row>
-      {/* Content */}
-      <div className="content">
-        <div className="division" />
-        <MissionVision />
-        <History/>
-        <Accomplishments/>
-        <Footer />
-      </div>
-    </Container>
+    <>
+      <Container fluid>
+        {/* Main Banner */}
+        <Row className="main-banner">
+          <Banner video={demo}>
+            <h1>About Us</h1>
+          </Banner>
+        </Row>
+        {/* Content */}
+        <div className="content">
+          <div className="division" />
+          <MissionVision />
+          <History />
+          <Accomplishments />
+          <Footer />
+        </div>
+      </Container>
+    </>
   );
 }
