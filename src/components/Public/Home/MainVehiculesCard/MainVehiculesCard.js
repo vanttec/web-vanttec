@@ -5,7 +5,7 @@ import {SwitchTransition ,CSSTransition} from 'react-transition-group';
 
 //vehicules photos
 import dronePhoto from "../../../../assets/img/jpeg/dronePhoto.jpeg";
-import roboboatPhoto from "../../../../assets/img/jpg/roboBoatMain.jpeg";
+// import roboboatPhoto from "../../../../assets/img/jpg/roboBoatMain.jpeg";
 import robosubPhoto from "../../../../assets/img/jpeg/robosubPhoto.jpeg";
 import sdvPhoto from "../../../../assets/img/jpeg/sdvPhoto.jpeg";
 
@@ -91,7 +91,7 @@ function RoboBoatCard() {
         <Card
           className="vehicule-card"
         >
-          <Card.Img src={roboboatPhoto} alt="roboboat" />
+          {/* <Card.Img src={roboboatPhoto} alt="roboboat" /> */}
           <Card.ImgOverlay
             className="text-center vehicule-card-overlay"
             onClick={() => console.log("a vehiculos")}

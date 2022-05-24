@@ -28,9 +28,10 @@ function RouteWithSubRoutes(route) {
           __html: `
           <df-messenger
             intent="WELCOME"
-            chat-title="VantTec"
+            chat-title="VantTecBot"
             agent-id="8b9c7f93-2e5f-425d-a4bb-c3496f054d88"
             language-code="en"
+            chat-icon="./boat.png"
           ></df-messenger>
 `,
         }}
