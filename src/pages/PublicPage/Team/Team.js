@@ -533,7 +533,6 @@ export default function Team() {
               </Row>
             </Container>
           </Parallax>
-
           {/* Media */}
           <div className="division" />
           <Row className="area-banner">
