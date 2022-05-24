@@ -1,7 +1,7 @@
 [
   {
     "datosPersonales": {
-      "carrera": "B.S. Mechatronics Engineering",
+      "carrera": "B.S. in Mechatronics Engineering",
       "birthplace": "Monterrey, Nuevo Leon",
       "genero": "M",
       "birthday": "2002-06-11",
@@ -17,7 +17,7 @@
         "sdv": "false",
         "drone": "false"
       },
-      "area": "Mechanics Team Member"
+      "area": "Mechanics"
     },
     "bio": "",
     "historial": {
@@ -58,7 +58,7 @@
       "genero": "M",
       "birthplace": "Monterrey, Nuevo Leon",
       "semestre": "2",
-      "carrera": "B.S Computer Science and Technology",
+      "carrera": "B.S in Computer Science and Technology",
       "birthday": "2003-09-18"
     },
     "updated": "5/22/2022",
@@ -96,7 +96,7 @@
     },
     "contacto": {
       "facebook": "",
-      "instagram": "@1albertotamez1",
+      "instagram": "www.instagram.com/1albertotamez1",
       "profilePicture": "https://i.ibb.co/GxzPvxM/A01026999-Alberto-Small.png",
       "whatsapp": "5520913464",
       "github": "",
@@ -155,7 +155,7 @@
     "apellido": "Arreola Alvarado",
     "datosPersonales": {
       "genero": "F",
-      "carrera": "B.S. Computer Science and Technology",
+      "carrera": "B.S. in Computer Science and Technology",
       "birthday": "2002-08-31",
       "semestre": "4",
       "birthplace": "San Pedro, Garza García"
@@ -176,7 +176,7 @@
     "matricula": "a01197372",
     "apellido": "Alvarado Gutiérrez",
     "infoGeneral": {
-      "puesto": "Electronics",
+      "puesto": "Electronics Team Member",
       "area": "Electronics",
       "entryYear": "2022",
       "proyectos": {
@@ -207,7 +207,7 @@
     "datosPersonales": {
       "semestre": "6",
       "genero": "F",
-      "carrera": "Mechatronics Engineering",
+      "carrera": "B.S. in Mechatronics Engineering",
       "birthplace": "Monterrey, Nuevo Leon",
       "birthday": "2001-04-22"
     },
@@ -236,7 +236,7 @@
       },
       "puesto": "Embedded / Electronics Team Lead",
       "entryYear": "2020",
-      "area": "Embedded, Electronics"
+      "area": "Embedded Systems, Electronics"
     },
     "apellido": "Fernandez",
     "profilePicture": "https://i.ibb.co/Jx1qf9p/A01197654-Abiel-Small.png",
@@ -263,7 +263,7 @@
       "genero": "M",
       "birthday": "2002-01-10",
       "birthplace": "",
-      "carrera": "B.S Robotics Engineering"
+      "carrera": "B.S in Robotics and Digital Systems Engineering"
     },
     "nombre": "Abiel",
     "bio": "",
@@ -292,7 +292,7 @@
     "datosPersonales": {
       "genero": "M",
       "semestre": "10",
-      "carrera": "B.S. Digital Systems and Robotics",
+      "carrera": "B.S. in Digital Systems and Robotics",
       "birthplace": "Durango, Durango",
       "birthday": "1999-04-04"
     },
@@ -315,7 +315,7 @@
         "robosub": false,
         "roboboat": true
       },
-      "puesto": "Software developer",
+      "puesto": "Software developer. Vicepresident",
       "entryYear": "2019",
       "area": "Perception"
     },
@@ -370,7 +370,7 @@
     },
     "datosPersonales": {
       "genero": "M",
-      "carrera": "Computer Science & Engineering",
+      "carrera": "B.S. in Computer Science & Engineering",
       "birthplace": "Torreón, Coahuila",
       "semestre": "4",
       "birthday": "2000-01-21"
@@ -425,7 +425,7 @@
     "datosPersonales": {
       "birthplace": "Ciudad Juarez, Chihuahua",
       "genero": "F",
-      "carrera": "B.S. Computer Science & Technology",
+      "carrera": "B.S. in Computer Science & Technology",
       "semestre": "8",
       "birthday": "2000-06-21"
     },
@@ -438,7 +438,7 @@
     "nombre": "Javier Adrian",
     "datosPersonales": {
       "birthplace": "Ciudad Juarez, Chihuahua",
-      "carrera": "B. S.  Computer Science and Technology",
+      "carrera": "B.S. in Computer Science and Technology",
       "birthday": "2000-12-06",
       "genero": "M",
       "semestre": "8"
@@ -544,7 +544,7 @@
     "datosPersonales": {
       "semestre": "8",
       "birthplace": "Ciudad Juárez, Chihuahua",
-      "carrera": "B. S. in Digital Systems and Robotic",
+      "carrera": "B.S. in Digital Systems and Robotics",
       "genero": "M",
       "birthday": "2000-01-20"
     },
@@ -625,7 +625,7 @@
     },
     "matricula": "a01283525",
     "datosPersonales": {
-      "carrera": "B.S  Robotics and Digital Systems",
+      "carrera": "B.S. in Robotics and Digital Systems",
       "birthday": "2001-01-08",
       "semestre": "6",
       "genero": "M",
@@ -691,7 +691,7 @@
     "profilePicture": "https://i.ibb.co/4M65gbV/a01351508-Isaac-Small.png",
     "infoGeneral": {
       "area": "Mechanics",
-      "puesto": "Mechanical ing.",
+      "puesto": "B.S. in Mechanical Engineering",
       "proyectos": {
         "robosub": "false",
         "drone": "false",
@@ -761,7 +761,7 @@
     "nombre": "Fernando",
     "bio": "Like to spend time with my friends and learn new things, keep moving forward.",
     "datosPersonales": {
-      "carrera": "Mechatronics",
+      "carrera": "B.S. in Mechatronics Engineering",
       "birthday": "2001-03-17",
       "genero": "M",
       "birthplace": "Saltillo, Coahuila",
@@ -898,7 +898,7 @@
     "profilePicture": "https://i.ibb.co/kBXmGyc/A01552369-Max-Small.png",
     "datosPersonales": {
       "semestre": "2",
-      "carrera": "B.S. Robotics and Digital Systems",
+      "carrera": "B.S. in Robotics and Digital Systems",
       "birthplace": "Coatzacoalcos, Veracruz",
       "genero": "M",
       "birthday": "2002-09-23"
