@@ -4,11 +4,11 @@ import { Container, Row, Carousel, Button } from "react-bootstrap";
 //videos
 import mediaVideo from "../../../../assets/videos/mp4/mediaVideo.mp4";
 import perceptionVideo from "../../../../assets/videos/mp4/perceptionVideo.mp4";
-import electronicsVideo from "../../../../assets/videos/mp4/electronicsVideo.mp4";
+import electronicsVideo from "../../../../assets/videos/mp4/pcbRender.mp4";
 import mechanicsVideo from "../../../../assets/videos/mp4/mechanicsVideo.mp4";
 import softwareVideo from "../../../../assets/videos/mp4/softwareVideo.mp4";
-import controlVideo from "../../../../assets/videos/mp4/controlVideo.mp4";
-import locationVideo from "../../../../assets/videos/mp4/locVideo.mp4";
+import controlVideo from "../../../../assets/videos/mp4/controlVideo.mov";
+import locationVideo from "../../../../assets/videos/mp4/localizationVideo.mov";
 import businessVideo from "../../../../assets/videos/mp4/businessVideo.mov";
 
 import "./TeamAreasCarousel.scss";
@@ -21,8 +21,69 @@ export default function TeamAreasCarousel() {
       </Row>
       <Row>
         <Carousel>
-          {/* Perception */}
+
+
+          {/* Mechanics */}
           <Carousel.Item>
+            <div className="overlay-area-home">
+              <video
+                className="d-block w-100"
+                src={mechanicsVideo}
+                autoPlay
+                loop
+                muted
+              />
+            </div>
+            <Carousel.Caption>
+              <h3>Mechanics</h3>
+              <p>Vehicle Design and Manufacturing</p>
+              {/* <Button className="team-carousel-button">See Members</Button> */}
+            </Carousel.Caption>
+          </Carousel.Item>
+
+                    {/* Media */}
+                    <Carousel.Item>
+            <div className="overlay-area-home">
+              <video
+                className="d-block w-100"
+                src={mediaVideo}
+                autoPlay
+                loop
+                muted
+              />
+            </div>
+            <Carousel.Caption>
+              <h3>Media</h3>
+              <p>
+                Representing the Team and what it stands for, on social media
+                and its website.
+              </p>
+              {/* <Button className="team-carousel-button">See Members</Button> */}
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          {/* Electronics */}
+          <Carousel.Item>
+            <div className="overlay-area-home">
+              <video
+                className="d-block w-100"
+                src={electronicsVideo}
+                autoPlay
+                loop
+                muted
+              />
+            </div>
+            <Carousel.Caption>
+              <h3>Electronics</h3>
+              <p>
+                Design of Power Systems and Integration of Modules such as
+                Sensors, Computers and Actuators
+              </p>
+              {/* <Button className="team-carousel-button">See Members</Button> */}
+            </Carousel.Caption>
+          </Carousel.Item>
+                    {/* Perception */}
+                    <Carousel.Item>
             <div className="overlay-area-home">
               <video
                 className="d-block w-100"
@@ -64,28 +125,9 @@ export default function TeamAreasCarousel() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          {/* Control */}
-          <Carousel.Item>
-            <div className="overlay-area-home">
-              <video
-                className="d-block w-100"
-                src={controlVideo}
-                autoPlay
-                loop
-                muted
-              />
-            </div>
-            <Carousel.Caption>
-              <h3>Control</h3>
-              <p>
-                Generate Signals for Vehicles Engines Based on References Such
-                as Position Speed and Orientation.
-              </p>
-              {/* <Button className="team-carousel-button">See Members</Button> */}
-            </Carousel.Caption>
-          </Carousel.Item>
 
-          {/* Location */}
+
+          {/* Localization */}
           <Carousel.Item>
             <div className="overlay-area-home">
               <video
@@ -102,45 +144,6 @@ export default function TeamAreasCarousel() {
                 Estimate States Such as Position, Speed and Orientation of a
                 Vehicle with Different Sensors such as IMU, DVL, GPS and
                 Barometers
-              </p>
-              {/* <Button className="team-carousel-button">See Members</Button> */}
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          {/* Mechanics */}
-          <Carousel.Item>
-            <div className="overlay-area-home">
-              <video
-                className="d-block w-100"
-                src={mechanicsVideo}
-                autoPlay
-                loop
-                muted
-              />
-            </div>
-            <Carousel.Caption>
-              <h3>Mechanics</h3>
-              <p>Vehicle Design and Manufacturing</p>
-              {/* <Button className="team-carousel-button">See Members</Button> */}
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          {/* Electronics */}
-          <Carousel.Item>
-            <div className="overlay-area-home">
-              <video
-                className="d-block w-100"
-                src={electronicsVideo}
-                autoPlay
-                loop
-                muted
-              />
-            </div>
-            <Carousel.Caption>
-              <h3>Electronics</h3>
-              <p>
-                Design of Power Systems and Integration of Modules such as
-                Sensors, Computers and Actuators
               </p>
               {/* <Button className="team-carousel-button">See Members</Button> */}
             </Carousel.Caption>
@@ -166,22 +169,23 @@ export default function TeamAreasCarousel() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          {/* Media */}
-          <Carousel.Item>
+
+                    {/* Control */}
+                    <Carousel.Item>
             <div className="overlay-area-home">
               <video
                 className="d-block w-100"
-                src={mediaVideo}
+                src={controlVideo}
                 autoPlay
                 loop
                 muted
               />
             </div>
             <Carousel.Caption>
-              <h3>Media</h3>
+              <h3>Control</h3>
               <p>
-                Representing the Team and what it stands for, on social media
-                and its website.
+                Generate Signals for Vehicles Engines Based on References Such
+                as Position Speed and Orientation.
               </p>
               {/* <Button className="team-carousel-button">See Members</Button> */}
             </Carousel.Caption>
