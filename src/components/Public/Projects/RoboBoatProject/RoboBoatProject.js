@@ -340,7 +340,7 @@ function RoboBoatMechanicalCard() {
               <li> Length: 1 m</li>
               <li>Beam: 0.75 m</li>
               <li>Mass: 30 kg</li>
-              <li>Maximum Thrust: 73</li>
+              <li>Maximum Thrust: 73 Newtons</li>
             </ul>
         </Row>
       </Col>
@@ -361,9 +361,13 @@ function RoboBoatSoftwareCard() {
           <h2>Software</h2>
             <ul>
               <li> ROS Interface</li>
+              <li> ROS Melodic distro-based architecture</li>
+              <li>Darknet neural network</li>
+              <li>YOLOv3 real-time object detection</li>
               <li>Python</li>
               <li>C++</li>
             </ul>
+            <p>Opensource @ <a href="https://github.com/vanttec" target="_blank" rel="noreferrer">https://github.com/vanttec</a></p>
         </Row>
       </Col>
     </Row>
@@ -385,11 +389,11 @@ function RoboBoatComponentsCard() {
               <li>Power System: Li-4S 14.8V 18Ah</li>
               <li>Teleoperation: FrSky Taranis X9D Plus</li>
               <li>Processor: NVIDIA Jetson TX2</li>
-              <li>LiDAR: Velodyne VLP-16</li>
-              <li>INS: VectorNav VN-300</li>
+              <li>LiDAR: Velodyne VLP-16 Puck</li>
+              <li>INS: SBG Ellipse-D</li>
               <li>Camera: ZED Camera</li>
               <li>Hydrophones: Teledyne TC4013, Aquarian H1C</li>
-              <li>RF Modules: Digi XTend</li>
+              <li>RF Modules: XBee S3 Pro</li>
             </ul>
         </Row>
       </Col>
