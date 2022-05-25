@@ -14,7 +14,7 @@ function Navbar() {
   const [logo, setLogo] = useState(logoVanttecWhite)
 
   const changeBackground = () => {
-    if(window.scrollY < 57 && window.innerWidth > 750){
+    if(window.scrollY < 57 && window.innerWidth > 912){
       setNavBar(false);
       setTop("dark");
       setLogo(logoVanttecWhite);
