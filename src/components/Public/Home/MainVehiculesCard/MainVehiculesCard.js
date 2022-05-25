@@ -14,7 +14,6 @@ import "./MainVehiculesCard.scss";
 
 export default function MainVehiculesCard() {
   const [vehiculeToShow, setVehiculeToShow] = useState("1");
-  const [state, setState] = React.useState(true);
 
   return (
       <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}} className="hover-effect">

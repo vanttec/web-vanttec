@@ -1,13 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import { Parallax } from "react-parallax";
-import demo from "../../../../assets/img/jpg/whiteandgray.png";
 import aboutPhoto from "../../../../assets/img/jpg/competition2.jpg";
 import "./AboutUs.scss";
 
 export default function AboutUs() {
   return (
-    <Parallax strength={200} bgImage={demo}>
       <Container
         fluid
         style={{
@@ -90,6 +87,5 @@ export default function AboutUs() {
           </Card>
         </Row>
       </Container>
-    </Parallax>
   );
 }
