@@ -18,12 +18,9 @@ import roboboatRender from '../../../../assets/img/jpeg/renderBote.png'
 import roboboatSoftware from '../../../../assets/img/jpeg/software.jpeg'
 import roboboatComponents from '../../../../assets/img/png/componentsBote.png'
 import roboboatEvidence from '../../../../assets/img/jpg/competencia.jpg'
-
-//video
-//import muralVideo from "../../../../assets/videos/mp4/VanttecDroneMural.mp4";
-import David from '../../../../assets/img/jpeg/Yo.jpg'
-
 import './RoboBoatProject.scss'
+
+const blogs2022 = require('../../../../assets/buildingBlogs.json')
 
 export default function RoboBoatProject() {
   const [vehiculeToShow, setVehiculeToShow] = useState('1')
@@ -159,138 +156,41 @@ export default function RoboBoatProject() {
         </Row>
         <Row>
           <Accordion>
-            <Accordion.Item eventKey="0">
-              <Accordion.Header>Accordion Item #1</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="1">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="2">
-              <Accordion.Header>Accordion Item #1</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="3">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="4">
-              <Accordion.Header>Accordion Item #1</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="5">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="6">
-              <Accordion.Header>Accordion Item #1</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="7">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="8">
-              <Accordion.Header>Accordion Item #1</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="9">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="10">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
+            {blogs2022.map((blog) => (
+              <Accordion.Item eventKey={blog.number}>
+                <Accordion.Header>{blog.title}</Accordion.Header>
+                <Accordion.Body>
+                  <Row>
+                    <Col>
+                      <h1>{blog.title}</h1>
+                      <h2>Resources</h2>
+                      <p>{blog.resources}</p>
+                      <h2>Description</h2>
+                      <p>{blog.description}</p>
+                      <h2>Results</h2>
+                      <p>{blog.results}</p>
+                      <h2>Justification</h2>
+                      <p>{blog.justification}</p>
+                      <h2>Author(s)</h2>
+                      <p>{blog.author}</p>
+                    </Col>
+                    <Col xs="5">
+                      <div>
+                        <Carousel>
+                          {blog.images.map((image) => (
+                            <Carousel.Item style={{ height: '50vh' }}>
+                              <div class="blogImageItem">
+                                <img className="d-block" src={image} />
+                              </div>
+                            </Carousel.Item>
+                          ))}
+                        </Carousel>
+                      </div>
+                    </Col>
+                  </Row>
+                </Accordion.Body>
+              </Accordion.Item>
+            ))}
           </Accordion>
         </Row>
       </Row>
