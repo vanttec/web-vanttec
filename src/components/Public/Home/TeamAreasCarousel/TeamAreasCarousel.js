@@ -6,9 +6,9 @@ import mediaVideo from "../../../../assets/videos/mp4/mediaVideo.mp4";
 import perceptionVideo from "../../../../assets/videos/mp4/perceptionVideo.mp4";
 import electronicsVideo from "../../../../assets/videos/mp4/pcbRender.mp4";
 import mechanicsVideo from "../../../../assets/videos/mp4/mechanicsVideo.mp4";
-import softwareVideo from "../../../../assets/videos/mp4/softwareVideo.mp4";
-import controlVideo from "../../../../assets/videos/mp4/controlVideo.mov";
-import locationVideo from "../../../../assets/videos/mp4/localizationVideo.mov";
+import softwareVideo from "../../../../assets/videos/mp4/softwareVideo.mov";
+import controlVideo from "../../../../assets/videos/mp4/contVideo.mov";
+import locationVideo from "../../../../assets/videos/mp4/localizationVideo.mp4";
 import businessVideo from "../../../../assets/videos/mp4/businessVideo.mov";
 
 import "./TeamAreasCarousel.scss";
