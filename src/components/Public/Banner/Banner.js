@@ -17,7 +17,7 @@ export default function Banner(props) {
         muted={true}
         loop={true}
         playing={true}
-
+        style={{backgroundColor:"white"}}
       />
       </div>
       <div className="content-banner">{children}</div>

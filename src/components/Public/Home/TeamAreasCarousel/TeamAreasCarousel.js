@@ -31,6 +31,7 @@ export default function TeamAreasCarousel() {
                 muted={true}
                 loop={true}
                 playing={true}
+                style={{backgroundColor:"white"}}
               />
             </div>
             <Carousel.Caption>
@@ -58,6 +59,7 @@ export default function TeamAreasCarousel() {
                 muted={true}
                 loop={true}
                 playing={true}
+                style={{backgroundColor:"white"}}
               />
             </div>
             <Carousel.Caption>
@@ -88,6 +90,7 @@ export default function TeamAreasCarousel() {
                 muted={true}
                 loop={true}
                 playing={true}
+                style={{backgroundColor:"white"}}
               />
             </div>
             <Carousel.Caption>
@@ -117,6 +120,7 @@ export default function TeamAreasCarousel() {
                 muted={true}
                 loop={true}
                 playing={true}
+                style={{backgroundColor:"white"}}
               />
             </div>
             <Carousel.Caption>
@@ -148,6 +152,7 @@ export default function TeamAreasCarousel() {
                 muted={true}
                 loop={true}
                 playing={true}
+                style={{backgroundColor:"white"}}
               />
             </div>
             <Carousel.Caption>
@@ -180,6 +185,7 @@ export default function TeamAreasCarousel() {
                 muted={true}
                 loop={true}
                 playing={true}
+                style={{backgroundColor:"white"}}
               />
             </div>
             <Carousel.Caption>
@@ -211,6 +217,7 @@ export default function TeamAreasCarousel() {
                 muted={true}
                 loop={true}
                 playing={true}
+                style={{backgroundColor:"white"}}
               />
             </div>
             <Carousel.Caption>
@@ -240,6 +247,7 @@ export default function TeamAreasCarousel() {
                 muted={true}
                 loop={true}
                 playing={true}
+                style={{backgroundColor:"white"}}
               />
             </div>
             <Carousel.Caption>
