@@ -2,6 +2,20 @@ import React from "react";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 import mission from "../../../../assets/img/jpg/competencia.jpg";
 
+//photos
+import firstPhoto from "../../../../assets/img/jpg/first2017.JPG";
+import secondPhoto from "../../../../assets/img/jpg/second2017.jpg";
+import thirdPhoto from "../../../../assets/img/jpg/2017_3.JPG";
+import fourthPhoto from "../../../../assets/img/jpg/2017_4.jpg";
+import fifthPhoto from "../../../../assets/img/jpg/2018.jpg";
+import sixthPhoto from "../../../../assets/img/jpg/2018_2.jpg";
+import seventhPhoto from "../../../../assets/img/jpg/2019.jpg";
+import eightPhoto from "../../../../assets/img/jpg/2019_1.jpg";
+import ninePhoto from "../../../../assets/img/jpg/2020_1.png";
+import tenthPhoto from "../../../../assets/img/jpg/2020_2.png";
+import elevenPhoto from "../../../../assets/img/jpg/2020_3.jpeg";
+import twelvePhoto from "../../../../assets/img/jpg/2021.jpg";
+
 import './History.scss';
 
 export default function History() {
@@ -14,7 +28,7 @@ export default function History() {
         <Carousel>
           <Carousel.Item>
             <div className="overlay-area-about">
-              <img className="d-block w-100" src={mission} alt="First slide" />
+              <img className="d-block w-100" src={firstPhoto} alt="team emerged as a multidisciplinary project" />
             </div>
 
             <Carousel.Caption>
@@ -29,7 +43,8 @@ export default function History() {
 
           <Carousel.Item>
             <div className="overlay-area-about">
-              <img className="d-block w-100" src={mission} alt="First slide" />
+              <img className="d-block w-100" src={secondPhoto} alt="the first project
+                was developed: an autonomous unmanned boat." />
             </div>
 
             <Carousel.Caption>
@@ -43,7 +58,7 @@ export default function History() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="overlay-area-about">
-              <img className="d-block w-100" src={mission} alt="First slide" />
+              <img className="d-block w-100" src={thirdPhoto} alt="a legacy began" />
             </div>
 
             <Carousel.Caption>
@@ -56,7 +71,8 @@ export default function History() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="overlay-area-about">
-              <img className="d-block w-100" src={mission} alt="First slide" />
+              <img className="d-block w-100" src={fourthPhoto} alt="team members
+                became a recognized group of autonomous vehicle research" />
             </div>
 
             <Carousel.Caption>
@@ -70,7 +86,7 @@ export default function History() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="overlay-area-about">
-              <img className="d-block w-100" src={mission} alt="First slide" />
+              <img className="d-block w-100" src={fifthPhoto} alt="team required to set the ground for further generations." />
             </div>
 
             <Carousel.Caption>
@@ -85,7 +101,8 @@ export default function History() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="overlay-area-about">
-              <img className="d-block w-100" src={mission} alt="First slide" />
+              <img className="d-block w-100" src={sixthPhoto} alt="A second time competing internationally
+                against top universities" />
             </div>
 
             <Carousel.Caption>
@@ -99,7 +116,7 @@ export default function History() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="overlay-area-about">
-              <img className="d-block w-100" src={mission} alt="First slide" />
+              <img className="d-block w-100" src={seventhPhoto} alt="The first time we reached the finals." />
             </div>
 
             <Carousel.Caption>
@@ -112,7 +129,7 @@ export default function History() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="overlay-area-about">
-              <img className="d-block w-100" src={mission} alt="First slide" />
+              <img className="d-block w-100" src={eightPhoto} alt="Setting us up for 2020." />
             </div>
 
             <Carousel.Caption>
@@ -127,7 +144,7 @@ export default function History() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="overlay-area-about">
-              <img className="d-block w-100" src={mission} alt="First slide" />
+              <img className="d-block w-100" src={elevenPhoto} alt="RoboBoat and RoboSub 2020 resorted to being celebrated online" />
             </div>
 
             <Carousel.Caption>
@@ -139,7 +156,7 @@ export default function History() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="overlay-area-about">
-              <img className="d-block w-100" src={mission} alt="First slide" />
+              <img className="d-block w-100" src={ninePhoto} alt="Team Achieved 1st place Overall Standing" />
             </div>
 
             <Carousel.Caption>
@@ -152,7 +169,7 @@ export default function History() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="overlay-area-about">
-              <img className="d-block w-100" src={mission} alt="First slide" />
+              <img className="d-block w-100" src={tenthPhoto} alt="Rómulo Garza award" />
             </div>
 
             <Carousel.Caption>
@@ -164,7 +181,7 @@ export default function History() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="overlay-area-about">
-              <img className="d-block w-100" src={mission} alt="First slide" />
+              <img className="d-block w-100" src={twelvePhoto} alt="VantTec continued operations throughout online meetings and deliveries" />
             </div>
 
             <Carousel.Caption>
