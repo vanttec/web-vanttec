@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player";
 import { Container, Row, Carousel, Button } from "react-bootstrap";
 
 //videos
@@ -21,17 +22,24 @@ export default function TeamAreasCarousel() {
       </Row>
       <Row>
         <Carousel>
-
-
           {/* Mechanics */}
           <Carousel.Item>
-            <div className="overlay-area-home">
+          <div className="overlay-area-home wrapper">
+            {/* 
               <video
                 className="d-block w-100"
                 src={mechanicsVideo}
                 autoPlay
                 loop
                 muted
+              /> */}
+              <ReactPlayer
+                url={"https://vimeo.com/713521066"}
+                width="100%"
+                height="100vh"
+                muted={true}
+                loop={true}
+                playing={true}
               />
             </div>
             <Carousel.Caption>
@@ -41,15 +49,24 @@ export default function TeamAreasCarousel() {
             </Carousel.Caption>
           </Carousel.Item>
 
-                    {/* Media */}
-                    <Carousel.Item>
-            <div className="overlay-area-home">
+          {/* Media */}
+          <Carousel.Item>
+          <div className="overlay-area-home wrapper">
+            {/* 
               <video
                 className="d-block w-100"
-                src={mediaVideo}
+                src={mechanicsVideo}
                 autoPlay
                 loop
                 muted
+              /> */}
+              <ReactPlayer
+                url={"https://vimeo.com/713521087"}
+                width="100%"
+                height="100vh"
+                muted={true}
+                loop={true}
+                playing={true}
               />
             </div>
             <Carousel.Caption>
@@ -64,13 +81,22 @@ export default function TeamAreasCarousel() {
 
           {/* Electronics */}
           <Carousel.Item>
-            <div className="overlay-area-home">
+          <div className="overlay-area-home wrapper">
+            {/* 
               <video
                 className="d-block w-100"
-                src={electronicsVideo}
+                src={mechanicsVideo}
                 autoPlay
                 loop
                 muted
+              /> */}
+              <ReactPlayer
+                url={"https://vimeo.com/713521161"}
+                width="100%"
+                height="100vh"
+                muted={true}
+                loop={true}
+                playing={true}
               />
             </div>
             <Carousel.Caption>
@@ -82,22 +108,32 @@ export default function TeamAreasCarousel() {
               {/* <Button className="team-carousel-button">See Members</Button> */}
             </Carousel.Caption>
           </Carousel.Item>
-                    {/* Perception */}
-                    <Carousel.Item>
-            <div className="overlay-area-home">
+          {/* Perception */}
+          <Carousel.Item>
+          <div className="overlay-area-home wrapper">
+            {/* 
               <video
                 className="d-block w-100"
-                src={perceptionVideo}
+                src={mechanicsVideo}
                 autoPlay
                 loop
                 muted
+              /> */}
+              <ReactPlayer
+                url={"https://vimeo.com/713521215"}
+                width="100%"
+                height="100vh"
+                muted={true}
+                loop={true}
+                playing={true}
               />
             </div>
             <Carousel.Caption>
               <h3>Perception</h3>
               <p>
-                Train Neural Networks to Enable our Vehicules To Perceive The World Around Them through
-                Sensors Such as Lidar, Hydrophones and Stereo Cameras.
+                Train Neural Networks to Enable our Vehicules To Perceive The
+                World Around Them through Sensors Such as Lidar, Hydrophones and
+                Stereo Cameras.
               </p>
               {/* <Button className="team-carousel-button">See Members</Button> */}
             </Carousel.Caption>
@@ -105,37 +141,54 @@ export default function TeamAreasCarousel() {
 
           {/* Software */}
           <Carousel.Item>
-            <div className="overlay-area-home">
+          <div className="overlay-area-home wrapper">
+            {/* 
               <video
                 className="d-block w-100"
-                src={softwareVideo}
+                src={mechanicsVideo}
                 autoPlay
                 loop
                 muted
+              /> */}
+              <ReactPlayer
+                url={"https://vimeo.com/713521317"}
+                width="100%"
+                height="100vh"
+                muted={true}
+                loop={true}
+                playing={true}
               />
             </div>
             <Carousel.Caption>
               <h3>Software</h3>
               <p>
                 Development of Algorithms. Based on Systems from Perception,
-                Control and Localization. To Enable our Vehicules to do their Tasks efficiently an Conquer the
-                Challenges in each Competitions.
+                Control and Localization. To Enable our Vehicules to do their
+                Tasks efficiently an Conquer the Challenges in each
+                Competitions.
               </p>
               {/* <Button className="team-carousel-button">See Members</Button> */}
             </Carousel.Caption>
           </Carousel.Item>
 
-
-
           {/* Localization */}
           <Carousel.Item>
-            <div className="overlay-area-home">
+          <div className="overlay-area-home wrapper">
+            {/* 
               <video
                 className="d-block w-100"
-                src={locationVideo}
+                src={mechanicsVideo}
                 autoPlay
                 loop
                 muted
+              /> */}
+              <ReactPlayer
+                url={"https://vimeo.com/713521030"}
+                width="100%"
+                height="100vh"
+                muted={true}
+                loop={true}
+                playing={true}
               />
             </div>
             <Carousel.Caption>
@@ -151,13 +204,22 @@ export default function TeamAreasCarousel() {
 
           {/* Business */}
           <Carousel.Item>
-            <div className="overlay-area-home">
+          <div className="overlay-area-home wrapper">
+            {/* 
               <video
                 className="d-block w-100"
-                src={businessVideo}
+                src={mechanicsVideo}
                 autoPlay
                 loop
                 muted
+              /> */}
+              <ReactPlayer
+                url={"https://vimeo.com/713520819"}
+                width="100%"
+                height="100vh"
+                muted={true}
+                loop={true}
+                playing={true}
               />
             </div>
             <Carousel.Caption>
@@ -169,16 +231,24 @@ export default function TeamAreasCarousel() {
             </Carousel.Caption>
           </Carousel.Item>
 
-
-                    {/* Control */}
-                    <Carousel.Item>
-            <div className="overlay-area-home">
+          {/* Control */}
+          <Carousel.Item>
+          <div className="overlay-area-home wrapper">
+            {/* 
               <video
                 className="d-block w-100"
-                src={controlVideo}
+                src={mechanicsVideo}
                 autoPlay
                 loop
                 muted
+              /> */}
+              <ReactPlayer
+                url={"https://vimeo.com/713520892"}
+                width="100%"
+                height="100vh"
+                muted={true}
+                loop={true}
+                playing={true}
               />
             </div>
             <Carousel.Caption>

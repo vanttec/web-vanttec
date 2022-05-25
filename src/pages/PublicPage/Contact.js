@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <Container fluid>
       <Row className="main-banner">
-        <Banner video={videoCampus}>
+        <Banner video={"https://player.vimeo.com/video/713521430"}>
           <h1>Location & Contact</h1>
         </Banner>
       </Row>

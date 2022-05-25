@@ -12,7 +12,7 @@ export default function Projects() {
     <Container fluid>
       {/* Main Banner */}
       <Row className="main-banner">
-        <Banner video={demo}>
+        <Banner video={"https://player.vimeo.com/video/713520857"}>
           <h1>Projects</h1>
         </Banner>
       </Row>

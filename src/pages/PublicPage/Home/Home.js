@@ -22,11 +22,11 @@ import "./Home.scss";
 
 export default function Home() {
   return (
-    
     <Container fluid>
+
       {/* Banner */}
       <Row className="main-banner">
-        <Banner video={demo}>
+        <Banner video={"https://player.vimeo.com/video/713073795"}>
           <img className="logo" src={logoVantec} alt="logo vanttec" />
           <h3 style={{ color: "white" }}>
             Research and Development of Autonomous Vehicles
@@ -36,17 +36,15 @@ export default function Home() {
 
       {/* Content */}
       <div className="content">
-
         <AboutUs />
         <MainVehiculesCard />
-        <Accomplishments/>
-        <TeamAreasCarousel/>
+        <Accomplishments />
+        <TeamAreasCarousel />
         <Sponsors />
         <Footer />
-
       </div>
     </Container>
-    
+
     // <>
     //   <div style={{ height: "85vh" }}>
     //     <Aside />

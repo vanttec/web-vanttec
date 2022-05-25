@@ -15,7 +15,7 @@ export default function About() {
       <Container fluid>
         {/* Main Banner */}
         <Row className="main-banner">
-          <Banner video={demo}>
+          <Banner video={"https://player.vimeo.com/video/713521087"}>
             <h1>About Us</h1>
           </Banner>
         </Row>
