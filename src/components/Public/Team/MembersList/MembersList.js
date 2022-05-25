@@ -51,7 +51,7 @@ export default function MembersList(props) {
           <Member handleSelect={handleSelect} setShow={setShow} key={member.matricula} member={member} />
         </Col>
       ))}
-      <MembersInfoModal video={video} index={index} handleSelect={handleSelect} membersData={membersData} setShow={setShow} show={show}/>
+      <MembersInfoModal video={"https://vimeo.com/713521461"} index={index} handleSelect={handleSelect} membersData={membersData} setShow={setShow} show={show}/>
     </>
   );
 }

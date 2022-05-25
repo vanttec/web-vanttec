@@ -2,15 +2,6 @@ import React from "react";
 import ReactPlayer from "react-player";
 import { Container, Row, Carousel, Button } from "react-bootstrap";
 
-//videos
-import mediaVideo from "../../../../assets/videos/mp4/mediaVideo.mp4";
-import perceptionVideo from "../../../../assets/videos/mp4/perceptionVideo.mp4";
-import electronicsVideo from "../../../../assets/videos/mp4/pcbRender.mp4";
-import mechanicsVideo from "../../../../assets/videos/mp4/mechanicsVideo.mp4";
-import softwareVideo from "../../../../assets/videos/mp4/softwareVideo.mov";
-import controlVideo from "../../../../assets/videos/mp4/contVideo.mov";
-import locationVideo from "../../../../assets/videos/mp4/localizationVideo.mp4";
-import businessVideo from "../../../../assets/videos/mp4/businessVideo.mov";
 
 import "./TeamAreasCarousel.scss";
 
