@@ -5,8 +5,8 @@ import {SwitchTransition ,CSSTransition} from 'react-transition-group';
 
 //vehicules photos
 import dronePhoto from "../../../../assets/img/jpeg/dronePhoto.jpeg";
-import roboboatPhoto from "../../../../assets/img/jpg/roboBoatMain.jpeg";
-import robosubPhoto from "../../../../assets/img/jpeg/robosubPhoto.jpeg";
+import roboboatPhoto from "../../../../assets/img/jpeg/roboBoatMain.jpeg";
+import robosubPhoto from "../../../../assets/img/jpeg/robosubMain.jpeg";
 import sdvPhoto from "../../../../assets/img/jpeg/sdvPhoto.jpeg";
 
 import "./MainVehiculesCard.scss";
