@@ -6,7 +6,7 @@ import MembersList from "../../Team/MembersList/MembersList";
 //vehicules photos
 import roboboatCompetition from "../../../../assets/img/png/roboboat-logo.png";
 import roboboatPhoto from "../../../../assets/img/jpeg/roboboatPhoto.jpg";
-import roboboatRender from "../../../../assets/img/jpeg/renderBote.jpeg";
+import roboboatRender from "../../../../assets/img/jpeg/renderBote.png";
 import roboboatSoftware from "../../../../assets/img/jpeg/software.jpeg";
 import roboboatComponents from "../../../../assets/img/png/componentsBote.png";
 import roboboatEvidence from "../../../../assets/img/jpg/competencia.jpg";
