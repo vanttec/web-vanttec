@@ -16,7 +16,7 @@ export default function ProjectsNav() {
   const [vehiculeToShow, setVehiculeToShow] = useState("1");
 
   return (
-      <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
+      <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}} className="hover-effect">
           <Row className="home-header">
               <h2>Main Projects</h2>
           </Row>
