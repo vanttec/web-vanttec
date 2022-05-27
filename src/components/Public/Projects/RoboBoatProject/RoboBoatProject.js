@@ -1,33 +1,38 @@
-import React, { useState } from "react";
-import { Card, Nav, Row, Col, Button, Carousel, Accordion } from "react-bootstrap";
-import { SwitchTransition, CSSTransition } from "react-transition-group";
-import MembersList from "../../Team/MembersList/MembersList";
+import React, { useState } from 'react'
+import {
+  Card,
+  Nav,
+  Row,
+  Col,
+  Button,
+  Carousel,
+  Accordion,
+} from 'react-bootstrap'
+import { SwitchTransition, CSSTransition } from 'react-transition-group'
+import MembersList from '../../Team/MembersList/MembersList'
 
 //vehicules photos
-import roboboatCompetition from "../../../../assets/img/png/roboboat-logo.png";
-import roboboatPhoto from "../../../../assets/img/jpeg/roboboatPhoto.jpg";
-import roboboatRender from "../../../../assets/img/jpeg/renderBote.png";
-import roboboatSoftware from "../../../../assets/img/jpeg/software.jpeg";
-import roboboatComponents from "../../../../assets/img/png/componentsBote.png";
-import roboboatEvidence from "../../../../assets/img/jpg/competencia.jpg";
+import roboboatCompetition from '../../../../assets/img/png/roboboat-logo.png'
+import roboboatPhoto from '../../../../assets/img/jpeg/roboboatPhoto.jpg'
+import roboboatRender from '../../../../assets/img/jpeg/renderBote.png'
+import roboboatSoftware from '../../../../assets/img/jpeg/software.jpeg'
+import roboboatComponents from '../../../../assets/img/png/componentsBote.png'
+import roboboatEvidence from '../../../../assets/img/jpg/competencia.jpg'
+import './RoboBoatProject.scss'
 
-//video
-import muralVideo from "../../../../assets/videos/mp4/VanttecDroneMural.mp4";
-import David from "../../../../assets/img/jpeg/Yo.jpg";
-
-import "./RoboBoatProject.scss";
+const blogs2022 = require('../../../../assets/buildingBlogs.json')
 
 export default function RoboBoatProject() {
-  const [vehiculeToShow, setVehiculeToShow] = useState("1");
+  const [vehiculeToShow, setVehiculeToShow] = useState('1')
 
   // import members.json
-  const testMembers = require("../../../../assets/members.json");
+  const testMembers = require('../../../../assets/members.json')
 
   return (
     <>
       {/* ABOUT ROBOBOAT COMPETITION */}
       <Row className="pt-3 pb-3 justify-content-center hover-effect">
-        <Card style={{ borderColor: "transparent" }}>
+        <Card style={{ borderColor: 'transparent' }}>
           <Card.Body>
             <Row className="mission-vision-data">
               <Col xs={12} md={6}>
@@ -42,7 +47,7 @@ export default function RoboBoatProject() {
                     International RoboBoat Competition is a competition that
                     invites participants to tackle simplified versions of
                     challenges facing the modern maritime industry.
-                  </p>{" "}
+                  </p>{' '}
                   <Button href="https://roboboat.org/programs/2022/">
                     Learn More
                   </Button>
@@ -55,7 +60,7 @@ export default function RoboBoatProject() {
 
       {/* 2022 Submission Intro */}
       <Row className=" pt-3 pb-3  justify-content-center hover-effect">
-        <Card style={{ borderColor: "transparent" }}>
+        <Card style={{ borderColor: 'transparent' }}>
           <Card.Body>
             <Row className="mission-vision-data">
               <Col xs={12} md={6} className="mission-vision-data-col">
@@ -67,7 +72,7 @@ export default function RoboBoatProject() {
                     Vanttec started participating in this competition since 2017
                     and this year, the competition is a little different because
                     it is held online.
-                  </p>{" "}
+                  </p>{' '}
                   <Button className="mb-5" href="">
                     Technical Design Report
                   </Button>
@@ -89,7 +94,6 @@ export default function RoboBoatProject() {
         </Card>
       </Row>
 
- 
       {/* SPECS ROBOBOAT COMPETITION */}
       <Row className=" pt-3 pb-3  justify-content-center hover-effect">
         <Row className="project-header">
@@ -97,7 +101,7 @@ export default function RoboBoatProject() {
         </Row>
         <Card
           className="projects-card"
-          style={{ backgroundColor: "transparent" }}
+          style={{ backgroundColor: 'transparent' }}
         >
           <Card.Header>
             <Nav
@@ -106,7 +110,7 @@ export default function RoboBoatProject() {
               defaultActiveKey={vehiculeToShow}
               activeKey={vehiculeToShow}
               onSelect={(selectedKey) => {
-                setVehiculeToShow(selectedKey);
+                setVehiculeToShow(selectedKey)
               }}
             >
               <Nav.Item className="vehicule-item">
@@ -122,18 +126,18 @@ export default function RoboBoatProject() {
           </Card.Header>
 
           <Card.Body className="projects-card-body">
-            <SwitchTransition mode={"out-in"}>
+            <SwitchTransition mode={'out-in'}>
               <CSSTransition
                 key={vehiculeToShow}
                 addEndListener={(node, done) => {
-                  node.addEventListener("transitionend", done, false);
+                  node.addEventListener('transitionend', done, false)
                 }}
                 classNames="fade"
               >
                 <div>
-                  {vehiculeToShow === "1" ? (
+                  {vehiculeToShow === '1' ? (
                     <RoboBoatMechanicalCard />
-                  ) : vehiculeToShow === "2" ? (
+                  ) : vehiculeToShow === '2' ? (
                     <RoboBoatSoftwareCard />
                   ) : (
                     <RoboBoatComponentsCard />
@@ -152,158 +156,61 @@ export default function RoboBoatProject() {
         </Row>
         <Row>
           <Accordion>
-            <Accordion.Item eventKey="0">
-              <Accordion.Header>Accordion Item #1</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="1">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="2">
-              <Accordion.Header>Accordion Item #1</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="3">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="4">
-              <Accordion.Header>Accordion Item #1</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="5">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="6">
-              <Accordion.Header>Accordion Item #1</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="7">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="8">
-              <Accordion.Header>Accordion Item #1</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="9">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="10">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
+            {blogs2022.map((blog) => (
+              <Accordion.Item eventKey={blog.number}>
+                <Accordion.Header>{blog.title}</Accordion.Header>
+                <Accordion.Body>
+                  <Row>
+                    <Col>
+                      <h1>{blog.title}</h1>
+                      <h2>Resources</h2>
+                      <p>{blog.resources}</p>
+                      <h2>Description</h2>
+                      <p>{blog.description}</p>
+                      <h2>Results</h2>
+                      <p>{blog.results}</p>
+                      <h2>Justification</h2>
+                      <p>{blog.justification}</p>
+                      <h2>Author(s)</h2>
+                      <p>{blog.author}</p>
+                    </Col>
+                    <Col xs="5">
+                      <div>
+                        <Carousel>
+                          {blog.images.map((image) => (
+                            <Carousel.Item style={{ height: '50vh' }}>
+                              <div class="blogImageItem">
+                                <img className="d-block" src={image} />
+                              </div>
+                            </Carousel.Item>
+                          ))}
+                        </Carousel>
+                      </div>
+                    </Col>
+                  </Row>
+                </Accordion.Body>
+              </Accordion.Item>
+            ))}
           </Accordion>
         </Row>
       </Row>
 
-            {/* Members */}
-            <Row className="pt-3 pb-5  justify-content-center hover-effect">
+      {/* Members */}
+      <Row className="pt-3 pb-5  justify-content-center hover-effect">
         <Row className="project-header">
           <h2>Members</h2>
         </Row>
         <Row className="members-list pb-5">
           <MembersList
-            video={muralVideo}
+            video={'https://player.vimeo.com/video/713521461'}
             members={testMembers}
-            area={"Media"}
+            area={'Media'}
           />
         </Row>
       </Row>
 
-     {/* Evidence */}
-     <Row className="pt-3 pb-3  justify-content-center">
+      {/* Evidence */}
+      <Row className="pt-3 pb-3  justify-content-center">
         <Row className="project-header">
           <h2>Evidence</h2>
         </Row>
@@ -322,7 +229,7 @@ export default function RoboBoatProject() {
         </Row>
       </Row>
     </>
-  );
+  )
 }
 
 function RoboBoatMechanicalCard() {
@@ -330,22 +237,22 @@ function RoboBoatMechanicalCard() {
     <Row className="projects-card-row">
       <Col xs={12} lg={6} className="mb-5">
         <Card className="project-card">
-          <Card.Img  src={roboboatRender} alt="roboboat" />
+          <Card.Img src={roboboatRender} alt="roboboat" />
         </Card>
       </Col>
       <Col xs={12} lg={6} className="vehicule-data mt-3">
         <Row className="project-data-stats p-5">
           <h2>Mechanics</h2>
-            <ul>
-              <li> Length: 1 m</li>
-              <li>Beam: 0.75 m</li>
-              <li>Mass: 30 kg</li>
-              <li>Maximum Thrust: 73 Newtons</li>
-            </ul>
+          <ul>
+            <li> Length: 1 m</li>
+            <li>Beam: 0.75 m</li>
+            <li>Mass: 30 kg</li>
+            <li>Maximum Thrust: 73 Newtons</li>
+          </ul>
         </Row>
       </Col>
     </Row>
-  );
+  )
 }
 
 function RoboBoatSoftwareCard() {
@@ -359,19 +266,28 @@ function RoboBoatSoftwareCard() {
       <Col xs={12} lg={6} className="vehicule-data mt-3">
         <Row className="project-data-stats p-5">
           <h2>Software</h2>
-            <ul>
-              <li> ROS Interface</li>
-              <li> ROS Melodic distro-based architecture</li>
-              <li>Darknet neural network</li>
-              <li>YOLOv3 real-time object detection</li>
-              <li>Python</li>
-              <li>C++</li>
-            </ul>
-            <p>Opensource @ <a href="https://github.com/vanttec" target="_blank" rel="noreferrer">https://github.com/vanttec</a></p>
+          <ul>
+            <li> ROS Interface</li>
+            <li> ROS Melodic distro-based architecture</li>
+            <li>Darknet neural network</li>
+            <li>YOLOv3 real-time object detection</li>
+            <li>Python</li>
+            <li>C++</li>
+          </ul>
+          <p>
+            Opensource @{' '}
+            <a
+              href="https://github.com/vanttec"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://github.com/vanttec
+            </a>
+          </p>
         </Row>
       </Col>
     </Row>
-  );
+  )
 }
 function RoboBoatComponentsCard() {
   return (
@@ -384,19 +300,19 @@ function RoboBoatComponentsCard() {
       <Col xs={12} lg={6} className="vehicule-data mt-3 justify-content-center">
         <Row className="project-data-stats p-5 ">
           <h2>Components</h2>
-            <ul >
-              <li> Thrusters: Blue Robotics T200</li>
-              <li>Power System: Li-4S 14.8V 18Ah</li>
-              <li>Teleoperation: FrSky Taranis X9D Plus</li>
-              <li>Processor: NVIDIA Jetson TX2</li>
-              <li>LiDAR: Velodyne VLP-16 Puck</li>
-              <li>INS: SBG Ellipse-D</li>
-              <li>Camera: ZED Camera</li>
-              <li>Hydrophones: Teledyne TC4013, Aquarian H1C</li>
-              <li>RF Modules: XBee S3 Pro</li>
-            </ul>
+          <ul>
+            <li> Thrusters: Blue Robotics T200</li>
+            <li>Power System: Li-4S 14.8V 18Ah</li>
+            <li>Teleoperation: FrSky Taranis X9D Plus</li>
+            <li>Processor: NVIDIA Jetson TX2</li>
+            <li>LiDAR: Velodyne VLP-16 Puck</li>
+            <li>INS: SBG Ellipse-D</li>
+            <li>Camera: ZED Camera</li>
+            <li>Hydrophones: Teledyne TC4013, Aquarian H1C</li>
+            <li>RF Modules: XBee S3 Pro</li>
+          </ul>
         </Row>
       </Col>
     </Row>
-  );
+  )
 }

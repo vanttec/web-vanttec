@@ -1,13 +1,13 @@
-import React from "react";
-import { Container, Row } from "react-bootstrap";
-import Banner from "../../../components/Public/Banner/Banner";
-import Footer from "../../../components/Public/Footer/Footer";
-import MissionVision from "../../../components/Public/About/MissionVision/MissionVision";
-import Accomplishments from "../../../components/Public/Home/Accomplishments/Accomplishments";
-import History from "../../../components/Public/About/History/History";
+import React from 'react'
+import { Container, Row } from 'react-bootstrap'
+import Banner from '../../../components/Public/Banner/Banner'
+import Footer from '../../../components/Public/Footer/Footer'
+import MissionVision from '../../../components/Public/About/MissionVision/MissionVision'
+import Accomplishments from '../../../components/Public/Home/Accomplishments/Accomplishments'
+import History from '../../../components/Public/About/History/History'
 
 //video
-import demo from "../../../assets/videos/mp4/VanttecPoolVideo.mp4";
+//import demo from "../../../assets/videos/mp4/VanttecPoolVideo.mp4";
 
 export default function About() {
   return (
@@ -15,7 +15,7 @@ export default function About() {
       <Container fluid>
         {/* Main Banner */}
         <Row className="main-banner">
-          <Banner video={"https://player.vimeo.com/video/713521087"}>
+          <Banner video={'https://player.vimeo.com/video/713521087'}>
             <h1>About Us</h1>
           </Banner>
         </Row>
@@ -29,5 +29,5 @@ export default function About() {
         </div>
       </Container>
     </>
-  );
+  )
 }
