@@ -7,7 +7,6 @@ div.carousel{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    overflow: hidden;
 
     video{
         max-height: 100% !important;
@@ -16,7 +15,7 @@ div.carousel{
     }
 }
 
-.overlay-area-home{
+.overlay-area-home, .wrapper{
     width: 100% !important;
     height: 100% !important;
     display: flex !important;
@@ -24,8 +23,9 @@ div.carousel{
     align-items: center;
     padding: 0 !important;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    z-index: 1;
+    
 }
 
 .carousel-inner{
@@ -41,7 +41,7 @@ div.carousel-caption{
     align-items: center;
 
     h3, p{
-        color: white !important;
+        color: white;
         padding-top: 30px;
     }
 
@@ -58,15 +58,16 @@ div.carousel-caption{
         height: 100%;
         display: flex !important;
         flex-direction: column !important;
-        justify-content: flex-start;
-        align-items: center;
+        justify-content: center !important;
+        align-items: center !important;
     
         h3, p{
-            color: white !important;
+            color: black !important;
             padding-top: 30px;
         }
     
         p{
+            color: black !important;
             font-weight: normal;
             font-size: 12px;
             padding-top: 0px;
