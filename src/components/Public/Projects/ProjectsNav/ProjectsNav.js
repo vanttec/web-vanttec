@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Card, Nav, Row, Col, Container, Button } from "react-bootstrap";
 import {SwitchTransition ,CSSTransition} from 'react-transition-group';
 import RoboBoatProject from "../RoboBoatProject/RoboBoatProject";
-
+import RoboSubProject from "../RoboSubProject/RoboSubProject";
 
 //vehicules photos
 import dronePhoto from "../../../../assets/img/jpeg/dronePhoto.jpeg";
@@ -16,7 +16,7 @@ export default function ProjectsNav() {
   const [vehiculeToShow, setVehiculeToShow] = useState("1");
 
   return (
-      <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
+      <Container fluid style={{display:"flex", flexDirection:"column", alignItems:"center", overflowX:"hidden"}}>
           <Row className="home-header">
               <h2>Main Projects</h2>
           </Row>
@@ -64,7 +64,7 @@ export default function ProjectsNav() {
               {vehiculeToShow === "1" ? (
                 <RoboBoatProject />
               ) : vehiculeToShow === "2" ? (
-                <RoboSubCard />
+                <RoboSubProject />
               ) : vehiculeToShow === "3" ? (
                 <SDV />
               ) : (
