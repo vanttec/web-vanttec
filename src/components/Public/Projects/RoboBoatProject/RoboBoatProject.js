@@ -208,26 +208,6 @@ export default function RoboBoatProject() {
           />
         </Row>
       </Row>
-
-      {/* Evidence */}
-      <Row className="pt-3 pb-3  justify-content-center">
-        <Row className="project-header">
-          <h2>Evidence</h2>
-        </Row>
-        <Row>
-          <Carousel>
-            <Carousel.Item>
-              <img className="d-block w-100" src={roboboatEvidence} />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block w-100" src={roboboatEvidence} />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block w-100" src={roboboatEvidence} />
-            </Carousel.Item>
-          </Carousel>
-        </Row>
-      </Row>
     </>
   )
 }
