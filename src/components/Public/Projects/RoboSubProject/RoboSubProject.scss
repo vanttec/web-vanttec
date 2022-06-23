@@ -76,8 +76,12 @@
     }
 }
 
-.blogImages {
-
+.blogImageItem {
+    img{
+        max-width: 50vw !important;
+        max-height: 50vh !important;
+        
+    }
 }
 
 .video-frame{

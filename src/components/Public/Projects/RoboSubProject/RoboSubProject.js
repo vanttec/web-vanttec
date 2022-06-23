@@ -20,7 +20,7 @@ import roboboatComponents from '../../../../assets/img/png/componentsBote.png'
 import roboboatEvidence from '../../../../assets/img/jpg/competencia.jpg'
 import './RoboSubProject.scss'
 
-const blogs2022 = require('../../../../assets/buildingBlogs.json')
+const blogs2022 = require('../../../../assets/buildingBlogsSub.json')
 
 export default function RoboSubProject() {
   const [vehiculeToShow, setVehiculeToShow] = useState('1')
@@ -178,7 +178,7 @@ export default function RoboSubProject() {
                       <div>
                         <Carousel>
                           {blog.images.map((image) => (
-                            <Carousel.Item style={{ height: '50vh' }}>
+                            <Carousel.Item style={{ height: '50vh', width:"40vw" }}>
                               <div class="blogImageItem">
                                 <img className="d-block" src={image} />
                               </div>
