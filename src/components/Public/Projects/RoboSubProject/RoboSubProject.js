@@ -73,7 +73,7 @@ export default function RoboSubProject() {
                     and this year, the competition is a little different because
                     it is held online.
                   </p>{' '}
-                  <Button className="mb-5" href="">
+                  <Button className="mb-5" href="https://drive.google.com/file/d/17r6TlCnZGMZYFJHmVF7ouYlX5MqmecY3/view?usp=sharing">
                     Technical Design Report
                   </Button>
                 </Card.Text>
