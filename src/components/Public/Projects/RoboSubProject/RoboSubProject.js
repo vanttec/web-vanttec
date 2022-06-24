@@ -224,7 +224,7 @@ function RoboSubMechanicalCard() {
         <Row className="project-data-stats p-5">
           <h2>Mechanics</h2>
           <ul>
-            <li> Length: 1 m</li>
+            <li>Length: 1 m</li>
             <li>Beam: 0.75 m</li>
             <li>Mass: 30 kg</li>
             <li>Maximum Thrust: 73 Newtons</li>
@@ -248,11 +248,15 @@ function RoboSubSoftwareCard() {
           <h2>Software</h2>
           <ul>
             <li> ROS Interface</li>
-            <li> ROS Melodic distro-based architecture</li>
-            <li>Darknet neural network</li>
-            <li>YOLOv3 real-time object detection</li>
-            <li>Python</li>
+            <li>FreeRTOS CMSIS V1.0</li>
+            <li>Point Cloud Library</li>
+            <li>Yolo Tiny V3 and 3D Computer Vision internal development</li>
+            <li>Linear kalman filter</li>
+            <li>Adaptive Sliding Mode Controller</li>
+            <li>Eigen (C++ Library)</li>
+            <li>C</li>
             <li>C++</li>
+            <li>Python</li>
           </ul>
           <p>
             Opensource @{' '}
@@ -281,15 +285,14 @@ function RoboSubComponentsCard() {
         <Row className="project-data-stats p-5 ">
           <h2>Components</h2>
           <ul>
-            <li> Thrusters: Blue Robotics T200</li>
-            <li>Power System: Li-4S 14.8V 18Ah</li>
+            <li>Thrusters: Blue Robotics T200</li>
             <li>Teleoperation: FrSky Taranis X9D Plus</li>
             <li>Processor: NVIDIA Jetson TX2</li>
-            <li>LiDAR: Velodyne VLP-16 Puck</li>
-            <li>INS: SBG Ellipse-D</li>
-            <li>Camera: ZED Camera</li>
+            <li>IMU: VectorNav Technologies VN-200</li>
+            <li>Cameras: Stereolabs ZED 2i , Raspberry Pi Camera Module V2</li>
             <li>Hydrophones: Teledyne TC4013, Aquarian H1C</li>
-            <li>RF Modules: XBee S3 Pro</li>
+            <li>Depth/Pressure Sensor: Blue Robotics 30 Bar</li>
+            <li>ECU: STMicroelectronics STM32F405RG</li>
           </ul>
         </Row>
       </Col>
