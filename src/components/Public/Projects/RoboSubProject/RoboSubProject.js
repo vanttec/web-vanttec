@@ -14,7 +14,7 @@ import MembersListSub from '../../Team/MembersListSub/MembersListSub'
 //vehicules photos
 import robosubCompetition from '../../../../assets/img/png/robosub-logo.png'
 import roboboatPhoto from '../../../../assets/img/jpeg/roboboatPhoto.jpg'
-import robosubRender from '../../../../assets/img/jpeg/robosubMain.jpeg'
+import robosubRender from '../../../../assets/img/jpeg/robosubMain.png'
 import roboboatSoftware from '../../../../assets/img/jpeg/software.jpeg'
 import roboboatComponents from '../../../../assets/img/png/componentsBote.png'
 import roboboatEvidence from '../../../../assets/img/jpg/competencia.jpg'
@@ -136,11 +136,11 @@ export default function RoboSubProject() {
               >
                 <div>
                   {vehiculeToShow === '1' ? (
-                    <RoboBoatMechanicalCard />
+                    <RoboSubMechanicalCard />
                   ) : vehiculeToShow === '2' ? (
-                    <RoboBoatSoftwareCard />
+                    <RoboSubSoftwareCard />
                   ) : (
-                    <RoboBoatComponentsCard />
+                    <RoboSubComponentsCard />
                   )}
                 </div>
               </CSSTransition>
@@ -212,7 +212,7 @@ export default function RoboSubProject() {
   )
 }
 
-function RoboBoatMechanicalCard() {
+function RoboSubMechanicalCard() {
   return (
     <Row className="projects-card-row">
       <Col xs={12} lg={6} className="mb-5">
@@ -235,7 +235,7 @@ function RoboBoatMechanicalCard() {
   )
 }
 
-function RoboBoatSoftwareCard() {
+function RoboSubSoftwareCard() {
   return (
     <Row className="projects-card-row">
       <Col xs={12} lg={6}>
@@ -269,7 +269,7 @@ function RoboBoatSoftwareCard() {
     </Row>
   )
 }
-function RoboBoatComponentsCard() {
+function RoboSubComponentsCard() {
   return (
     <Row className="projects-card-row">
       <Col xs={12} lg={6}>
