@@ -15,8 +15,8 @@ import MembersListSub from '../../Team/MembersListSub/MembersListSub'
 import robosubCompetition from '../../../../assets/img/png/robosub-logo.png'
 import roboboatPhoto from '../../../../assets/img/jpeg/roboboatPhoto.jpg'
 import robosubRender from '../../../../assets/img/jpeg/robosubMain.png'
-import roboboatSoftware from '../../../../assets/img/jpeg/software.jpeg'
-import roboboatComponents from '../../../../assets/img/png/componentsBote.png'
+import robosubSoftware from '../../../../assets/img/png/roboSubSoftware.png'
+import robosubComponents from '../../../../assets/img/png/roboSubComponents.png'
 import roboboatEvidence from '../../../../assets/img/jpg/competencia.jpg'
 import './RoboSubProject.scss'
 
@@ -225,7 +225,6 @@ function RoboSubMechanicalCard() {
           <h2>Mechanics</h2>
           <ul>
             <li>Length: 1 m</li>
-            <li>Beam: 0.75 m</li>
             <li>Mass: 30 kg</li>
             <li>Maximum Thrust: 73 Newtons</li>
           </ul>
@@ -240,14 +239,14 @@ function RoboSubSoftwareCard() {
     <Row className="projects-card-row">
       <Col xs={12} lg={6}>
         <Card className="project-card">
-          <Card.Img src={roboboatSoftware} alt="roboboat" />
+          <Card.Img src={robosubSoftware} alt="roboboat" />
         </Card>
       </Col>
       <Col xs={12} lg={6} className="vehicule-data mt-3">
         <Row className="project-data-stats p-5">
           <h2>Software</h2>
           <ul>
-            <li> ROS Interface</li>
+            <li>ROS Interface</li>
             <li>FreeRTOS CMSIS V1.0</li>
             <li>Point Cloud Library</li>
             <li>Yolo Tiny V3 and 3D Computer Vision internal development</li>
@@ -278,7 +277,7 @@ function RoboSubComponentsCard() {
     <Row className="projects-card-row">
       <Col xs={12} lg={6}>
         <Card className="project-card">
-          <Card.Img src={roboboatComponents} alt="roboboat" />
+          <Card.Img src={robosubComponents} alt="roboboat" />
         </Card>
       </Col>
       <Col xs={12} lg={6} className="vehicule-data mt-3 justify-content-center">

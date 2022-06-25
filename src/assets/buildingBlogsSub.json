@@ -27,7 +27,7 @@
     },
     {
         "number": 3,
-        "title": "Perception TEAM",
+        "title": "Perception Team",
         "resources": "Equipment: Zed camara 2i Nvidia Jetson Tx2 Technical Tools: Pytorch framework",
         "description": "Training a YOLACT technique for instance segmentation. To train the model we gathered 3000 photos and labeled them and augmented them. After training, it was worked on implementing them in ROS afterwards.",
         "results": "The neural network was trained for a period of 5 hours, this time was enough to perform 54 epochs. The results obtained are shown In the last iteration, a mean average precision of 10.17 was calculated for the frames and 10.17 for the masks. In addition, the network was tested with 30% of the dataset destined for validation. In the table, some of the tested images are shown, with their classification vs the environment they were in.",
