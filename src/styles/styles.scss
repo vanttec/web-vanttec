@@ -1,0 +1,168 @@
+// ------------------------------ GENERAL STYLES ------------------------------ \\
+@font-face {
+  font-family: 'Graphik-Regular';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Graphik-Regular'), local('Graphik-Regular'), url('../utils/fonts/Graphik-Regular.ttf') format('ttf'),
+    url('../utils/fonts/Graphik-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Graphik-Medium';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Graphik-Medium'), local('Graphik-Medium'), url('../utils/fonts/Graphik-Medium.ttf') format('ttf'),
+    url('../utils/fonts/Graphik-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Graphik-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Graphik-Bold'), local('Graphik-Bold'), url('../utils/fonts/Graphik-Bold.ttf') format('ttf'),
+    url('../utils/fonts/Graphik-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Monoton-Regular';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Monoton-Regular'), local('Monoton-Regular'), url('../utils/fonts/Monoton-Regular.ttf') format('ttf'),
+    url('../utils/fonts/Monoton-Regular.woff') format('woff');
+}
+
+// ------------------------------ HEADER ------------------------------- \\
+// ----------------------------- CONTENTS ------------------------------ \\
+
+.raw-content_default {
+
+  p,
+  span,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: currentColor;
+  }
+
+  a {
+    font-style: italic !important;
+    border-bottom: var(--chakra-borders-1px) !important;
+
+    &:hover {
+      border-color: var(--chakra-colors-primary) !important;
+      border-bottom: var(--chakra-borders-2px) !important;
+    }
+  }
+
+  ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: currentColor;
+    list-style: none;
+
+    li {
+      margin-bottom: 6px;
+
+      &::before {
+        content: "";
+        width: 9px;
+        height: 9px;
+        border: 2px solid var(--chakra-colors-primary);
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: -1em;
+        margin-right: 9px;
+        vertical-align: 1px;
+      }
+    }
+  }
+
+  ol {
+    margin-left: 20px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    color: currentColor;
+    list-style: none;
+    counter-reset: li;
+
+    li {
+      margin-bottom: 6px;
+      counter-increment: li;
+
+      &::before {
+        content: counter(li);
+        width: 1em;
+        text-align: center;
+        color: var(--chakra-colors-primary);
+        display: inline-block;
+        margin-left: -1em;
+        margin-right: 9px;
+        vertical-align: 0px;
+      }
+    }
+  }
+}
+
+.raw-content_default_a {
+  font-style: italic !important;
+  border-bottom: var(--chakra-borders-1px) !important;
+
+  &:hover {
+    border-color: var(--chakra-colors-primary) !important;
+    border-bottom: var(--chakra-borders-2px) !important;
+  }
+}
+
+.raw-content_default_uli {
+  margin-bottom: 6px;
+
+  &::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    border: 2px solid var(--chakra-colors-primary);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -1em;
+    margin-right: 9px;
+    vertical-align: 1px;
+  }
+}
+
+.raw-content_default_oli {
+  margin-bottom: 6px;
+  counter-increment: li;
+
+  &::before {
+    content: counter(li);
+    width: 1em;
+    text-align: center;
+    color: var(--chakra-colors-primary);
+    display: inline-block;
+    margin-left: -1em;
+    margin-right: 9px;
+    vertical-align: 0px;
+  }
+}
+
+// --------------------------- MISCELLANEOUS --------------------------- \\
+
+.addon-select {
+  width: auto !important;
+
+  @media (max-width: 504px) {
+    width: 200px !important;
+  }
+}
+
+.event-checkbox {
+  span:first-of-type {
+    border-radius: 4px !important;
+    width: 20px !important;
+    height: 20px !important;
+  }
+  span:last-of-type {
+    font-size: 22px !important;
+  }
+}
