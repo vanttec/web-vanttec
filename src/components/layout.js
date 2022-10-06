@@ -19,7 +19,7 @@ import "swiper/scss/pagination";
 import "swiper/scss/scrollbar";
 import "swiper/scss/zoom";
 
-const Index = ({}) => {
+const Index = ({children}) => {
   //? VARIABLES - STATES - PROPS - REFS
     const theme = extendTheme(myTheme)
 

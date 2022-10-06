@@ -3,12 +3,13 @@ import React, { useState, useEffect, useContext, useRef } from 'react'
 import { useStaticQuery, graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import styled from 'styled-components'
+import theme from '../utils/theme'
 
 //~ COMPONENTS
 import { Box, Flex, Text } from '@chakra-ui/react'
 
 //~ MEDIA
-import { RiMenu2Line } from 'react-icons/ri'
+import { FaReact } from 'react-icons/fa'
 
 //~ MISCELLANEOUS
 import { AppContext } from '../context/context'
